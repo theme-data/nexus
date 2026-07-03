@@ -2785,10 +2785,10 @@ a {
 .banner.cheio .flex-direction-nav .flex-next {
    right: 0;
 }
-
+/* 
 .row-fluid.banner.cheio+.banner {
    display: none;
-}
+} */
 
 .banner.cheio .flex-direction-nav {
    display: flex;
