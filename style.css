@@ -18,7 +18,7 @@
    --color-white: #ffffff;
    --color-half-white: #ffffff10;
    --badge-color: #2A2D30;
-   --input-bg: #2E3036;
+   --input-bg: #ffffff;
 
    /* Icones
       ----------------------------------------------------------------------- */
@@ -296,12 +296,12 @@ h6,
 }
 
 input {
-   height: 40px !important;
+   height: 48px !important;
    box-sizing: border-box !important;
    background: var(--input-bg) !important;
    border: 1px solid #ffffff10 !important;
    padding: 0 16px !important;
-   color: var(--color-white)!important;
+   color: var(--color-black)!important;
    border-radius: var(--border-radius-md)!important;
 }
 
@@ -681,7 +681,7 @@ i.icon-instagram:before {
 }
 
 #cabecalho .conteiner > .row-fluid > .span3 {
-   width: 90px;
+   width: 164px;
 }
 
 .logo a {
