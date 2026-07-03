@@ -302,7 +302,7 @@ input {
    border: 1px solid #ffffff10 !important;
    padding: 0 16px !important;
    color: var(--color-black)!important;
-   border-radius: var(--border-radius-md)!important;
+   border-radius: 10px!important;
 }
 
 input[type="text"]:focus {
