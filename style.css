@@ -425,10 +425,13 @@ div#avisoEnvioCart {
 .carrinho > a {
    display: flex;
    gap: 4px;
-   background: var(--color-primary);
+   background: var(--color-secondary);
+   border: var(--shadow-button);
+   height: 48px;
    padding: 10px 16px;
    border-radius: var(--border-radius-md);
-   box-shadow: var(--shadow-button);
+   box-sizing: border-box;
+   align-items: center;
 }
 
 .fundo-principal:hover {
@@ -726,6 +729,13 @@ i.icon-instagram:before {
    margin: 0;
    padding: 0;
    flex: 1;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.menu.superior > .nivel-um:after {
+   display: none;
 }
 
 .menu.superior .nivel-um>li:hover, .menu.superior .nivel-um>li {
@@ -7473,6 +7483,9 @@ hr {
 .menu.superior > .nivel-um {
 	display: flex;
 	align-items: center;
+   width: 100%;
+   max-width: 1300px;
+   justify-content: space-between;
 }
 
 .submenu-clone .nivel-dois {
