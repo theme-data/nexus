@@ -862,9 +862,24 @@ i.icon-instagram:before {
 .listagem-item .bandeiras-produto {
    top: 0;
    left: 0;
-   position: relative;
    display: flex;
    padding: 16px 0 0 10px;
+}
+
+.bandeiras-produto span {
+   border: 0;
+   border-radius: 4px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+
+.bandeiras-produto .bandeira-promocao {
+   background: #046FB6;
+}
+
+.bandeiras-produto .bandeira-promocao:before {
+   content: "-";
 }
 
 .listagem-item .bandeira-prevenda,
@@ -2962,7 +2977,7 @@ a {
 }
 
 .quantidade-wrapper {
-   display: flex;
+   display: none;
    position: relative;
    margin: 0;
 }
@@ -3029,16 +3044,20 @@ a {
    flex-direction: row-reverse;
    gap: 4px;
    font-size: 0 !important;
+   background: #CFFF75;
 }
 
 .listagem-item .acoes-produto .botao-comprar .icon-search::before {
    background: url('https://cdn.awsli.com.br/2727/2727537/arquivos/cart-plus.svg') center no-repeat;
    background-size: 100%;
+   width: 20px;
 }
 
 .listagem-item .acoes-produto .botao-comprar:after {
-   content: "Adicionar";
-   font-size: 14px !important;
+   content: "Comprar agora";
+   font-size: 12px !important;
+   color: #000;
+   font-weight: 600;
 }
 
 .listagem-item .acoes-produto .botao-comprar i {
