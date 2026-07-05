@@ -23,9 +23,9 @@
 
    /* Icones
       ----------------------------------------------------------------------- */
-   --icon-user: url('https://cdn.awsli.com.br/2830/2830294/arquivos/user.svg');
-   --icon-search: url('https://cdn.awsli.com.br/2830/2830294/arquivos/search.svg');
-   --icon-cart: url('https://cdn.awsli.com.br/2830/2830294/arquivos/shopping-bag.svg');
+   --icon-user: url('https://cdn.awsli.com.br/2727/2727537/arquivos/user.svg');
+   --icon-search: url('https://cdn.awsli.com.br/2727/2727537/arquivos/searchh.svg');
+   --icon-cart: url('https://cdn.awsli.com.br/2727/2727537/arquivos/cart.svg');
    --icon-purchase: url('https://cdn.awsli.com.br/2830/2830294/arquivos/purchase.svg');
    --icon-chev-right: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-right.svg');
    --icon-chev-right-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/move-front.svg');
@@ -50,7 +50,7 @@
    --icon-heart: url('https://cdn.awsli.com.br/2830/2830294/arquivos/heart.svg');
    --icon-share: url('https://cdn.awsli.com.br/2830/2830294/arquivos/share.svg');
    --icon-x: url('https://cdn.awsli.com.br/2830/2830294/arquivos/x.svg');
-   --icon-chat: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chat.svg');
+   --icon-chat: url('https://cdn.awsli.com.br/2727/2727537/arquivos/precisa-ajuda.svg');
    --icon-pedidos: url('https://cdn.awsli.com.br/2830/2830294/arquivos/package.svg');
    --icon-home-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/icon-home-black.svg');
    --icon-heart-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/heart-icon-black.svg');
@@ -566,8 +566,8 @@ i.icon-instagram:before {
 }
 
 .barra-inicial .conteiner {
-   max-width: 100%;
-   padding: 10px 60px;
+   max-width: 1300px;
+   padding: 10px 0px;
    height: 40px;
    display: flex;
    align-items: center;
