@@ -354,31 +354,6 @@ var htmlBenefits = `
 // Insere o HTML no local desejado (substitua o seletor conforme necessário)
 $('.pagina-inicial .secao-banners').after(htmlBenefits);
 
-// Ajusta as tags na vitrine
-$('.listagem-item .bandeira-promocao').each(function() {
-    var texto = $(this).text();
-    // Substitui "Desconto" (case-insensitive) por "OFF"
-    var novoTexto = texto.replace(/Desconto/i, 'OFF');
-    $(this).text(novoTexto);
-});
-
-$('.listagem-item').each(function() {
-    var $item = $(this);
-    var $bandeira = $item.find('.bandeira-promocao');
-    var $precoPromocional = $item.find('strong.preco-promocional');
-    if ($bandeira.length && $precoPromocional.length) {
-        $bandeira.insertAfter($precoPromocional.first());
-    }
-});
-
-$('.listagem-item').each(function() {
-    var $item = $(this);
-    var $bandeiras = $item.find('.bandeiras-produto');
-    var $infoProduto = $item.find('.info-produto');
-    if ($bandeiras.length && $infoProduto.length) {
-        $bandeiras.insertBefore($infoProduto.first());
-    }
-});
 
 
 $('.pagina-produto .span5 > .principal').append(`<div class="append-share-fav"></div>`);

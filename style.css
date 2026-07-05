@@ -969,7 +969,7 @@ i.icon-instagram:before {
 .listagem .listagem-item {
    margin: 12px !important;
    padding: 20px;
-   background: var(--color-white);
+   background: #1C2210;
    border-radius: var(--border-radius-md);
    overflow: hidden;
    display: flex;
