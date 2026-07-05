@@ -808,17 +808,18 @@ i.icon-instagram:before {
 /* Titulo listagem */
 .listagem a.titulo-categoria:after {
    content: "Ver todos";
-   font-size: 16px;
+   font-size: 14px;
    box-shadow: var(--shadow-button);
    background-color: var(--color-secondary);
    display: flex;
    align-items: center;
-   padding: 8px 46px 8px 16px;
+   padding: 16px 46px 16px 16px;
    border-radius: var(--border-radius-md);
    background-image: var(--icon-chev-right);
    background-repeat: no-repeat;
    background-position: 94px 50%;
    color: var(--color-white);
+   border: 1px solid #ffffff10;
 }
 
 .listagem .listagem-linha {
@@ -841,14 +842,14 @@ i.icon-instagram:before {
 }
 
 .listagem .titulo-categoria {
-   font-size: 24px;
-   color: var(--color-black);
+   font-size: 32px;
+   color: var(--color-white);
    display: flex;
    justify-content: space-between;
    border: 0;
    padding: 0 !important;
    max-width: 1180px;
-   margin: 60px auto 0!important;
+   margin: 60px auto 0 !important;
    align-items: center;
 }
 
