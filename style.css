@@ -974,7 +974,7 @@ i.icon-instagram:before {
    overflow: hidden;
    display: flex;
    flex-direction: column;
-   border: 1px solid var(--border-color);
+   border: 0;
 }
 
 .listagem .span3 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
