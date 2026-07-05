@@ -3030,6 +3030,11 @@ a {
    font-size: 0 !important;
 }
 
+.listagem-item .acoes-produto .botao-comprar .icon-search::before {
+   background: url('https://cdn.awsli.com.br/2727/2727537/arquivos/cart-plus.svg') center no-repeat;
+   background-size: 100%;
+}
+
 .listagem-item .acoes-produto .botao-comprar:after {
    content: "Adicionar";
    font-size: 14px !important;
