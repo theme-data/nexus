@@ -5,7 +5,7 @@
 :root {
    /* Cores
       ----------------------------------------------------------------------- */
-   --bg-store-color: #FFFFFF;
+   --bg-store-color: #11130D;
    --color-primary: #9BC64C;
    --button-hover: #799c38;
    --color-secondary: #292b25;
@@ -374,8 +374,8 @@ input[type="text"]:focus {
 .icon-shopping-cart:before {
    content: "";
    background: var(--icon-cart);
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
 }
 
 div#avisoEnvioCart {
@@ -389,8 +389,8 @@ div#avisoEnvioCart {
 }
 
 .carrinho>a i {
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
    background: none;
    margin: 0;
    padding: 0;
@@ -471,15 +471,18 @@ div#avisoEnvioCart {
 
 .busca #form-buscar .botao-busca {
    position: absolute;
-   top: 0;
    border: 0;
    background: none;
-   right: 0;
+   right: auto;
    height: 36px;
    display: flex;
    align-items: center;
    box-shadow: none;
-   top: 2px;
+   top: 5px;
+}
+
+.busca #form-buscar #auto-complete {
+   padding-left: 50px !important;
 }
 
 .busca #form-buscar #auto-complete {
@@ -621,10 +624,11 @@ i.icon-instagram:before {
 }
 
 #cabecalho {
-   background: var(--color-black);
+   background: #1c22108f;
    position: sticky;
    top: 0;
    z-index: 100000;
+   backdrop-filter: blur(9px);
 }
 
 #barraTopo {
@@ -658,8 +662,8 @@ i.icon-instagram:before {
 
 .sign-up-header i.user:before {
    content: "";
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
    display: block;
    background: var(--icon-user);
 }
@@ -704,6 +708,7 @@ i.icon-instagram:before {
    width: 100%;
    padding: 12px 80px;
    box-sizing: border-box;
+   border-bottom: 1px solid #ffffff10;
 }
 
 #cabecalho > .conteiner {
@@ -713,9 +718,10 @@ i.icon-instagram:before {
    align-items: center;
    display: flex;
    box-sizing: border-box;
-   padding: 0px 80px;
+   padding: 0;
    background: transparent;
    flex-direction: column;
+   border-bottom: 1px solid #ffffff10 !important;
 }
 
 #cabecalho .conteudo-topo {
@@ -754,6 +760,7 @@ i.icon-instagram:before {
 .menu.superior .nivel-um>li {
    padding: 14px 16px;
    transition: all .4s;
+   border-right: 1px solid #ffffff10;
 }
 
 .menu.superior .nivel-um>li>a i {
@@ -7485,7 +7492,7 @@ hr {
 	align-items: center;
    width: 100%;
    max-width: 1300px;
-   justify-content: space-between;
+   /* justify-content: space-between; */
 }
 
 .submenu-clone .nivel-dois {
