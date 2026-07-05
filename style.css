@@ -968,7 +968,7 @@ i.icon-instagram:before {
 
 .listagem .listagem-item {
    margin: 12px !important;
-   padding: 12px;
+   padding: 20px;
    background: var(--color-white);
    border-radius: var(--border-radius-md);
    overflow: hidden;
@@ -1002,7 +1002,7 @@ i.icon-instagram:before {
 }
 
 .listagem .info-produto {
-   padding: 10px;
+   padding: 0 0 20px;
    display: flex;
    flex-direction: column;
    gap: 4px;
@@ -1022,6 +1022,8 @@ i.icon-instagram:before {
    min-height: 54px;
    letter-spacing: -0.4px;
    font-weight: 400;
+   color: #fff;
+   font-size: 14px;
 }
 
 .listagem .preco-produto .bandeira-promocao {
@@ -2878,10 +2880,13 @@ a {
 
 .listagem-item .acoes-produto {
    border: 0;
-   background: var(--color-white);
-   padding: 12px;
    display: flex;
    gap: 4px;
+   position: relative;
+   opacity: 1;
+   padding: 0;
+   background: none;
+   bottom: 0;
 }
 
 .listagem-item .acoes-produto:after {
