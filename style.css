@@ -482,10 +482,6 @@ div#avisoEnvioCart {
 }
 
 .busca #form-buscar #auto-complete {
-   padding-left: 50px !important;
-}
-
-.busca #form-buscar #auto-complete {
    width: 100%;
    box-sizing: border-box;
    height: 36px;
@@ -495,6 +491,10 @@ div#avisoEnvioCart {
    border-color: var(--color-half-white);
    transition: all .3s;
    text-overflow: ellipsis;
+}
+
+.busca #form-buscar #auto-complete {
+   padding-left: 50px !important;
 }
 
 .icon-search:before {

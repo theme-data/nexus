@@ -111,26 +111,12 @@ $('.pagina-inicial #barraNewsletter').before(`
         <div class="about-banner-icon-title">
           <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote Playce" class="about-banner-icon" />-->
           <div class="about-banner-title">
-            <h2>Gift Cards Online com Entrega Imediata e Pagamento Seguro | Playce</h2>
+            <h2>Boas-vindas à Mex Games.</h2>
           </div>
         </div>
         <div class="about-banner-description">
-          <p>Na Playce você compra gift cards online com entrega imediata, pagamento seguro e ativação rápida. Somos uma loja especializada na venda de gift card digital para PlayStation, PSN, Xbox, Nintendo, Google Play, Steam e outras plataformas. Se você procura onde comprar gift card confiável, com envio automático e suporte eficiente, aqui é o lugar certo.</p>
-          <p>
-            Trabalhamos com código digital original, enviado por e-mail ou disponibilizado na área do cliente logo após a confirmação do pagamento. Nosso sistema é automatizado, garantindo agilidade na entrega e segurança na transação. Aceitamos Pix, cartão de crédito e outros meios de pagamento seguros, oferecendo praticidade para quem deseja comprar gift card online no Brasil.
-            <br><br>
-            Na Playce, você encontra gift card PSN Brasil, gift card Xbox Live, crédito Google Play, saldo Steam e cartões presente digitais com diferentes valores. Ideal para adicionar saldo à conta, comprar jogos, assinaturas, conteúdos extras, aplicativos, filmes e muito mais. Se você busca gift card barato, com preço competitivo e envio rápido, temos as melhores opções.
-            <br><br>
-            Nossa loja virtual é confiável, com proteção antifraude e atendimento especializado. Prezamos pela segurança dos dados, transparência nas informações e rapidez na liberação do código. Ao comprar gift card digital na Playce, você recebe um produto oficial, pronto para resgatar na plataforma desejada.
-            <br><br>
-            Seja para uso próprio ou para presentear, comprar gift card online é a forma mais prática e segura de adquirir créditos digitais. Escolha o valor, finalize a compra e receba seu código em poucos minutos. A Playce é referência em gift cards digitais com entrega rápida, suporte eficiente e experiência de compra simples.
-            <br><br>
-            Garanta agora seu gift card online com envio imediato e aproveite todas as vantagens de comprar em uma loja especializada, segura e focada em agilidade.
-          </p>
+          <p>A MEX GAMES é uma empresa especializada na venda de jogos eletrônicos, oferecendo aos clientes produtos originais e de alta qualidade. Nosso compromisso é proporcionar a melhor experiência de compra online, garantindo segurança, rapidez na entrega e suporte personalizado.</p>
         </div>
-        <button class="about-banner-btn" type="button">
-          Ver mais <span class="about-banner-btn-arrow">&#9660;</span>
-        </button>
       </div>
       <div class="about-banner-image">
         <img src="https://cdn.awsli.com.br/2391/2391623/arquivos/char-playce-1.png" alt="Personagem Samurai" />
