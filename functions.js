@@ -213,7 +213,7 @@ tagsProdutos.forEach(function(produto) {
 
 // Defina os arrays conforme necessário
 var numerosBanner = [1, 2]; // Exemplo: [1, 2] para o primeiro e segundo banner, etc.
-var idsVitrine = ['17316132', '18566102']; // Exemplo: ['23507360', '23507361']
+var idsVitrine = ['22673203', '22673229']; // Exemplo: ['23507360', '23507361']
 
 // Seleciona todos os <a> banners na ordem dentro do .banner.tarja
 var $bannersTarja = $('.banner.tarja > a');
