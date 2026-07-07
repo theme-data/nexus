@@ -33,7 +33,7 @@
    --icon-chev-left-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/icon-move-back.svg');
    --icon-chev-down: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-down.svg');
    --icon-chev-up: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-up.svg');
-   --icon-check: url('https://cdn.awsli.com.br/2830/2830294/arquivos/check.svg');
+   --icon-check: url('https://cdn.awsli.com.br/2727/2727537/arquivos/check-black.svg');
    --icon-instagram: url('https://cdn.awsli.com.br/2830/2830294/arquivos/instagram.svg');
    --icon-facebook: url('https://cdn.awsli.com.br/2830/2830294/arquivos/facebook.svg');
    --icon-minus: url('https://cdn.awsli.com.br/2830/2830294/arquivos/minus.svg');
@@ -8881,9 +8881,6 @@ a#imprimirBoleto {
 
 
 @media screen and (min-width: 768px) {
-   .about-banner-description p:last-child {
-      max-height: 0;
-  }
 
   .about-banner-image {
    position: absolute;
