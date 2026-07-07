@@ -8938,4 +8938,39 @@ a#imprimirBoleto {
       width: 319px;
    }
 
+   /*  Ajusta os banners */
+   
+   .lateral-fulbanner .slides {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  .lateral-fulbanner .slides > li {
+      opacity: 1!important;
+  }
+  
+  .banner.cheio .modulo.span3.hidden-phone {
+      width: 100%;
+      max-width: 420px;
+      margin: 0 0 0 20px;
+  }
+  
+  .banner.cheio .lateral-fulbanner .flex-direction-nav {
+      display: none;
+  }
+  
+  .lateral-fulbanner {
+      max-height: fit-content;
+      position: relative;
+  }
+  
+  .lateral-fulbanner .slides:after {
+      display: none;
+  }
+  
+  .banner.cheio {
+      display: flex;
+  }
+
 }
