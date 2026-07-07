@@ -15,7 +15,7 @@
    --color-info: #17a2b8;
    --color-light: #f8f9fa;
    --color-dark: #2E3036;
-   --color-black: #1F2227;
+   --color-black: #11130D;
    --color-white: #ffffff;
    --color-half-white: #ffffff10;
    --badge-color: #2A2D30;
@@ -815,7 +815,7 @@ i.icon-instagram:before {
    align-items: center;
    padding: 16px 46px 16px 16px;
    border-radius: var(--border-radius-md);
-   background-image: var(--icon-chev-right);
+   background-image: url(https://cdn.awsli.com.br/2727/2727537/arquivos/arrow-g-right.svg);
    background-repeat: no-repeat;
    background-position: 94px 50%;
    color: var(--color-white);
@@ -848,7 +848,7 @@ i.icon-instagram:before {
    justify-content: space-between;
    border: 0;
    padding: 0 !important;
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 60px auto 0 !important;
    align-items: center;
 }
@@ -1018,7 +1018,7 @@ i.icon-instagram:before {
 }
 
 .listagem .info-produto {
-   padding: 0 0 20px;
+   padding: 20px 0 20px;
    display: flex;
    flex-direction: column;
    gap: 4px;
@@ -2575,8 +2575,8 @@ a {
 }
 
 #rodape .institucional {
-    background: var(--color-black);
-    padding: 20px 0;
+   background: #11130D;
+   padding: 20px 0;
 }
 
 .links-rodape ul li {
@@ -4145,14 +4145,14 @@ a {
 /* Sobre a loja */
 
 .about-banner {
-    max-width: 1180px;
-    margin: 60px auto;
-    display: flex;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 63.09%, rgba(0, 0, 0, 0.1) 100%), linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%), #FFFFFF;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
+   max-width: 1300px;
+   margin: 60px auto;
+   display: flex;
+   background: #1C2210;
+   border-radius: 10px;
+   justify-content: space-between;
+   align-items: flex-start;
+   position: relative;
 }
 
 .about-banner-content {
@@ -4171,7 +4171,7 @@ a {
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: var(--color-black);
+    color: var(--color-white);
     font-weight: 400;
 }
 
@@ -4186,7 +4186,7 @@ a {
 
 .about-banner-description p {
     font-size: 16px;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 /* .about-banner-description p:first-child {
