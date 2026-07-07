@@ -1245,7 +1245,7 @@ i.icon-instagram:before {
 }
 
 .benefits-row {
-   display: flex;
+   display: none;
    background: rgba(0,0,0,.05);
    padding: 16px 0;
    max-width: 1180px;
@@ -2550,11 +2550,6 @@ a {
    margin-bottom: 10px;
 }
 
-
-#rodape .links-rodape.links-rodape-categorias {
-   display: none !important;
-}
-
 #rodape .institucional > .conteiner > .row-fluid {
    display: flex;
    flex-direction: row-reverse;
@@ -2571,7 +2566,7 @@ a {
 
 #rodape .institucional > .conteiner > .row-fluid > .span3 {
    margin: 0;
-   width: 37%;
+   width: 22%;
 }
 
 #rodape .institucional {
@@ -2611,16 +2606,6 @@ a {
    box-shadow: var(--shadow-button);
    border-radius: var(--border-radius-md);
    background: var(--color-secondary)!important;
-}
-
-#rodape .lista-redes .icon-facebook:after {
-   content: "Facebook";
-   font-family: var(--font-family-base);
-}
-
-#rodape .lista-redes .icon-instagram:after {
-   content: "Instagram";
-   font-family: var(--font-family-base);
 }
 
 #rodape .institucional .lista-redes {
