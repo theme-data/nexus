@@ -1061,6 +1061,18 @@ i.icon-instagram:before {
    margin: 0;
 }
 
+.listagem .listagem-item .preco-produto strong.preco-promocional {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   padding: 4px;
+   background: #9bc64c30;
+   border-radius: 6px;
+   font-size: 18px;
+   font-weight: 600;
+}
+
 .listagem .listagem-item .preco-produto strong {
    font-size: 18px;
    font-weight: 500;
@@ -2941,10 +2953,10 @@ a {
    position: absolute;
    left: -40px;
    z-index: 10;
-   width: 40px;
-   height: 40px;
-   background: var(--icon-chev-left-black) center no-repeat;
-   background-size: 100%;
+   width: 56px;
+   height: 56px;
+   background: #9BC64C var(--icon-chev-left-black) center no-repeat;
+   background-size: 50%;
    text-indent: -99999px;
 }
 
@@ -2954,11 +2966,12 @@ a {
    position: absolute;
    right: -40px;
    z-index: 10;
-     width: 40px;
-   height: 40px;
-   background: var(--icon-chev-right-black) center no-repeat;
-   background-size: 100%;
+   width: 56px;
+   height: 56px;
+   background: #9BC64C var(--icon-chev-right-black) center no-repeat;
+   background-size: 50%;
    text-indent: -99999px;
+   border-radius: 10px;
 }
 
 .listagem-linha > .flex-viewport {
