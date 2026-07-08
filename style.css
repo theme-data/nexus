@@ -2958,6 +2958,7 @@ a {
    background: #9BC64C var(--icon-chev-left-black) center no-repeat;
    background-size: 50%;
    text-indent: -99999px;
+   border-radius: 10px;
 }
 
 .slick-slider .slick-next {
