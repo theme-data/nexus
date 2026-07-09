@@ -3255,6 +3255,19 @@ a {
    color: #fff;
 }
 
+#descricao {
+   background: #1C2210;
+   padding: 32px;
+   border-radius: 8px;
+   margin-top: 20px;
+}
+
+#descricao:before {
+   content: "Descrição";
+   font-size: 32px;
+   color: #fff;
+}
+
 .pagina-produto .conteiner-principal .conteiner {
    padding: 20px;
 }
@@ -3628,6 +3641,19 @@ a {
 .pagina-categoria .ordenar-listagem p {
    font-size: 14px;
    color: #000;
+}
+
+.pagina-categoria .secao-principal > .coluna.span3 {
+   display: none;
+}
+
+.pagina-categoria .secao-principal > .conteudo.span9 {
+   width: 100%;
+   margin: 0;
+}
+
+.pagina-categoria .listagem .listagem-linha>ul {
+   margin: 0;
 }
 
 /* .pagina-categoria .secao-principal .interno > p {
