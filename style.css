@@ -325,14 +325,18 @@ div#avisoEnvioCart {
    display: block !important;
    font-size: 14px;
    color: var(--color-black);
-   width: 20px;
+   width: 20px !important;
    height: 20px;
    text-align: center;
    line-height: 20px;
-   background: var(--color-white);
+   background: var(--color-primary);
    margin: 0;
    border-radius: var(--border-radius-lg);
    font-weight: 700;
+   box-sizing: border-box;
+   position: absolute;
+   right: 0;
+   top: 0;
 }
 
 .carrinho.vazio>a span,
@@ -998,6 +1002,7 @@ i.icon-instagram:before {
    border-radius: 6px;
    font-size: 18px;
    font-weight: 600;
+   box-sizing: border-box;
 }
 
 .listagem .mais-vendidos-destaque .listagem-item .preco-produto strong.preco-promocional {
@@ -4911,7 +4916,7 @@ input[type="password"] {
    }
 
    .carrinho {
-      max-width: 76px;
+      max-width: fit-content;
    }
 
    .conteudo-topo .inferior {
@@ -5023,7 +5028,7 @@ input[type="password"] {
 }
 
 ul.slick-dots {
-   display: flex!important;
+   display: none!important;
    gap: 8px;
    justify-content: center;
    width: fit-content;
@@ -5319,6 +5324,10 @@ h2.bn-featured-title {
 
 #cabecalho .botao.principal {
    background: var(--color-secondary);
+   height: 48px !important;
+   width: 48px;
+   padding: 0;
+   border: 1px solid #ffffff10;
 }
 
 .append-bg-product {
@@ -7014,7 +7023,11 @@ div#login-content > .identificacao {
   }
 
    .carrinho > a {
-      padding: 8px 16px;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      justify-content: center;
+      position: relative;
    }
 
    .finalizar-compra .caixa-sombreada {
@@ -8786,6 +8799,16 @@ a#imprimirBoleto {
           transform: translateX(-50%);
       }
   }
+ 
   
+  /* Ajustes no header mobile */
+
+  .sign-up-header a {
+   width: 48px;
+   height: 48px;
+   box-sizing: border-box;
+   justify-content: center;
+   padding: 0;
+}
   
 }

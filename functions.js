@@ -697,6 +697,11 @@ $(document).on('click', '.btn-mais', function() {
 
         if ($('#cabecalho .sign-up-header').length === 0) {
             $('#cabecalho .span3 > .logo').after(`
+                <div class="search-header">
+                    <a href="javascript:void(0)" class="toggle-search">
+                        <i class="icon-search"></i>
+                    </a>
+                </div>
                 <div class="sign-up-header">
                     <a href="./conta/login">
                         <i class="user"></i>
@@ -705,6 +710,13 @@ $(document).on('click', '.btn-mais', function() {
             `);
         }
         
+        $(document).on('click', '.toggle-search', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+    
+            $('.busca').toggleClass('active');
+        });
+
         $('.ordenar-listagem.topo').before($('.conteudo h1'));
 
         // Mapeamento de imagens de banners para alterar dinamicamente pelo usemap
