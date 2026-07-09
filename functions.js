@@ -1409,43 +1409,45 @@ $(document).ready(function () {
 
 });
 
-$(function () {
+$(document).ready(function(){
+    $(function () {
 
-    function configurarLicencas() {
-
-        $('.atributo-item').each(function () {
-            const $item = $(this);
-            const variacao = ($item.attr('data-variacao-nome') || '')
-                .trim()
-                .toLowerCase();
-
-            $item.removeClass('primaria secundaria');
-
-            if (variacao.includes('primária') || variacao.includes('primaria')) {
-                $item.addClass('primaria');
+        function configurarLicencas() {
+    
+            $('.atributo-item').each(function () {
+                const $item = $(this);
+                const variacao = ($item.attr('data-variacao-nome') || '')
+                    .trim()
+                    .toLowerCase();
+    
+                $item.removeClass('primaria secundaria');
+    
+                if (variacao.includes('primária') || variacao.includes('primaria')) {
+                    $item.addClass('primaria');
+                }
+    
+                if (variacao.includes('secundária') || variacao.includes('secundaria')) {
+                    $item.addClass('secundaria');
+                }
+            });
+    
+            const $primaria = $('.atributo-item.primaria');
+    
+            if ($primaria.length && !$primaria.closest('li').hasClass('active')) {
+                $primaria.trigger('click');
             }
-
-            if (variacao.includes('secundária') || variacao.includes('secundaria')) {
-                $item.addClass('secundaria');
-            }
-        });
-
-        const $primaria = $('.atributo-item.primaria');
-
-        if ($primaria.length && !$primaria.closest('li').hasClass('active')) {
-            $primaria.trigger('click');
         }
-    }
-
-    configurarLicencas();
-
-    const observer = new MutationObserver(function () {
+    
         configurarLicencas();
+    
+        const observer = new MutationObserver(function () {
+            configurarLicencas();
+        });
+    
+        observer.observe(document.querySelector('.atributos'), {
+            childList: true,
+            subtree: true
+        });
+    
     });
-
-    observer.observe(document.querySelector('.atributos'), {
-        childList: true,
-        subtree: true
-    });
-
 });
