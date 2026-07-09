@@ -932,7 +932,7 @@ updateBuyLink();
     // Código que executa em ambos (desktop e mobile)
     if ($('.pagina-produto .produto div.principal .chave-digital').length === 0) {
         $('.pagina-produto .produto div.principal').prepend(`
-            <div class="chave-digital"><img src="https://cdn.awsli.com.br/2775/2775575/arquivos/envelope-red.svg" alt="Código digital"/>Código digital</div>
+            <div class="chave-digital">Receba seu produto por E-mail</div>
         `);
     }
 
