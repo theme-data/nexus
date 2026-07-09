@@ -75,7 +75,10 @@ $('.barra-inicial .lista-redes').removeClass('span3').appendTo($('.barra-inicial
 $('.barra-inicial .conteiner > .row-fluid').prepend(`
     <div class="append-benefits">
        <div>
-           <i></i><span>Keys originais</span>
+           <i></i><span>Jogos originais</span>
+       </div>
+       <div>
+           <i></i><span>Receba em até 30 minutos</span>
        </div>
        <div>
            <i></i><span>Segurança garantida</span>
@@ -113,7 +116,7 @@ $('.pagina-inicial #barraNewsletter').before(`
     <div class="about-banner">
       <div class="about-banner-content">
         <div class="about-banner-icon-title">
-          <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote Playce" class="about-banner-icon" />-->
+          <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote" class="about-banner-icon" />-->
           <div class="about-banner-title">
             <h2>Boas-vindas à Mex Games.</h2>
           </div>

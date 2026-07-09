@@ -303,11 +303,11 @@ input[type="text"]:focus {
 
 div#avisoEnvioCart {
    padding: 12px 24px;
-   background: #ffedee;
+   background: #f1ffed;
    font-size: 14px;
    border-radius: 4px;
    color: #000;
-   border: 1px solid #ea222a;
+   border: 1px solid --color-primary;
    margin-bottom: 20px;
 }
 
@@ -431,7 +431,8 @@ div#avisoEnvioCart {
 /* Ajustes cabeçalho */
 
 .barra-inicial {
-   background: var(--color-primary);
+   background: #1C2210;
+   border-bottom: 1px solid #ffffff20;
 }
 
 .canais-contato .icon-comment:before {
@@ -535,15 +536,18 @@ i.icon-instagram:before {
 }
 
 .append-benefits > div:first-child i:before {
-   background: var(--icon-key);
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/game.svg) center no-repeat;
    background-size: 100%;
-   opacity: .7;
+}
+
+.append-benefits > div:nth-child(2) i:before {
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/envelope.svg) center no-repeat;
+   background-size: 100%;
 }
 
 .append-benefits > div:last-child i:before {
-   background: var(--icon-lock);
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/lock.svg) center no-repeat;
    background-size: 100%;
-   opacity: .7;
 }
 
 #cabecalho {
