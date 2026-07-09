@@ -1727,7 +1727,7 @@ button.qty-btn.qty-plus:hover{
    border-radius: 999px;
 }
 
-.produto div.principal .acoes-produto.disponivel:not(.hide) {
+.produto div.principal .acoes-produto:not(.hide) {
    display: flex;
    flex-direction: column;
 }
@@ -1738,6 +1738,10 @@ button.qty-btn.qty-plus:hover{
    height: 54px !important;
    font-size: 16px !important;
    font-weight: 500;
+}
+
+.acoes-produto .preco-produto {
+   float: none;
 }
 
 .pagina-produto .produto div.principal * {
@@ -1969,6 +1973,7 @@ modal-review .actions button {
 .produto .acoes-produto .comprar {
    display: flex;
    gap: 10px;
+   float: none;
 }
 
 .produto .acoes-produto .comprar .disponibilidade-produto {
@@ -3772,15 +3777,59 @@ a {
 
 .chave-digital {
    padding: 6px 8px;
-   background: #F3F3F3;
+   background: #9BC64C20;
    display: flex;
    justify-content: center;
    gap: 4px;
-   text-transform: uppercase;
    font-size: 12px;
-   letter-spacing: 1px;
    margin-bottom: 16px !important;
    border-radius: 4px;
+}
+
+.atributo-comum > ul {
+   display: flex;
+}
+
+.atributo-comum > ul > li {
+   flex: 1;
+   margin: 0;
+}
+
+.atributos .atributo-item {
+   background: #1C2210;
+   border: 1px solid #ffffff20;
+   border-radius: 8px;
+   padding: 16px;
+   margin: 0;
+}
+
+.atributos .active .atributo-item {border: 1px solid #9BC64C;}
+
+.atributo-comum a span {
+   text-align: left;
+   padding: 0;
+}
+
+.atributo-comum .primaria span:after {
+   content: "Jogue em seu perfil";
+   font-size: 12px;
+   display: block;
+   font-weight: normal;
+   line-height: normal;
+   color: #fff;
+}
+
+.atributo-comum .secundaria span:after {
+   content: "Jogue em nosso perfil";
+   font-size: 12px;
+   display: block;
+   font-weight: normal;
+   line-height: normal;
+   color: #fff;
+}
+
+.atributos .active .atributo-item span {
+   color: #9BC64C;
 }
 
 .pagination ul > li a {
