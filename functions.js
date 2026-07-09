@@ -714,7 +714,7 @@ $(document).on('click', '.btn-mais', function() {
             e.preventDefault();
             e.stopPropagation();
     
-            $('.busca').toggleClass('active');
+            $('#cabecalho .conteudo-topo').toggleClass('active');
         });
 
         $('.ordenar-listagem.topo').before($('.conteudo h1'));

@@ -4887,6 +4887,7 @@ input[type="password"] {
    #cabecalho > .conteiner > .row-fluid {
       flex-direction: column;
       gap: 12px;
+      border: 0;
    }
 
    .busca #form-buscar {
@@ -8804,11 +8805,35 @@ a#imprimirBoleto {
   /* Ajustes no header mobile */
 
   .sign-up-header a {
-   width: 48px;
-   height: 48px;
-   box-sizing: border-box;
-   justify-content: center;
-   padding: 0;
-}
-  
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      justify-content: center;
+      padding: 0;
+   }
+
+   .busca-mobile {
+      display: none!important;
+   }
+
+   .busca-mobile.active {
+      display: block!important;
+   }
+   
+   .search-header {
+      width: 48px;
+      height: 48px;
+      background: var(--color-secondary);
+      border: var(--shadow-button);
+      border-radius: var(--border-radius-md);
+      font-size: var(--font-size-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .search-header a {
+      height: 24px;
+   }
+
 }
