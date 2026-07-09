@@ -8819,6 +8819,10 @@ a#imprimirBoleto {
    .conteudo-topo.active {
       display: block!important;
    }
+
+   .search-header .icon-search:before {
+      background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/search-m.svg) center no-repeat;
+  }
    
    .search-header {
       width: 48px;
