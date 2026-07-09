@@ -565,24 +565,6 @@ $(document).on('click', '.btn-mais', function() {
         }
         tentarSubstituirMenuUserLogged();
 
-        // Ajuste na página de produto
-        if ($('.produto .conteiner-imagem .produto-detalhe-info').length === 0) {
-            $('.produto .conteiner-imagem').append(`
-                <div class="produto-detalhe-info"></div>
-            `);
-        }
-        
-        // Move elementos para produto-detalhe-info (somente se não estiverem lá)
-        if ($('.produto .produto-detalhe-info .info-principal-produto').length === 0) {
-            $('.produto .produto-detalhe-info').append($('.pagina-produto .produto div.principal .info-principal-produto'));
-        }
-        if ($('.produto .produto-detalhe-info .produto-detalhe').length === 0) {
-            $('.produto .produto-detalhe-info').append($('.produto-detalhe'));
-        }
-        if ($('.produto .produto-detalhe-info .append-share-fav').length === 0) {
-            $('.produto .produto-detalhe-info').append($('.pagina-produto .produto div.principal .append-share-fav'));
-        }
-
         $('.produto>.row-fluid:nth-child(2) > div.span7').append($('#buy-together-position1'));
         $('.produto>.row-fluid:nth-child(2) > div.span7').append($('.produto .row-fluid .span12 .abas-custom'));
         $('.produto>.row-fluid:nth-child(2) > div.span7').append($('.listagem.aproveite-tambem'));
