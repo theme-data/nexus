@@ -41,8 +41,8 @@ $('#rodape .institucional > .conteiner > .row-fluid > .span9 > .row-fluid').appe
                 <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/footer-envelope.svg"/>
                 <div>
                     <span>
-                        <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                        <span> Playce - Games e Gift cards </span>
+                        <a href="mailto:contato@mexgames.com.br">contato@mexgames.com.br</a>
+                        <span>Mex Games</span>
                     </span>
                 </div>
             </div>
@@ -797,7 +797,10 @@ $(document).on('click', '.btn-mais', function() {
                     <img alt="Horário de atendimento" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-clock.svg"/>
                     <div>
                       <strong>Horário de atendimento</strong>
-                      <span>Todos os dias, das 09h às 22h</span>
+                      <span>Segunda a sexta: 11:30 ás 22:00h <br>
+                            Sabado: 10:00h ás 18:00h <br>
+                            Domingo e Feriado: Fechado
+                        </span>
                     </div>
                   </div>
         
@@ -806,8 +809,8 @@ $(document).on('click', '.btn-mais', function() {
                     <div>
                       <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                       <div>
-                        <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                        <span> Playce - Games e Gift cards </span>
+                        <a href="mailto:contato@mexgames.com.br">contato@mexgames.com.br</a>
+                        <span>Mex Games</span>
                       </div>
                     </div>
                   </div>
@@ -816,7 +819,7 @@ $(document).on('click', '.btn-mais', function() {
                     <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                     <div>
                       <strong>Estamos no WhatsApp:</strong>
-                      <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                      <a href="https://wa.me/553398075947?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(33) 9807-5947</a>
                     </div>
                   </div>
                 </div>
