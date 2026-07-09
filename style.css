@@ -8742,3 +8742,14 @@ a#imprimirBoleto {
   }
 
 }
+
+
+/* Fundo de página  */
+
+.pagina-carrinho, .pagina-pedido-finalizado {
+   background: #fff;
+}
+
+.pagina-carrinho .cabecalho-interno .titulo {
+   color: var(--color-black);
+}
