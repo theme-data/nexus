@@ -62,7 +62,7 @@ $('#rodape .institucional > .conteiner > .row-fluid > .span9 > .row-fluid').appe
     <div class="info-section">
     <span class="titulo">Envio</span>
     <p>
-        Todos os nossos gift cards e produtos digitais são enviados de forma 100% online, garantindo agilidade e segurança.
+        Todos os nossos jogos são enviados por e-mail ou WhatsApp. Os jogos são originais e completos.
     </p>
     </div>
     </div>
@@ -622,7 +622,11 @@ $(document).on('click', '.btn-mais', function() {
                     <img alt="Horário de atendimento" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-clock.svg"/>
                     <div>
                         <strong>Horário de atendimento</strong>
-                        <span>Todos os dias, das 09h às 22h</span>
+                        <span>
+                            Segunda a sexta: 11:30 ás 22:00h <br>
+                            Sabado: 10:00h ás 18:00h <br>
+                            Domingo e Feriado: Fechado
+                        </span>
                     </div>
                     </div>
         
@@ -631,8 +635,8 @@ $(document).on('click', '.btn-mais', function() {
                     <div>
                         <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                         <div>
-                        <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                        <span> Playce - Games e Gift cards </span>
+                        <a href="mailto:contato@mexgames.com.br">contato@mexgames.com.br</a>
+                        <span>Mex Games</span>
                         </div>
                     </div>
                     </div>
@@ -641,7 +645,7 @@ $(document).on('click', '.btn-mais', function() {
                     <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                     <div>
                         <strong>Estamos no WhatsApp:</strong>
-                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                        <a href="https://wa.me/553398075947?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(33) 9807-5947</a>
                     </div>
                 </div>
             </div>
@@ -657,7 +661,11 @@ $(document).on('click', '.btn-mais', function() {
                                 <img alt="Horário de atendimento" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-clock.svg"/>
                                 <div>
                                     <strong>Horário de atendimento</strong>
-                                    <span>Todos os dias, das 09h às 22h</span>
+                                    <span>
+                                        Segunda a sexta: 11:30 ás 22:00h <br>
+                                        Sabado: 10:00h ás 18:00h <br>
+                                        Domingo e Feriado: Fechado
+                                    </span>
                                 </div>
                                 </div>
                     
@@ -666,8 +674,8 @@ $(document).on('click', '.btn-mais', function() {
                                 <div>
                                     <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                                     <div>
-                                    <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                                    <span> Playce - Games e Gift cards </span>
+                                        <a href="mailto:contato@mexgames.com.br">contato@mexgames.com.br</a>
+                                        <span>Mex Games</span>
                                     </div>
                                 </div>
                                 </div>
@@ -676,7 +684,7 @@ $(document).on('click', '.btn-mais', function() {
                                 <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                                 <div>
                                     <strong>Estamos no WhatsApp:</strong>
-                                    <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                                    <a href="https://wa.me/553398075947?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(33) 9807-5947</a>
                                 </div>
                             </div>
                         </div>
@@ -705,31 +713,6 @@ $(document).on('click', '.btn-mais', function() {
                     Meus pedidos
                 </a>
               </div>
-            </div>
-        `);
-
-        $('body').append(`
-            <div class="floating-bar">
-              <a class="floating-bar-item contact-float" style="cursor: pointer;">
-                <span class="icon-contato"></span>
-                <span class="floating-bar-label">Contato</span>
-              </a>
-              <a class="floating-bar-item" href="https://www.playce.com.br/conta/login" onclick="window.location.href='/conta/login'; return false;">
-                <span class="icon-conta"></span>
-                <span class="floating-bar-label">Conta</span>
-              </a>
-              <a class="floating-bar-item" href="https://www.playce.com.br/conta/pedido/listar" onclick="window.location.href='/conta/pedido/listar'; return false;">
-                <span class="icon-pedidos"></span>
-                <span class="floating-bar-label">Meus códigos</span>
-              </a>
-              <!--<a class="floating-bar-item" href="https://www.playce.com.br/favoritos">
-                <span class="icon-favoritos"></span>
-                <span class="floating-bar-label">Favoritos</span>
-              </a>-->
-              <a class="floating-bar-item search-bar" href="#">
-                <span class="icon-buscar"></span>
-                <span class="floating-bar-label">Buscar</span>
-              </a>
             </div>
         `);
 

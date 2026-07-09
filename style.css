@@ -266,9 +266,9 @@ h6,
 /* Ajustes gerais */
 
 .pagina-inicial {
-   background-image: var(--bg-home);
+   /* background-image: var(--bg-home);
    background-position: center 0px;
-   background-repeat: repeat-x;
+   background-repeat: repeat-x; */
 }
 
 @media screen and (max-width: 768px) {
@@ -5392,20 +5392,6 @@ h2.bn-featured-title {
    background-size: 100%;
 }
 
-.floating-bar {
-   display: flex;
-   justify-content: center;
-   position: fixed;
-   bottom: 0;
-   background: var(--color-white);
-   z-index: 10000000000000;
-   align-items: center;
-   width: 100%;
-   border-top: 1px solid rgba(0,0,0,.2);
-   box-sizing: border-box;
-   overflow: hidden;
-}
-
 .alert {
    font-size: 16px;
    margin-bottom: 20px !important;
@@ -5509,60 +5495,6 @@ h2.bn-featured-title {
 
 body.carrinho-checkout {
    padding-bottom: 0;
-}
-
-.floating-bar .floating-bar-item {
-   width: 100%;
-   display: flex;
-   padding: 12px 0;
-   flex: 1;
-   justify-content: center;
-   align-items: center;
-   border-right: 1px solid rgba(0,0,0,.2);
-   color: var(--color-black);
-   flex-direction: column;
-}
-
-.carrinho-checkout .floating-bar .floating-bar-item.search-bar {
-   display: none;
-}
-
-.floating-bar .floating-bar-item:last-child {
-   border: 0;
-}
-
-span.icon-contato,
-span.icon-conta,
-span.icon-pedidos,
-span.icon-favoritos,
-span.icon-buscar {
-   width: 18px;
-   height: 18px;
-   background-size: 100%!important;
-}
-
-span.icon-contato {
-   background: url('https://cdn.awsli.com.br/2830/2830294/arquivos/floating-contact.svg') center no-repeat;
-}
-
-span.icon-conta {
-   background: url('https://cdn.awsli.com.br/2830/2830294/arquivos/floating-account.svg') center no-repeat;
-}
-
-span.icon-pedidos {
-   background: url('https://cdn.awsli.com.br/2830/2830294/arquivos/floating-order.svg') center no-repeat;
-}
-
-span.icon-favoritos {
-   background: url('https://cdn.awsli.com.br/2830/2830294/arquivos/floating-fav.svg') center no-repeat;
-}
-
-span.icon-buscar {
-   background: url('https://cdn.awsli.com.br/2830/2830294/arquivos/floating-search.svg') center no-repeat;
-}
-
-floating-bar-item.search-bar {
-   border: 0;
 }
 
 .produto .principal > div.append-share-fav {
