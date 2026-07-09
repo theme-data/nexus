@@ -583,22 +583,7 @@ $(document).on('click', '.btn-mais', function() {
             $('.pagina-produto .produto div.principal').append($('#rodape .pagamento .gateways-rodape'));
         }
         
-        if ($('#principal-konfidency').length === 0) {
-            $('.pagina-produto .produto div.principal').after(`
-                <div id="principal-konfidency">
-                    <img src="https://cdn.awsli.com.br/2830/2830294/arquivos/konfi.png" alt="Konfidency"/>
-                    <div>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <p><strong>Nota 5.0</strong> baseado em +1000 avaliações</p>
-                </div>
-                `);
-        }
-
+        
         $('.canais-contato ul li.hidden-phone').append(`
             <div class="append-content-sup">
                 <div class="info-section">
