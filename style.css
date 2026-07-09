@@ -4772,7 +4772,6 @@ input[type="password"] {
   .banner-fundo {
       padding: 0 10px;
       text-align: center;
-      display: none;
    }
 
    .banner-fundo .game-promo {
@@ -5048,12 +5047,15 @@ ul.slick-dots {
 }
 
 .listagem a.titulo-categoria:after {
-   /* color: var(--color-black);
-   background: #f1f1f1;
-   background-image: var(--icon-chev-right-black);
-   background-repeat: no-repeat; */
-   background-position: 102px 52%;
-   background-size: auto 40%;
+   background-position: center;
+   content: "";
+   border: none;
+   padding: 12px;
+   background-color: transparent;
+}
+
+.listagem-item .acoes-produto .botao-comprar:after {
+   content: "Comprar";
 }
 
 .slick-dots .slick-active button {
@@ -5090,11 +5092,13 @@ ul.slick-dots li {
 }
 
 .listagem .titulo-categoria, .categorias-section .titulo-categoria {
-   padding: 0 16px!important;
+   justify-content: flex-start;
+   padding: 0 16px !important;
    width: 100%;
    box-sizing: border-box;
    margin: 32px auto 0 !important;
    align-items: center;
+   gap: 10px;
 }
 
 .listagem .listagem-item {
@@ -6895,6 +6899,10 @@ div#login-content > .identificacao {
 }
 
 @media screen and (max-width: 768px) {
+
+   #cabecalho > .conteiner > .row-fluid {
+      padding: 0;
+  }
 
    .pagina-conta #corpo .conteiner,
    .pagina-pedido-listar #corpo .conteiner {
