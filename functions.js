@@ -1421,11 +1421,6 @@ $(document).ready(function () {
         </button>
     `);
 
-
-    /* ======================================================
-       2. CRIA MODAL
-    ====================================================== */
-
     $('body').append(`
         <div id="modalFiltros" class="modal fade" tabindex="-1" style="display: none;">
             <div class="modal-dialog modal-lg">
@@ -1448,18 +1443,8 @@ $(document).ready(function () {
         </div>
     `);
 
-
-    /* ======================================================
-       3. MOVE DROPDOWN ORDENAR PARA O MODAL
-    ====================================================== */
-
     $('.ordenar-listagem.topo .dropdown-menu')
         .appendTo('#modalFiltros .modal-ordenar');
-
-
-    /* ======================================================
-       4. MOVE TODOS OS FILTROS PARA O MODAL
-    ====================================================== */
 
     $('.filtro-coluna').appendTo('#modalFiltros .modal-filtros');
 
