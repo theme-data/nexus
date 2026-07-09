@@ -2478,7 +2478,7 @@ div#AdicionarFavoritoSucessoModal .modal-header {
    display: flex;
    gap: 24px;
    align-items: center;
-   padding: 0;
+   padding: 32px 0;
 }
 
 #barraNewsletter .componente .interno-conteudo {
@@ -2515,13 +2515,6 @@ a {
 #barraNewsletter .componente {
    padding: 0;
    margin: 0;
-}
-
-#barraNewsletter.posicao-rodape .componente .interno:before {
-   content: "";
-   width: 117px;
-   height: 100px;
-   background: var(--news-char);
 }
 
 #barraNewsletter .componente .newsletter-assinar:before {
