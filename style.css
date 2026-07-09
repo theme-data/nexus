@@ -8758,3 +8758,34 @@ a#imprimirBoleto {
 .pagina-carrinho .cabecalho-interno .titulo {
    color: var(--color-black);
 }
+
+/* passa automático os benefícios no celular */
+
+@media screen and (max-width: 768px) {
+
+   .row-fluid {
+      overflow: hidden;
+  }
+  
+  .append-benefits {
+      display: flex;
+      width: max-content;
+      gap: 24px;
+      animation: marquee 20s linear infinite;
+  }
+  
+  .barra-inicial .append-benefits > div {
+      width: 220px;
+  }
+  
+  @keyframes marquee {
+      from {
+          transform: translateX(0);
+      }
+      to {
+          transform: translateX(-50%);
+      }
+  }
+  
+  
+}
