@@ -3690,9 +3690,9 @@ a {
 }
 
 .conteudo h1 {
-   font-size: 22px;
+   font-size: 48px;
    color: var(--color-white);
-   font-weight: 400;
+   font-weight: 600;
 }
 
 .btn-filtrar {
