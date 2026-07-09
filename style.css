@@ -3208,12 +3208,6 @@ a {
    opacity: .7;
 }
 
-.produto>.row-fluid:nth-child(2) {
-   display: flex;
-   align-items: flex-start;
-   margin-bottom: 0px;
-}
-
 #comentarios-container + .row-fluid {
    display: none;
 }
@@ -4745,6 +4739,7 @@ input[type="password"] {
 
    .secao-banners .conteiner {
       padding: 16px;
+      padding-top: 0;
   }
 
   .mais-vendidos-destaque + ul .listagem .info-produto {
@@ -8855,6 +8850,12 @@ a#imprimirBoleto {
 
    .search-header a {
       height: 24px;
+   }
+
+   .produto>.row-fluid:nth-child(2) {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 0px;
    }
 
 }
