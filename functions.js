@@ -1366,9 +1366,7 @@ $('.alert').each(function () {
     }
   });
 
-});
-
-$(function () {
+  $(function () {
 
     function configurarLicencas() {
 
@@ -1406,6 +1404,8 @@ $(function () {
         childList: true,
         subtree: true
     });
+
+});
 
 });
 
