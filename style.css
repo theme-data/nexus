@@ -2223,7 +2223,7 @@ modal-review .actions button {
 }
 
 .append-share-fav {
-   display: flex;
+   display: none;
    justify-content: flex-start;
    gap: 40px;
    position: relative;
