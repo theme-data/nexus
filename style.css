@@ -1742,6 +1742,7 @@ button.qty-btn.qty-plus:hover{
 
 .acoes-produto .preco-produto {
    float: none;
+   text-align: center;
 }
 
 .pagina-produto .produto div.principal * {
@@ -1914,7 +1915,7 @@ modal-review .actions button {
 }
 
 .produto .principal .nome-produto {
-   font-size: 24px;
+   font-size: 20px;
    font-weight: 500;
 }
 
@@ -3761,18 +3762,50 @@ a {
 }
 
 .produto .principal .acoes-produto .icon-shopping-cart:before {
-   background: var(--icon-purchase);
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/bg-button-product.svg) center no-repeat;
    background-size: 100%;
+   width: 100px;
+   height: 100px;
+   position: relative;
 }
 
-.produto .principal .acoes-produto .icon-shopping-cart {
-   width: 20px;
-   height: 20px;
+.produto .acoes-produto .comprar .botao.principal:after {
+   content: "Compra 100% segura";
+   font-size: 12px;
+   text-transform: uppercase;
+   color: #000;
 }
+
+
+.produto .principal .acoes-produto .icon-shopping-cart {
+   height: 0;
+   position: absolute;
+   right: -20px;
+   top: -10px;
+   width: 100px;
+   height: 100px;
+}
+
+.atributos .active .atributo-item:after {
+   content: "";
+   height: 20px;
+   width: 20px;
+   display: block;
+   position: absolute;
+   right: 16px;
+   top: 16px;
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/check.svg) center no-repeat;
+}
+
 .produto .acoes-produto .comprar .botao.principal {
-   flex-direction: row-reverse;
-   gap: 12px;
+   flex-direction: column;
+   gap: 0;
    align-items: center;
+   background: #CCFC75;
+   position: relative;
+   overflow: hidden;
+   color: #000 !important;
+   height: 80px !important;
 }
 
 .chave-digital {
