@@ -1561,25 +1561,16 @@ i.icon-instagram:before {
 
 .pagina-produto .produto div.principal {
    padding: 32px;
-   background: var(--color-white);
-   max-width: 350px;
+   background: #1C2210;
+   max-width: 420px;
    box-sizing: border-box;
    border-radius: 8px;
-   border: 1px solid #20232620;
+   border: 1px solid #ffffff15;
    box-shadow: 0 0 50px rgba(0, 0, 0, .15);
 }
 
-#principal-konfidency {
-   padding: 32px;
-   text-align: center;
-   background: var(--color-white);
-   box-sizing: border-box;
-   border-radius: 8px;
-   border: 1px solid #20232620;
-   box-shadow: 0 0 50px rgba(0, 0, 0, .15);
-   margin-top: 20px;
-   z-index: 0;
-   position: relative;
+.pagina-produto .produto div.principal * {
+   color: var(--color-white)
 }
 
 #principal-konfidency > div {
