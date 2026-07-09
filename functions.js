@@ -1578,8 +1578,6 @@ $(document).ajaxComplete(function () {
     verificarEdicaoCliente();
 });
 
-$('#principal-konfidency').append('<div class="konfidency-store-review" data-type="horizontal" data-color="light"></div>');
-
 });
 
 $(document).ready(function () {
