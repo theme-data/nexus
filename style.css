@@ -4974,7 +4974,23 @@ input[type="password"] {
 
 .banner.cheio .flexslider {
    overflow: visible;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
+}
+
+.row-fluid.banner.mini-banner.hidden-phone {
+   display: flex !important;
+   gap: 20px;
+   overflow-x: scroll;
+}
+
+.mini-banner .modulo.span4 {
+   width: 300px!important;
+   flex: none;
+}
+
+.row-fluid.banner.mini-banner.hidden-phone:before,
+.row-fluid.banner.mini-banner.hidden-phone:after {
+   display: none;
 }
 
 #rodape .institucional > .conteiner > .row-fluid {
