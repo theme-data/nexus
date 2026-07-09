@@ -981,10 +981,6 @@ updateBuyLink();
         `);
     }
 
-    if ($('.produto .principal > .acoes-produto .add-cart-product').length === 0) {
-        $('.produto .principal > .acoes-produto .comprar .botao.principal').clone().text('Adicionar ao carrinho').addClass('add-cart-product botao-comprar-ajax').appendTo($('.produto .principal > .acoes-produto'));
-    }
-
 // Estrutura para múltiplas categorias, cada uma com seu próprio FAQ e título customizável
 var faqsPorCategoria = [
     {

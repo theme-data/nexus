@@ -271,6 +271,11 @@ h6,
    background-repeat: repeat-x; */
 }
 
+.pagina-produto {
+   background: #11130D url(https://cdn.awsli.com.br/2727/2727537/arquivos/product-bg.jpg) top center no-repeat;
+   background-size: 100%;
+}
+
 @media screen and (max-width: 768px) {
 
    .pagina-inicial {
@@ -1731,7 +1736,7 @@ button.qty-btn.qty-plus:hover{
    border-radius: 999px;
 }
 
-.produto div.principal .acoes-produto {
+.produto div.principal .acoes-produto.disponivel:not(.hide) {
    display: flex;
    flex-direction: column;
 }
