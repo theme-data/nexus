@@ -473,7 +473,7 @@ $(document).on('click', '.btn-mais', function() {
         if ($('.conteudo-topo .sign-up-header').length === 0) {
             $('.conteudo-topo .inferior .busca-mobile').after(`
                 <div class="sign-up-header">
-                    <a href="https://www.playce.com.br/conta/login">
+                    <a href="./conta/login">
                         <span>Entrar</span>
                         <i class="user"></i>
                     </a>
@@ -695,7 +695,7 @@ $(document).on('click', '.btn-mais', function() {
         if ($('#cabecalho .sign-up-header').length === 0) {
             $('#cabecalho .span3 > .logo').after(`
                 <div class="sign-up-header">
-                    <a href="https://www.playce.com.br/conta/login">
+                    <a href="./conta/login">
                         <i class="user"></i>
                     </a>
                 </div>    
@@ -1276,7 +1276,7 @@ var orderId = $('.numero-pedido')
 
 if (!orderId) return;
 
-var orderUrl = `https://www.playce.com.br/conta/pedido/${orderId}/listar_reduzido`;
+var orderUrl = `./conta/pedido/${orderId}/listar_reduzido`;
 
 // =====================================================
 // PEDIDO PAGO (alert-success)
