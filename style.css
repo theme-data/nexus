@@ -164,80 +164,6 @@
          background: #120F0F;
       }
 
-               /* Alterar imagem e informações da vitrine em destaque */
-
-               /* #listagemProdutos > .vitrine-23499980+ul {
-                  background: var(--featured-home) center no-repeat;
-                  background-color: #6554a2;
-                  display: flex;
-                  min-height: 629px;
-                  margin-top: 50px;
-               }
-
-               #listagemProdutos > .vitrine-23499980 {
-                  display: none;
-               }
-
-               #listagemProdutos > .vitrine-23499980+ul .flex-viewport > ul {
-                  width: 100% !important;
-                  display: flex;
-                  justify-content: end;
-               }
-
-               #listagemProdutos > .vitrine-23499980+ul .slick-list.draggable,
-               #listagemProdutos > .vitrine-23499980+ul .slick-track {
-                  width: 100%!important;
-               }
-
-               #listagemProdutos > .vitrine-23499980+ul li.slick-slide {
-                  width: 277px;
-               }
-
-               #listagemProdutos > .vitrine-23499980+ul .slick-track {
-                  display: flex;
-                  justify-content: end;
-               }
-
-               #listagemProdutos > .vitrine-23499980+ul .slick-dots {
-                  display: none !important;
-               }
-              
-              #listagemProdutos > .vitrine-23499980+ul .flex-viewport > ul {
-                  justify-content: center;
-              }
-              
-              #listagemProdutos > .vitrine-23499980+ul .imagem-produto img {
-                  width: 100%;
-              }
-              
-              #listagemProdutos > .vitrine-23499980+ul .listagem-item {
-                  width: 100%;
-                  max-width: 330px;
-              }
-              
-              #listagemProdutos > .vitrine-23499980+ul li.slick-slide {
-                  justify-content: center;
-              }
-
-              @media screen and (max-width: 768px) {
-                  #listagemProdutos > .vitrine-23499980+ul {
-                     background: var(--featured-home) center no-repeat;
-                     background-size: auto 100%;
-                  }
-              } */
-
-               /* Fim alterar vitrine em destaque */
-
-
-
-               /* Esconde categorias do menu */
-               .menu.superior .nivel-um>li.categoria-id-23387278,
-               .menu.superior .nivel-um>li.categoria-id-23499980 {
-                   display: none;
-               }
-               /* Fim esconde categorias do menu */
-
-
 
 body {
     background-color: var(--bg-store-color);
@@ -291,7 +217,7 @@ h6,
 }
 
 .cabecalho-interno .titulo {
-   color: var(--color-black);
+   color: var(--color-white);
    display: flex;
    flex-direction: column;
    text-align: center;

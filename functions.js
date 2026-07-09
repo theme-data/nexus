@@ -123,7 +123,7 @@ $('.pagina-inicial #barraNewsletter').before(`
         </div>
       </div>
       <div class="about-banner-image">
-        <img src="https://cdn.awsli.com.br/2391/2391623/arquivos/char-playce-1.png" alt="Personagem Samurai" />
+        <img src="https://cdn.awsli.com.br/2727/2727537/arquivos/mex-char.png" alt="Personagem Samurai" />
       </div>
     </div>
     `);
@@ -255,7 +255,7 @@ var bannerVideoUrl = "https://www.youtube.com/embed/ENf1yjCMpZo";
 var videoId = "ENf1yjCMpZo";
 var bannerVideoWidth = 360;
 var bannerVideoHeight = 202;
-var bannerImgUrl = "https://cdn.awsli.com.br/2391/2391623/arquivos/bg-home-2.png"; // URL da imagem do banner
+var bannerImgUrl = "https://cdn.awsli.com.br/2727/2727537/arquivos/fundo-home.png"; // URL da imagem do banner
 
 // Opções para ativar/desativar seções
 var mostrarGamePromo = false;       // true para mostrar, false para ocultar a seção "game-promo"
