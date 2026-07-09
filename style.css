@@ -8812,11 +8812,11 @@ a#imprimirBoleto {
       padding: 0;
    }
 
-   .busca-mobile {
+   .conteudo-topo {
       display: none!important;
    }
 
-   .busca-mobile.active {
+   .conteudo-topo.active {
       display: block!important;
    }
    
