@@ -5251,8 +5251,7 @@ h2.bn-featured-title {
    width: 100%;
 }
 
-.produto .conteiner-imagem img,
-.conteudo-topo .inferior {
+.produto .conteiner-imagem img {
    max-height: 100%;
    width: fit-content;
 }
