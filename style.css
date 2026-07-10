@@ -4528,6 +4528,27 @@ input[type="password"] {
 
 @media screen and (max-width: 768px) {
 
+   #barraNewsletter.posicao-rodape {
+      display: block!important;
+  }
+  
+  #barraNewsletter.posicao-rodape .componente .interno {
+      flex-direction: column;
+  }
+  
+  #barraNewsletter .componente .titulo {
+      flex: 1;
+      width: 100%;
+      padding: 0 20px!important;
+      box-sizing: border-box;
+  }
+  
+  #barraNewsletter .componente .interno-conteudo {
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+  }
+
    .faq-categoria h2,
    #descricao:before {
       font-size: 18px;
