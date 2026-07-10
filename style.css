@@ -6342,13 +6342,7 @@ input#id_politica_privacidade {
 }
 
 /* Código do carrinho  */
-
-.finalizar-compra .caixa-sombreada {
-   box-shadow: none;
-   display: flex;
-   flex-direction: column;
-}
-
+/*
 .order-resume {
    width: 350px;
    background: var(--color-white);
@@ -6402,7 +6396,7 @@ form#formCalcularFrete {
    margin: 0 0 0 10px;
    height: 20px;
 }
-/*
+
 .tabela-carrinho .bg-dark {
    display: none;
 }
@@ -6410,7 +6404,7 @@ form#formCalcularFrete {
 
 /* .tabela-carrinho .bg-dark:not(:last-child) {
    display: none;
-} */
+} 
  
 .append-controls {
    display: flex;
@@ -6457,7 +6451,7 @@ form#formCalcularFrete {
    align-items: center;
 }
 
-/* .pagina-carrinho .caixa-sombreada:after {
+ .pagina-carrinho .caixa-sombreada:after {
    content: "⚠ Aviso: Ao comprar, você declara ter conferido que este produto é compatível com sua plataforma. Revise antes de prosseguir!";
    margin-top: 20px;
    display: block;
@@ -6471,7 +6465,7 @@ form#formCalcularFrete {
     color: #e08f0d;
     margin-bottom: 20px;
     border-radius: 4px;
-} */
+} 
 
 .acao-editar:before,
 .acao-editar:after {
@@ -6652,7 +6646,7 @@ form#formCalcularFrete {
    width: 16px;
    height: 16px;
    background-size: 100%;
-}
+}*/
 
 /* Página institucional */
 
