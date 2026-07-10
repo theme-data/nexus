@@ -3931,7 +3931,7 @@ button.btn.btn-filtrar:after {
 
 .faq-categoria {
    padding: 32px;
-   background: #f1f1f1;
+   background: #1C2210;
    display: flex;
    gap: 4px;
    border-radius: var(--border-radius-md);
@@ -3942,40 +3942,47 @@ button.btn.btn-filtrar:after {
 }
 
 .faq-categoria h2 {
-   font-size: 24px;
+   font-size: 32px;
    font-weight: 500;
-   color: var(--color-black);
+   color: var(--color-white);
+   margin-bottom: 24px;
 }
 
 .faq-pergunta {
-   background: #dedede;
+   background: transparent;
    display: flex;
    gap: 4px;
    border-radius: var(--border-radius-md);
    box-shadow: var(--shadow-button);
    height: 36px;
    align-items: center;
-   padding: 0 16px;
-   color: #000;
+   padding: 0;
+   color: #fff;
    width: 100%;
+   font-size: 15px;
    justify-content: space-between;
+   text-shadow: none;
+}
+
+.faq-item {
+   padding: 10px 0;
+   border-bottom: 1px solid #ffffff20;
 }
 
 .faq-pergunta:after {
    content: "";
    width: 20px;
    height: 20px;
-   background: url(https://cdn.awsli.com.br/2775/2775575/arquivos/chev-down-black.svg) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/plus-faq.svg) center no-repeat;
    background-size: 100%;
 }
 
 .faq-resposta {
-   padding: 16px 24px 16px;
+   padding: 0;
    font-size: 14px;
    line-height: 20px;
    opacity: .7;
-   background: #e1e1e1;
-   color: var(--color-black);
+   color: var(--color-white);
    border-radius: 0 0 8px 8px;
    margin-bottom: 10px;
 }
@@ -3985,7 +3992,7 @@ button.btn.btn-filtrar:after {
 }
 
 .faq-pergunta[aria-expanded="true"]:after {
-   background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/chev-up-black.svg) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/minus-faq.svg) center no-repeat;
    background-size: 100%;
 }
 
