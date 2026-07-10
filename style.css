@@ -1290,7 +1290,7 @@ i.icon-instagram:before {
    border: 1px solid #d8d8d8;
    border-radius: var(--border-radius-md);
    box-shadow: none;
-   background: var(--color-white);
+   background: #1C2210;
 }
 
 .pagina-login .cadastro-logar .botao.principal {
