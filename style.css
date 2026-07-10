@@ -3208,6 +3208,12 @@ a {
    opacity: .7;
 }
 
+.produto>.row-fluid:nth-child(2) {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 0px;
+}
+
 #comentarios-container + .row-fluid {
    display: none;
 }
@@ -8850,12 +8856,6 @@ a#imprimirBoleto {
 
    .search-header a {
       height: 24px;
-   }
-
-   .produto>.row-fluid:nth-child(2) {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 0px;
    }
 
 }
