@@ -4079,7 +4079,7 @@ button.btn.btn-filtrar:after {
    margin: 0 auto 30px;
 }
 
-.conteudo.span9.no-results h1:before {
+/* .conteudo.span9.no-results h1:before {
    content: "";
    background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png) center no-repeat;
    display: block;
@@ -4087,7 +4087,7 @@ button.btn.btn-filtrar:after {
    height: 80px;
    margin: 0 auto;
    background-size: 88%;
-}
+} */
 
 .conteudo.span9.no-results>.row-fluid {
    display: flex;
@@ -4117,7 +4117,7 @@ button.btn.btn-filtrar:after {
    color: #000;
 }
 
-.pagina-carrinho .caixa-destaque h1:before {
+/* .pagina-carrinho .caixa-destaque h1:before {
    content: "";
    background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/cart.png) center no-repeat;
    display: block;
@@ -4125,7 +4125,7 @@ button.btn.btn-filtrar:after {
    height: 80px;
    margin: 0 auto;
    background-size: 100%;
-}
+} */
 
 .pagina-carrinho .remover-cupom::before {
    content: "";
@@ -4211,7 +4211,7 @@ button.btn.btn-filtrar:after {
    opacity: .7;
 } 
 
-.pagina-categoria .caixa-destaque h1:before {
+/* .pagina-categoria .caixa-destaque h1:before {
    content: "";
    background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/box.png) center no-repeat;
    display: block;
@@ -4219,7 +4219,7 @@ button.btn.btn-filtrar:after {
    height: 80px;
    margin: 0 auto;
    background-size: 95%;
-}
+} */
 
 .pagina-categoria .secao-banners .conteiner {
    padding: 20px;
