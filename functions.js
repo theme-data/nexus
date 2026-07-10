@@ -1337,62 +1337,6 @@ $(document).ready(function () {
     // ADICIONA BOX SURPRESA
     // =====================================================
   
-  
-  
-    var PRODUCT_ID = '398724436';
-    var ADD_URL = 'https://www.thkeys.com.br/carrinho/produto/' + PRODUCT_ID + '/adicionar';
-  
-    // =====================================================
-    // CONTEXTO: apenas página de carrinho (não checkout)
-    // =====================================================
-    var $container = $('.pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho');
-    if (!$container.length) return;
-  
-    // =====================================================
-    // VERIFICA SE O PRODUTO JÁ ESTÁ NO CARRINHO
-    // =====================================================
-    var produtoNoCarrinho = $('tr[data-produto-id="' + PRODUCT_ID + '"]').length > 0;
-  
-    // Se já estiver no carrinho, NÃO mostra o box
-    if (produtoNoCarrinho) return;
-  
-    // =====================================================
-    // INSERE A SURPRISE BOX
-    // =====================================================
-    if (!$container.find('.surprise-box').length) {
-      $container.append(`
-        <div class="surprise-box">
-          <div class="box-image">
-            <img src="https://cdn.awsli.com.br/2775/2775575/arquivos/box-cart.png" alt="Caixa surpresa para PC">
-          </div>
-          <div class="box-text">
-            <span>Ganhe <strong>1</strong> jogo surpresa para PC!</span>
-            <img src="https://cdn.awsli.com.br/2775/2775575/arquivos/steam.png" alt="Steam">
-          </div>
-          <div class="append-price">
-              <div class="box-price">
-                R$ 19,90
-              </div>
-              <div class="box-button-add">
-                <img src="https://cdn.awsli.com.br/2775/2775575/arquivos/add_shopping_cart.svg" alt="Adicionar ao carrinho">
-              </div>
-          </div>
-        </div>
-      `);
-    }
-  
-    // =====================================================
-    // CLICK → ADICIONA O PRODUTO PELO ID
-    // =====================================================
-    $(document).on('click', '.surprise-box .box-button-add', function (e) {
-      e.preventDefault();
-      window.location.href = ADD_URL;
-    });
-
-    if ($('.embalagem').length && $('.surprise-box').length) {
-        $('.surprise-box').before($('.embalagem'));
-      }
-  
   });
   
   // =====================================================
