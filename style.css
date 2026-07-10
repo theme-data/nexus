@@ -248,8 +248,11 @@ input[type="text"]:focus {
    width: fit-content;
    align-items: center;
    justify-content: center;
-   color: var(--color-white)!important;
+   color: var(--color-black) !important;
    transition: all .3s;
+   min-height: 56px;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
 }
 
 .botao.principal:hover {
