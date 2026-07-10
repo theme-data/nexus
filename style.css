@@ -716,7 +716,7 @@ i.icon-instagram:before {
 
 /* Menu superior nivel dois */
 .menu.superior .nivel-dois {
-   top: 68px;
+   top: 56px;
    background: var(--color-black);
    border-top: 2px solid var(--color-primary);
 }
