@@ -6986,6 +6986,7 @@ form#formCalcularFrete {
 
 div#login-content {
    background: var(--color-white);
+   border-radius: 10px;
 }
 
 div#login-content > .identificacao {
@@ -9159,4 +9160,8 @@ tr.cart-product {
    justify-self: end;
  }
 
+}
+
+.carrinho-checkout .search-header {
+   display: none;
 }
