@@ -483,7 +483,6 @@ i.icon-instagram:before {
 
 .canais-contato > ul {
    display: flex;
-   gap: 24px;
 }
 
 .canais-contato .lista-redes ul li i {
@@ -702,7 +701,12 @@ i.icon-instagram:before {
 
 .menu.superior .nivel-um>li:hover {
    background: var(--color-white);
-   border-radius: 8px 8px 0 0;
+   border-radius: 0;
+}
+
+.menu.superior .nivel-um>li:last-child {
+   margin-left: auto;
+   background: #046FB6;
 }
 
 .menu.superior .nivel-um>li:hover > a .titulo,
@@ -5367,7 +5371,7 @@ h2.bn-featured-title {
    top: 0;
    background: #fff;
    border: 0;
-   height: calc(100vh - 58px);
+   height: 100dvh;
    overflow-y: scroll;
    padding: 0;
    z-index: 1000000000000000;
@@ -7564,7 +7568,7 @@ hr {
 /* Base do ícone */
 .menu.superior .nivel-um > li > a > strong::before {
 	content: '';
-	width: 30px;
+	width: 24px;
 	height: 20px;
 	display: block;
 	background: no-repeat center;
@@ -7578,27 +7582,29 @@ hr {
 }
 
 /* PlayStation */
-.menu.superior > .nivel-um > li.categoria-id-17314880 {
-	--icon-normal: url(https://yiazmat1994.github.io/playce/assets/menu-icons/playstation-white.png);
-	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/playstation.png);
+.menu.superior > .nivel-um > li.categoria-id-22673229,
+.menu.superior > .nivel-um > li.categoria-id-22673218 {
+	--icon-normal: url(https://cdn.awsli.com.br/2727/2727537/arquivos/psn.svg);
+	--icon-hover: url(https://cdn.awsli.com.br/2727/2727537/arquivos/psn.svg);
 }
 
-/* PC */
-.menu.superior > .nivel-um > li.categoria-id-20367842 {
-	--icon-normal: url(https://yiazmat1994.github.io/playce/assets/menu-icons/desktop-white.png);
-	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/desktop.png);
+/* Pré-vendas */
+.menu.superior > .nivel-um > li.categoria-id-22673207 {
+	--icon-normal: url(https://cdn.awsli.com.br/2727/2727537/arquivos/ticket.svg);
+	--icon-hover: url(https://cdn.awsli.com.br/2727/2727537/arquivos/ticket.svg);
 }
 
 /* XBOX */
-.menu.superior > .nivel-um > li.categoria-id-17314882 {
-	--icon-normal: url(https://yiazmat1994.github.io/playce/assets/menu-icons/xbox-white.png);
-	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/xbox.png);
+.menu.superior > .nivel-um > li.categoria-id-22673250,
+.menu.superior > .nivel-um > li.categoria-id-22673203 {
+	--icon-normal: url(https://cdn.awsli.com.br/2727/2727537/arquivos/xbox.svg);
+	--icon-hover: url(https://cdn.awsli.com.br/2727/2727537/arquivos/xbox.svg);
 }
 
-/* Nintendo */
-.menu.superior > .nivel-um > li.categoria-id-17316132 {
-	--icon-normal: url(https://yiazmat1994.github.io/playce/assets/menu-icons/nintendo-white.png);
-	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/nintendo.png);
+/* Assinaturas */
+.menu.superior > .nivel-um > li.categoria-id-22673191 {
+	--icon-normal: url(https://cdn.awsli.com.br/2727/2727537/arquivos/gift.svg);
+	--icon-hover: url(https://cdn.awsli.com.br/2727/2727537/arquivos/gift.svg);
 }
 
 /* Jogos */
@@ -7607,10 +7613,10 @@ hr {
 	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/gamepad.png);
 }
 
-/* Gift cards */
-.menu.superior > .nivel-um > li.categoria-id-20367849 {
-	--icon-normal: url(https://yiazmat1994.github.io/playce/assets/menu-icons/gift--white.png);
-	--icon-hover: url(https://yiazmat1994.github.io/playce/assets/menu-icons/gift.png);
+/* Ofertas */
+.menu.superior > .nivel-um > li.categoria-id-22673198 {
+	--icon-normal: url(https://cdn.awsli.com.br/2727/2727537/arquivos/offer.svg);
+	--icon-hover: url(https://cdn.awsli.com.br/2727/2727537/arquivos/offer.svg);
 }
 
 .menu.superior .nivel-um > li > a > strong {
@@ -7723,6 +7729,7 @@ hr {
 
 .submenu-clone {
 	position: relative;
+   display: none;
 }
 
 .submenu-clone .nivel-um .nivel-dois {
@@ -8858,4 +8865,9 @@ a#imprimirBoleto {
       height: 24px;
    }
 
+}
+
+.span12.banner.tarja,
+.barra-inicial .lista-redes {
+   display: none;
 }
