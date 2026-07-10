@@ -5323,7 +5323,7 @@ h2.bn-featured-title {
 
 .produto .conteiner-imagem img {
    max-height: 100%;
-   width: fit-content;
+   width: fit-content!important;
    max-width: fit-content !important;
 }
 
@@ -7073,6 +7073,8 @@ div#login-content > .identificacao {
    border: 0;
    padding: 0;
    margin-bottom: 20px;
+   width: fit-content !important;
+    max-width: fit-content;
 }
 
 .share-menu {
