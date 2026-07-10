@@ -4528,7 +4528,8 @@ input[type="password"] {
 
 @media screen and (max-width: 768px) {
 
-   .faq-categoria h2 {
+   .faq-categoria h2,
+   #descricao:before {
       font-size: 18px;
   }
   
