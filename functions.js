@@ -963,39 +963,34 @@ updateBuyLink();
         `);
     }
 
-// Estrutura para múltiplos produtos
-var faqsPorProduto = [
+// Estrutura do FAQ
+var faqs = [
     {
-        id: '2338722', // ID do produto (classe produto-2338722)
-        titulo: "PlayStation",
-        faqs: [
-            {
-                pergunta: "O que é um Gift Card da PlayStation Store?",
-                resposta: "Um Gift Card da PlayStation Store é um cartão pré-pago que pode ser utilizado para adicionar créditos à sua conta PlayStation, permitindo a compra de jogos, assinaturas e outros conteúdos digitais."
-            },
-            {
-                pergunta: "Como posso resgatar um Gift Card da PlayStation Store?",
-                resposta: "<ol><li>No console PlayStation 4 ou PlayStation 5:<ol type='a'><li>Acesse a PlayStation Store no menu principal.</li><li>Selecione 'Resgatar Códigos'.</li><li>Digite o código do Gift Card e siga as instruções.</li></ol></li><li>Pela web ou aplicativo do PlayStation App:<ol type='a'><li>Faça login na sua conta PlayStation.</li><li>No menu, selecione 'Resgatar Códigos'.</li><li>Digite o código de 12 dígitos do cartão.</li></ol></li></ol>"
-            },
-            {
-                pergunta: "Onde posso comprar Gift Cards da PlayStation Store?",
-                resposta: "Você pode adquirir Gift Cards em lojas físicas, supermercados, lojas online ou diretamente em revendedores autorizados."
-            },
-            {
-                pergunta: "Posso usar um Gift Card para comprar assinaturas do PlayStation Plus?",
-                resposta: "Sim, os créditos adicionados à sua conta com o Gift Card podem ser usados para adquirir assinaturas do PlayStation Plus."
-            },
-            {
-                pergunta: "É possível comprar moedas virtuais de jogos, como V-Bucks do Fortnite, com um Gift Card?",
-                resposta: "Sim, após resgatar o Gift Card, você pode usar o saldo para comprar moedas virtuais de diversos jogos disponíveis na PlayStation Store."
-            }
-        ]
+        pergunta: "O que é um Gift Card da PlayStation Store?",
+        resposta: "Um Gift Card da PlayStation Store é um cartão pré-pago que pode ser utilizado para adicionar créditos à sua conta PlayStation, permitindo a compra de jogos, assinaturas e outros conteúdos digitais."
+    },
+    {
+        pergunta: "Como posso resgatar um Gift Card da PlayStation Store?",
+        resposta: "<ol><li>No console PlayStation 4 ou PlayStation 5:<ol type='a'><li>Acesse a PlayStation Store no menu principal.</li><li>Selecione 'Resgatar Códigos'.</li><li>Digite o código do Gift Card e siga as instruções.</li></ol></li><li>Pela web ou aplicativo do PlayStation App:<ol type='a'><li>Faça login na sua conta PlayStation.</li><li>No menu, selecione 'Resgatar Códigos'.</li><li>Digite o código de 12 dígitos do cartão.</li></ol></li></ol>"
+    },
+    {
+        pergunta: "Onde posso comprar Gift Cards da PlayStation Store?",
+        resposta: "Você pode adquirir Gift Cards em lojas físicas, supermercados, lojas online ou diretamente em revendedores autorizados."
+    },
+    {
+        pergunta: "Posso usar um Gift Card para comprar assinaturas do PlayStation Plus?",
+        resposta: "Sim, os créditos adicionados à sua conta com o Gift Card podem ser usados para adquirir assinaturas do PlayStation Plus."
+    },
+    {
+        pergunta: "É possível comprar moedas virtuais de jogos, como V-Bucks do Fortnite, com um Gift Card?",
+        resposta: "Sim, após resgatar o Gift Card, você pode usar o saldo para comprar moedas virtuais de diversos jogos disponíveis na PlayStation Store."
     }
 ];
 
-// Gera o HTML
+// Cria o HTML
 function criarFaqHtml(faqs, titulo) {
-    var html = '<div class="faq-categoria"><h2>' + (titulo || 'Perguntas Frequentes') + '</h2>';
+    var html = '<div class="faq-categoria">';
+    html += '<h2>' + (titulo || 'Perguntas Frequentes') + '</h2>';
 
     faqs.forEach(function(faq, idx) {
         html += `
@@ -1017,38 +1012,30 @@ function criarFaqHtml(faqs, titulo) {
 
 $(function () {
 
-    // Executa apenas na página de produto
-    if (!$('body').hasClass('pagina-produto')) return;
+    if ($('.pagina-produto').length && $('#descricao').length) {
 
-    faqsPorProduto.forEach(function(produto){
-
-        if ($('body').hasClass('produto-' + produto.id)) {
-
-            // Evita duplicação
-            if ($('#descricao').next('.faq-categoria').length === 0) {
-                $('#descricao').after(
-                    criarFaqHtml(produto.faqs, produto.titulo)
-                );
-            }
-
+        if ($('#descricao').next('.faq-categoria').length === 0) {
+            $('#descricao').after(
+                criarFaqHtml(faqs, 'Perguntas Frequentes')
+            );
         }
 
-    });
+    }
 
 });
 
 // Abrir/fechar FAQ
-$(document).on('click', '.faq-pergunta', function(){
+$(document).on('click', '.faq-pergunta', function () {
 
     var $btn = $(this);
     var $resposta = $btn.next('.faq-resposta');
     var aberto = $btn.attr('aria-expanded') === 'true';
 
-    $('.faq-pergunta').attr('aria-expanded','false');
+    $('.faq-pergunta').attr('aria-expanded', 'false');
     $('.faq-resposta').slideUp(200);
 
-    if (!aberto){
-        $btn.attr('aria-expanded','true');
+    if (!aberto) {
+        $btn.attr('aria-expanded', 'true');
         $resposta.slideDown(200);
     }
 
