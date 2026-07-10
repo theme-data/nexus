@@ -6537,7 +6537,7 @@ form#formCalcularFrete {
 }
 
 .tabela-carrinho .preco-produto .preco-promocional {
-   color: var(--color-black);
+   color: var(--color-white);
    font-size: 16px;
    font-weight: 500;
 }
