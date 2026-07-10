@@ -8481,10 +8481,10 @@ div#formasEnvio {
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-container {
-  box-sizing: border-box;
-  background: #222328;
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+   box-sizing: border-box;
+   background: #1C2210;
+   border-radius: 16px;
+   border: 0;
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-container * {
@@ -8562,6 +8562,7 @@ div#formasEnvio {
   background: url(https://cdn.awsli.com.br/2775/2775575/arquivos/arrow_right_alt.svg)
      center no-repeat;
   margin: 0 !important;
+  display: none;
 }
 
 .pagina-carrinho:not(.carrinho-checkout)
@@ -8785,7 +8786,6 @@ div#formasEnvio {
   padding: 16px 24px;
   font-size: 16px;
   margin: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-total .total strong {
@@ -8851,10 +8851,6 @@ div#formasEnvio {
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-coupon.open .resume-toggle-coupon i {
    transform: rotate(180deg);
 }
-
-  .pagina-carrinho:not(.carrinho-checkout) .cart-resume-subtotal {
-     border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
 
 .append-price {
    display: flex;
@@ -9010,13 +9006,13 @@ div#formasEnvio {
   }
 
   .pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho {
-     display: flex;
-     flex-direction: column;
-     padding: 32px;
-     background: #222328;
-     border-radius: 5px;
-     border: 1px solid rgba(255, 255, 255, 0.1);
-     height: fit-content;
+   display: flex;
+   flex-direction: column;
+   padding: 32px;
+   border-radius: 16px;
+   height: fit-content;
+   background: #1C2210;
+   border: 0;
   }
 
   .pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho > thead {
@@ -9074,4 +9070,8 @@ div#formasEnvio {
 
 .pagina-carrinho {
    background: #11130D;
+}
+
+.pagina-carrinho:not(.carrinho-checkout) .cart-resume-container .acao-editar .selo-ssl {
+   display: none!important;
 }
