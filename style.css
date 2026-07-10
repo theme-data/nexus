@@ -7951,6 +7951,22 @@ a.whatsapp-float-btn:before {
 
 @media screen and (min-width: 768px) {
 
+   .mini-banner {
+      display: flex;
+      gap: 20px;
+  }
+  
+  .mini-banner .modulo.span4 {
+      margin: 0;
+      flex: 1;
+  }
+  
+  .mini-banner:before,
+  .mini-banner:after,
+  .mini-banner > div:not(.modulo.span4) {
+      display: none;
+  }
+
 .append-content-sup {
    display: none;
    opacity: 1;
