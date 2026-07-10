@@ -4358,7 +4358,7 @@ button.about-banner-btn {
 
 .mais-vendidos-destaque + ul .listagem-item .acoes-produto {
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     bottom: 0;
     padding: 0;
     background: none;
@@ -8886,4 +8886,8 @@ a#imprimirBoleto {
 .span12.banner.tarja,
 .barra-inicial .lista-redes {
    display: none;
+}
+
+.slick-slider .slick-prev.slick-disabled, .slick-slider .slick-next.slick-disabled {
+   opacity: .4;
 }
