@@ -966,24 +966,24 @@ updateBuyLink();
 // Estrutura do FAQ
 var faqs = [
     {
-        pergunta: "O que é um Gift Card da PlayStation Store?",
-        resposta: "Um Gift Card da PlayStation Store é um cartão pré-pago que pode ser utilizado para adicionar créditos à sua conta PlayStation, permitindo a compra de jogos, assinaturas e outros conteúdos digitais."
+        pergunta: "O que vou receber quando comprar um jogo ?",
+        resposta: "Uma licença do jogo original para inserir em seu console. Os dados de acesso serão enviados em seu WhatsApp cadastrado em nossa loja. Basta adicionar os dados em seu console para liberar o download do jogo completo no servidor oficial do seu console."
     },
     {
-        pergunta: "Como posso resgatar um Gift Card da PlayStation Store?",
-        resposta: "<ol><li>No console PlayStation 4 ou PlayStation 5:<ol type='a'><li>Acesse a PlayStation Store no menu principal.</li><li>Selecione 'Resgatar Códigos'.</li><li>Digite o código do Gift Card e siga as instruções.</li></ol></li><li>Pela web ou aplicativo do PlayStation App:<ol type='a'><li>Faça login na sua conta PlayStation.</li><li>No menu, selecione 'Resgatar Códigos'.</li><li>Digite o código de 12 dígitos do cartão.</li></ol></li></ol>"
+        pergunta: "É seguro comprar nesta loja?",
+        resposta: "Sim! A Mex Games existe há mais de 3 anos com CNPJ ativo. Somos um ponto de venda OFICIAL de grandes empresas de produtos e serviços digitais. Com mais de 50 mil pedidos enviados e uma base de 5 mil clientes cadastrados em nosso WhatsApp. Pode ter a certeza que está comprando com segurança de uma loja que além de vender jogos proporciona o melhor suporte e experiência do cliente, sendo uma das únicas com escritório físico. Além disso temos diversos depoimentos e feedback positivos em nosso Instagram (@mexgamess)."
     },
     {
-        pergunta: "Onde posso comprar Gift Cards da PlayStation Store?",
-        resposta: "Você pode adquirir Gift Cards em lojas físicas, supermercados, lojas online ou diretamente em revendedores autorizados."
+        pergunta: "Qual o prazo de entrega?",
+        resposta: "O prazo normal para entrega é de até 10 minutos após o seu pagamento aprovado por nossa loja, porém em dias que nossa loja recebe um grande número de pedido esse prazo pode-se estender para alguns minutos a mais. Garantimos a entrega do pedido no mesmo dia em que o pagamento é aprovado. ATENÇÃO: Esse prazo é somente válido em dias úteis de segunda a sexta feira das 11:30 às 22 horas. Sábado de 10 às 18 horas."
     },
     {
-        pergunta: "Posso usar um Gift Card para comprar assinaturas do PlayStation Plus?",
-        resposta: "Sim, os créditos adicionados à sua conta com o Gift Card podem ser usados para adquirir assinaturas do PlayStation Plus."
+        pergunta: "Qual a garantia desse jogo ?",
+        resposta: "Oferecemos garantia vitalícia para todos jogos comprados em nosso site, isso quer dizer que o jogo é seu pra sempre, você pode usar ele ilimitado. Oferecemos suporte permanente para todos jogos comprados em nosso site. Entretanto existem algumas regras para podermos oferecer essa Garantia e Suporte: Respeitar o guia de instalação. Não alterar os dados da conta, email, senha, telefone ou qualquer outra coisa. Não acessar a conta em mais de 1 console, emprestar ou compartilhar o jogo. Não pode usar a licença de uma forma diferente que foi estipulada para você. Se você seguir essas regras você terá acesso ao jogo pra sempre. Garantindo total tranquilidade para você aproveitar seus jogos sempre que desejar."
     },
     {
-        pergunta: "É possível comprar moedas virtuais de jogos, como V-Bucks do Fortnite, com um Gift Card?",
-        resposta: "Sim, após resgatar o Gift Card, você pode usar o saldo para comprar moedas virtuais de diversos jogos disponíveis na PlayStation Store."
+        pergunta: "Ao trocar de console, vender ou em caso de defeito, eu corro o risco de perder meus jogos?",
+        resposta: "Em caso de defeitos, todos os jogos comprados em nossa loja têm garantia de reinstalação, basta você salvar os dados de acesso e inserir novamente em seu console e a licença será ativada novamente em seu console novo, ou no mesmo console, caso ele seja formatado. Após feito isso, basta fazer o download do jogo e instalar novamente e tudo volta a funcionar como antes. Em caso de venda ou troca de console, HD ou SSD, para você não perder o seu jogo, envie um vídeo em nosso WhatsApp DELETANDO os dados de acesso ao jogo do console que vai vender para que a licença seja removida dele e salve ela ou anote. Quando você comprar um novo console, basta você inserir novamente os dados de acesso ao novo console para que a licença seja ativada nele. Desta forma, você vai poder fazer um novo download do jogo em seu console através dos servidores oficiais do console."
     }
 ];
 
