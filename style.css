@@ -1278,7 +1278,7 @@ i.icon-instagram:before {
 }
 
 .pagina-login .caixa-sombreada fieldset legend {
-   color: var(--color-black);
+   color: var(--color-white);
    padding-bottom: 32px;
    font-size: 18px;
    font-weight: normal;
@@ -1310,11 +1310,11 @@ i.icon-instagram:before {
 }
 
 .pagina-login .caixa-sombreada fieldset .recuperar-senha i {
-   color: #000;
+   color: #fff;
 }
 
 .pagina-login .caixa-sombreada fieldset .recuperar-senha {
-   color: #000;
+   color: #fff;
    opacity: 1;
    font-size: 14px;
    display: flex;
@@ -3975,6 +3975,7 @@ button.btn.btn-filtrar:after {
    height: 20px;
    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/plus-faq.svg) center no-repeat;
    background-size: 100%;
+   flex: none;
 }
 
 .faq-resposta {
@@ -4526,6 +4527,14 @@ input[type="password"] {
 /* Código Mobile */
 
 @media screen and (max-width: 768px) {
+
+   .faq-categoria h2 {
+      font-size: 18px;
+  }
+  
+  .faq-pergunta {
+      text-align: left;
+  }
 
    .support-float.centered {
       position: fixed;
@@ -6834,7 +6843,7 @@ form#formCalcularFrete {
 }
 
 .caixa-sombreada.borda-principal {
-   border: 1px solid #d8d8d8;
+   border: 1px solid #ffffff20;
    border-radius: 8px;
    box-shadow: none;
 }
