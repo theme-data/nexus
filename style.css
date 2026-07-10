@@ -204,7 +204,7 @@ h6,
 
 .cabecalho-interno .titulo small {
    font-size: 15px;
-   color: var(--color-black);
+   color: var(--color-white);
    opacity: 1;
 }
 
@@ -279,7 +279,7 @@ input[type="text"]:focus {
 
 
 .caixa-destaque * {
-   color: #000;
+   color: #fff;
 }
 
 .spanNone.banner.tarja:not(:has(a)) {
@@ -4072,7 +4072,7 @@ button.btn.btn-filtrar:after {
    margin: 0;
    text-align: center;
    padding: 60px;
-   background: #f1f1f1;
+   background: #1C2210;
    border-radius: 10px;
    width: 100%;
 }
@@ -4111,13 +4111,13 @@ button.btn.btn-filtrar:after {
 
 .conteudo.span9.no-results>.row-fluid .span6 ol li {
    font-size: 14px;
-   color: #000;
+   color: #fff;
 }
 
 .pagina-busca p b {
    font-size: 16px;
    font-weight: normal;
-   color: #000;
+   color: #fff;
 }
 
 /* .pagina-carrinho .caixa-destaque h1:before {
