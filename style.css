@@ -9268,13 +9268,13 @@ tr.cart-product {
 .how-works .h-steps li {
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 16px;
 }
 
 .how-works .h-steps li > strong {
     width: 40px;
     height: 40px;
-    flex: 0 0 54px;
+    flex: 0 0 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9302,7 +9302,7 @@ tr.cart-product {
 .how-works .h-steps li p {
     margin: 0;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.35;
 }
