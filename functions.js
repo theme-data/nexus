@@ -1347,3 +1347,86 @@ $(document).ready(function () {
     $('.cart-resume-coupon').toggleClass('open');
   });
   
+
+  $('.pagina-inicial .vitrine-22673218').before(`
+    <div class="how-works">
+    
+        <div class="h-video">
+    
+            <div class="h-title">
+                <p>COMO FUNCIONA</p>
+    
+                <h3>
+                    Comprar na Mex Games é rápido e seguro.
+                    <span>Assista!</span>
+                </h3>
+            </div>
+    
+            <div class="h-video-frame">
+                <iframe
+                    src="https://www.youtube.com/embed/PqRMV36VPnU?si=KYHnzDq4U12so5CI"
+                    title="Como comprar na Mex Games"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+        </div>
+    
+        <div class="h-steps">
+    
+            <div class="h-title">
+                <p>PORQUE COMPRAR NA</p>
+                <h3>Mex Games</h3>
+            </div>
+    
+            <ul>
+    
+                <li>
+                    <strong>1</strong>
+    
+                    <div>
+                        <span>Escolha seu jogo</span>
+                        <p>Navegue e adicione no carrinho.</p>
+                    </div>
+                </li>
+    
+                <li>
+                    <strong>2</strong>
+    
+                    <div>
+                        <span>Finalize o pagamento</span>
+                        <p>Ambiente 100% seguro e protegido.</p>
+                    </div>
+                </li>
+    
+                <li>
+                    <strong>3</strong>
+    
+                    <div>
+                        <span>Receba sua chave por e-mail ou WhatsApp</span>
+                        <p>Envio em até 10 minutos.</p>
+                    </div>
+                </li>
+    
+                <li>
+                    <strong>4</strong>
+    
+                    <div>
+                        <span>Ative e jogue.</span>
+    
+                        <p>
+                            Acesse a conta e
+                            <em>divirta-se!</em>
+                        </p>
+                    </div>
+                </li>
+    
+            </ul>
+    
+        </div>
+    
+    </div>
+    `);
