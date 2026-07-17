@@ -9174,15 +9174,17 @@ tr.cart-product {
 }
 
 .how-works {
-    width: 100%;
-    display: grid;
-    grid-template-columns: minmax(0, 2fr) minmax(340px, 1fr);
-    gap: 54px;
-    padding: 64px 104px 104px;
-    background: #18220f;
-    border-radius: 18px;
-    color: #ffffff;
-    font-family: inherit;
+   width: 100%;
+   max-width: 1300px;
+   display: grid;
+   grid-template-columns: minmax(0, 2fr) minmax(340px, 1fr);
+   gap: 54px;
+   padding: 80px;
+   background: #18220f;
+   border-radius: 18px;
+   color: #ffffff;
+   font-family: inherit;
+   margin: 20px auto;
 }
 
 /* Títulos */
@@ -9194,7 +9196,7 @@ tr.cart-product {
 .how-works .h-title p {
     margin: 0 0 12px;
     color: #c2ff5c;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
@@ -9203,7 +9205,7 @@ tr.cart-product {
 .how-works .h-title h3 {
     margin: 0;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.25;
 }
@@ -9279,7 +9281,7 @@ tr.cart-product {
     background: #c2ff5c;
     border-radius: 13px;
     color: #10180a;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1;
 }
@@ -9300,7 +9302,7 @@ tr.cart-product {
 .how-works .h-steps li p {
     margin: 0;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.35;
 }
