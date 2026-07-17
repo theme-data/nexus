@@ -9178,7 +9178,7 @@ tr.cart-product {
    max-width: 1300px;
    display: grid;
    grid-template-columns: minmax(0, 2fr) minmax(340px, 1fr);
-   gap: 54px;
+   gap: 40px;
    padding: 80px;
    background: #18220f;
    border-radius: 18px;
@@ -9195,7 +9195,7 @@ tr.cart-product {
 
 .how-works .h-title p {
     margin: 0 0 12px;
-    color: #c2ff5c;
+    color: #CFFF75;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
@@ -9211,7 +9211,7 @@ tr.cart-product {
 }
 
 .how-works .h-title h3 span {
-    color: #c2ff5c;
+    color: #CFFF75;
     font-weight: 600;
 }
 
@@ -9242,7 +9242,7 @@ tr.cart-product {
     min-width: 0;
     display: flex;
     flex-direction: column;
-    padding-left: 52px;
+    padding-left: 40px;
     border-left: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -9272,13 +9272,13 @@ tr.cart-product {
 }
 
 .how-works .h-steps li > strong {
-    width: 54px;
-    height: 54px;
+    width: 40px;
+    height: 40px;
     flex: 0 0 54px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #c2ff5c;
+    background: #CFFF75;
     border-radius: 13px;
     color: #10180a;
     font-size: 16px;
@@ -9294,7 +9294,7 @@ tr.cart-product {
     display: block;
     margin-bottom: 6px;
     color: rgba(255, 255, 255, 0.82);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.35;
 }
@@ -9308,7 +9308,7 @@ tr.cart-product {
 }
 
 .how-works .h-steps li p em {
-    color: #c2ff5c;
+    color: #CFFF75;
     font-style: normal;
 }
 
@@ -9348,7 +9348,7 @@ tr.cart-product {
     .how-works {
         display: flex;
         flex-direction: column;
-        gap: 48px;
+        gap: 40px;
         padding: 40px 24px;
         border-radius: 14px;
     }
@@ -9391,8 +9391,8 @@ tr.cart-product {
     }
 
     .how-works .h-steps li > strong {
-        width: 46px;
-        height: 46px;
+        width: 40px;
+        height: 40px;
         flex-basis: 46px;
         border-radius: 11px;
         font-size: 17px;
