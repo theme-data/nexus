@@ -1,0 +1,89 @@
+<div class="conteiner slide-maisvendido">
+    <div class="row-fluid">
+        <a class="titulo-categoria borda-principal cor-principal">
+            <strong>Lançamentos Mais Vendidos</strong>
+        </a>
+        <div id="sliderNew">
+            <div id="containerSlider">
+
+<!-- 007 --><div class="slider-new"><a href="/buscar?q=007"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/007-320x600.png" alt=""></a></div>
+<!-- LEGO BATMAN --><div class="slider-new"><a href="/buscar?q=LEGO+BATMAN%3A+O+LEGADO+DO+CAVALEIRO+DAS+TREVAS"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/lego-batman-320x600.png" alt=""></a></div>
+<!-- FORZA 6 --><div class="slider-new"><a href="/buscar?q=forza+6"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/forza-h-6-320x600.png" alt=""></a></div>
+<!-- PRAGMATA --><div class="slider-new"><a href="/buscar?q=pragmata"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-pragmata-320x600.png" alt=""></a></div>
+<!-- RE REQUIEM --><div class="slider-new"><a href="/buscar?q=requiem"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-resident-requein-320x600.png" alt=""></a></div>
+<!-- CRISMON --><div class="slider-new"><a href="/buscar?q=CRIMSON+DESERT"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-crimson-desert-320x600.png" alt=""></a></div>
+<!-- SAROS --><div class="slider-new"><a href="/buscar?q=SAROS - PS5"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-saros-320x600.png" alt=""></a></div>
+<!-- FC26 --><div class="slider-new"><a href="/buscar?q=fc+26"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-fc26-320x600.png" alt=""></a></div>
+<!-- NIOH 3 --><div class="slider-new"><a href="/buscar?q=nioh+3"><img src="https://cdn.awsli.com.br/2833/2833026/arquivos/mais-vendidos-nioh3-320x600.png" alt=""></a></div>
+
+
+              
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+#sliderNew {
+    height: 600px;
+    width: 1100px;
+    margin: 0 auto 0 -10px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.slider-new {
+    float:left;
+    text-align:center;
+    text-align: center;
+    overflow: hidden;
+    height: 600px;
+    margin: 0 10px 0 0;    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.slider-new img {
+    min-height: 100%;
+    max-width: initial;
+    width: 320px;
+}
+
+.conteiner.slide-maisvendido {
+    padding: 0;
+}
+
+</style>
+
+
+<script>
+$(document).ready(function () {
+
+    var show = 4;
+    var larg = $('#sliderNew').width() / show;
+    var compr = $('.slider-new').length;
+    
+    $('.slider-new').width(larg);
+    $('#containerSlider').width(larg * compr)
+    
+    function sliderNew() {
+        $('.slider-new:first-child').animate({
+            marginLeft: -larg
+        }, 'slow', function () {
+            $(this).appendTo($(this).parent()).css({marginLeft: 0});
+        });
+    }
+    var tempo = setInterval(sliderNew, 2000);
+    
+    $('#sliderNew').hover(function(){
+        clearInterval(tempo);
+    },function(){
+        tempo = setInterval(sliderNew, 2000);
+    });
+
+    $('#listagemProdutos > ul:nth-child(2)').append($('.slide-maisvendido'));
+});
+</script>
