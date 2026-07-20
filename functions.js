@@ -78,7 +78,7 @@ $('.barra-inicial .conteiner > .row-fluid').prepend(`
            <i></i><span>Jogos originais</span>
        </div>
        <div>
-           <i></i><span>Receba em até 30 minutos</span>
+           <i></i><span>Receba em até 10 minutos</span>
        </div>
        <div>
            <i></i><span>Segurança garantida</span>
