@@ -1255,7 +1255,7 @@ $(document).ready(function () {
         </div>
         <div class="cart-email-send">
           <i></i>
-          <span>Envio feito por e-mail.</span>
+          <span>Envio feito por e-mail ou WhatsApp.</span>
         </div>
       </div>
     `);
