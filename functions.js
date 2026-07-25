@@ -367,7 +367,7 @@ $(document).ready(function() {
     var videoId = "ENf1yjCMpZo";
     var bannerVideoWidth = 360;
     var bannerVideoHeight = 202;
-    var bannerImgUrl = "https://cdn.awsli.com.br/2391/2391623/arquivos/bg-home-2.png"; // URL da imagem do banner
+    var bannerImgUrl = "https://cdn.awsli.com.br/2984/2984134/arquivos/banner-bg.png"; // URL da imagem do banner
     
     // Opções para ativar/desativar seções
     var mostrarGamePromo = false;       // true para mostrar, false para ocultar a seção "game-promo"

@@ -265,9 +265,10 @@ h6,
 /* Ajustes gerais */
 
 .pagina-inicial {
-   background-image: var(--bg-home);
+   background: #000D20 url(https://cdn.awsli.com.br/2984/2984134/arquivos/bg-home-ne.png) top center;
    background-position: center 0px;
-   background-repeat: repeat-x;
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -2846,7 +2847,7 @@ a {
    bottom: 0;
    background: rgba(0, 0, 0, .7);
    border-radius: 4px;
-   display: flex;
+   display: none;
    align-items: center;
    gap: 8px;
    padding: 10px;
