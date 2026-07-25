@@ -528,14 +528,14 @@ div#avisoEnvioCart {
 /* Ajustes cabeçalho */
 
 .barra-inicial {
-   background: var(--color-primary);
+   background: #000D20;
 }
 
 .canais-contato .icon-comment:before {
    content: "";
    width: 18px;
    height: 18px;
-   background: var(--icon-chat);
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/comment.svg) center no-repeat;
 }
 
 .canais-contato ul li > a {
@@ -632,15 +632,18 @@ i.icon-instagram:before {
 }
 
 .append-benefits > div:first-child i:before {
-   background: var(--icon-key);
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/gamepad.svg) center no-repeat;
    background-size: 100%;
-   opacity: .7;
+}
+
+.append-benefits > div:nth-child(2) i:before {
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/mail.svg) center no-repeat;
+   background-size: 100%;
 }
 
 .append-benefits > div:last-child i:before {
-   background: var(--icon-lock);
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/lock.svg) center no-repeat;
    background-size: 100%;
-   opacity: .7;
 }
 
 #cabecalho {
@@ -7749,6 +7752,7 @@ hr {
 
 .submenu-clone {
 	position: relative;
+   display: none;
 }
 
 .submenu-clone .nivel-um .nivel-dois {
@@ -9079,4 +9083,16 @@ a#imprimirBoleto {
       width: 319px;
    }
 
+}
+
+/* Novidades Nexus */
+
+.menu.superior .categoria-id-24388835 > a > .titulo {
+   display: none;
+}
+
+.menu.superior .categoria-id-24388835 > a {
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/novidades-nexus.svg) center no-repeat;
+   width: 217px;
+   height: 40px;
 }

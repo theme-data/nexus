@@ -70,7 +70,10 @@ $(document).ready(function() {
     $('.barra-inicial .conteiner > .row-fluid').prepend(`
         <div class="append-benefits">
            <div>
-               <i></i><span>Keys originais</span>
+               <i></i><span>Jogos originais</span>
+           </div>
+           <div>
+               <i></i><span>Receba em até 30 minutos</span>
            </div>
            <div>
                <i></i><span>Segurança garantida</span>
