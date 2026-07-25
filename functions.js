@@ -40,8 +40,8 @@ $(document).ready(function() {
                     <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/footer-envelope.svg"/>
                     <div>
                         <span>
-                            <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                            <span> Playce - Games e Gift cards </span>
+                            <a href="mailto:nexusgamesdigitalstore@outlook.com">nexusgamesdigitalstore@outlook.com</a>
+                            <span> Nexus Games </span>
                         </span>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ $(document).ready(function() {
                 <div>
                     <strong>Estamos no WhatsApp:</strong>
                     <span>
-                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" rel="noopener noreferrer">(61) 9962-7041</a>
+                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" rel="noopener noreferrer">(51) 93618-9806</a>
                     </span>
                 </div>
             </div>
@@ -111,23 +111,18 @@ $(document).ready(function() {
         <div class="about-banner">
           <div class="about-banner-content">
             <div class="about-banner-icon-title">
-              <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote Playce" class="about-banner-icon" />-->
+              <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote" class="about-banner-icon" />-->
               <div class="about-banner-title">
-                <h2>Gift Cards Online com Entrega Imediata e Pagamento Seguro | Playce</h2>
+                <h2>Jogos digitais com entrega em até 30 minutos - Nexus Games</h2>
               </div>
             </div>
             <div class="about-banner-description">
-              <p>Na Playce você compra gift cards online com entrega imediata, pagamento seguro e ativação rápida. Somos uma loja especializada na venda de gift card digital para PlayStation, PSN, Xbox, Nintendo, Google Play, Steam e outras plataformas. Se você procura onde comprar gift card confiável, com envio automático e suporte eficiente, aqui é o lugar certo.</p>
               <p>
-                Trabalhamos com código digital original, enviado por e-mail ou disponibilizado na área do cliente logo após a confirmação do pagamento. Nosso sistema é automatizado, garantindo agilidade na entrega e segurança na transação. Aceitamos Pix, cartão de crédito e outros meios de pagamento seguros, oferecendo praticidade para quem deseja comprar gift card online no Brasil.
+                A **Nexus Games Digital** é uma loja especializada em jogos digitais para **PlayStation 4 e PlayStation 5**, criada para oferecer uma experiência de compra simples, rápida e segura.
                 <br><br>
-                Na Playce, você encontra gift card PSN Brasil, gift card Xbox Live, crédito Google Play, saldo Steam e cartões presente digitais com diferentes valores. Ideal para adicionar saldo à conta, comprar jogos, assinaturas, conteúdos extras, aplicativos, filmes e muito mais. Se você busca gift card barato, com preço competitivo e envio rápido, temos as melhores opções.
+                Com um catálogo variado, preços competitivos e jogos 100% originais, a Nexus conecta jogadores aos títulos que desejam de maneira prática e acessível. Além disso, oferece atendimento personalizado e suporte durante todo o processo de compra, garantindo mais tranquilidade para o cliente.
                 <br><br>
-                Nossa loja virtual é confiável, com proteção antifraude e atendimento especializado. Prezamos pela segurança dos dados, transparência nas informações e rapidez na liberação do código. Ao comprar gift card digital na Playce, você recebe um produto oficial, pronto para resgatar na plataforma desejada.
-                <br><br>
-                Seja para uso próprio ou para presentear, comprar gift card online é a forma mais prática e segura de adquirir créditos digitais. Escolha o valor, finalize a compra e receba seu código em poucos minutos. A Playce é referência em gift cards digitais com entrega rápida, suporte eficiente e experiência de compra simples.
-                <br><br>
-                Garanta agora seu gift card online com envio imediato e aproveite todas as vantagens de comprar em uma loja especializada, segura e focada em agilidade.
+                Na Nexus Games Digital, você encontra grandes lançamentos, clássicos indispensáveis e promoções especiais para ampliar sua biblioteca, economizar e aproveitar ainda mais o seu PlayStation.
               </p>
             </div>
             <button class="about-banner-btn" type="button">
@@ -135,7 +130,7 @@ $(document).ready(function() {
             </button>
           </div>
           <div class="about-banner-image">
-            <img src="https://cdn.awsli.com.br/2391/2391623/arquivos/char-playce-1.png" alt="Personagem Samurai" />
+            <img src="https://cdn.awsli.com.br/2984/2984134/arquivos/about-image.png" alt="Personagem Samurai" />
           </div>
         </div>
         `);
@@ -606,7 +601,7 @@ $(document).ready(function() {
             if ($('.conteudo-topo .sign-up-header').length === 0) {
                 $('.conteudo-topo .inferior .busca-mobile').after(`
                     <div class="sign-up-header">
-                        <a href="https://www.playce.com.br/conta/login">
+                        <a href="./conta/login">
                             <span>Entrar</span>
                             <i class="user"></i>
                         </a>
@@ -769,8 +764,8 @@ $(document).ready(function() {
                         <div>
                             <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                             <div>
-                            <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                            <span> Playce - Games e Gift cards </span>
+                            <a href="mailto:nexusgamesdigitalstore@outlook.com">nexusgamesdigitalstore@outlook.com</a>
+                            <span>Nexus Games</span>
                             </div>
                         </div>
                         </div>
@@ -779,7 +774,7 @@ $(document).ready(function() {
                         <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                         <div>
                             <strong>Estamos no WhatsApp:</strong>
-                            <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                            <a href="https://wa.me/5551936189806?text=Ol%C3%A1!%20Preciso%20de%20ajuda.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
                         </div>
                     </div>
                 </div>
@@ -804,8 +799,8 @@ $(document).ready(function() {
                                     <div>
                                         <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                                         <div>
-                                        <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                                        <span> Playce - Games e Gift cards </span>
+                                        <a href="mailto:nexusgamesdigitalstore@outlook.com">nexusgamesdigitalstore@outlook.com</a>
+                                        <span> Nexus Games </span>
                                         </div>
                                     </div>
                                     </div>
@@ -814,7 +809,7 @@ $(document).ready(function() {
                                     <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                                     <div>
                                         <strong>Estamos no WhatsApp:</strong>
-                                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
                                     </div>
                                 </div>
                             </div>
@@ -852,15 +847,15 @@ $(document).ready(function() {
                     <span class="icon-contato"></span>
                     <span class="floating-bar-label">Contato</span>
                   </a>
-                  <a class="floating-bar-item" href="https://www.playce.com.br/conta/login" onclick="window.location.href='/conta/login'; return false;">
+                  <a class="floating-bar-item" href="./conta/login" onclick="window.location.href='/conta/login'; return false;">
                     <span class="icon-conta"></span>
                     <span class="floating-bar-label">Conta</span>
                   </a>
-                  <a class="floating-bar-item" href="https://www.playce.com.br/conta/pedido/listar" onclick="window.location.href='/conta/pedido/listar'; return false;">
+                  <a class="floating-bar-item" href="./conta/pedido/listar" onclick="window.location.href='/conta/pedido/listar'; return false;">
                     <span class="icon-pedidos"></span>
                     <span class="floating-bar-label">Meus códigos</span>
                   </a>
-                  <!--<a class="floating-bar-item" href="https://www.playce.com.br/favoritos">
+                  <!--<a class="floating-bar-item" href="./favoritos">
                     <span class="icon-favoritos"></span>
                     <span class="floating-bar-label">Favoritos</span>
                   </a>-->
@@ -879,7 +874,7 @@ $(document).ready(function() {
             if ($('#cabecalho .sign-up-header').length === 0) {
                 $('#cabecalho .span3 > .logo').after(`
                     <div class="sign-up-header">
-                        <a href="https://www.playce.com.br/conta/login">
+                        <a href="./conta/login">
                             <i class="user"></i>
                         </a>
                     </div>    
@@ -961,8 +956,8 @@ $(document).ready(function() {
                         <div>
                           <img alt="Envie uma mensagem" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-mail.svg"/>
                           <div>
-                            <a href="mailto:contato@playce.com.br">contato@playce.com.br</a>
-                            <span> Playce - Games e Gift cards </span>
+                            <a href="mailto:nexusgamesdigitalstore@outlook.com">nexusgamesdigitalstore@outlook.com</a>
+                            <span> Nexus Games </span>
                           </div>
                         </div>
                       </div>
@@ -971,7 +966,7 @@ $(document).ready(function() {
                         <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                         <div>
                           <strong>Estamos no WhatsApp:</strong>
-                          <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(61) 9962-7041</a>
+                          <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
                         </div>
                       </div>
                     </div>
@@ -1461,7 +1456,7 @@ $(document).ready(function() {
     
     if (!orderId) return;
     
-    var orderUrl = `https://www.playce.com.br/conta/pedido/${orderId}/listar_reduzido`;
+    var orderUrl = `./conta/pedido/${orderId}/listar_reduzido`;
     
     // =====================================================
     // PEDIDO PAGO (alert-success)
