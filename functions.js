@@ -548,31 +548,8 @@ $(document).ready(function() {
             $(this).removeAttr('data-target data-toggle');
         });
     
-    // Input de quantidade antes do botão de comprar
-    $('.listagem-item .botao-comprar').each(function() {
-        // Evita duplicar o input se já existir
-        if($(this).prev('.quantidade-wrapper').length === 0) {
-            var quantidadeHtml = '<div class="quantidade-wrapper">' +
-                '<button type="button" class="btn-quantidade btn-menos" >-</button>' +
-                '<input type="number" min="1" value="1" class="input-quantidade" />' +
-                '<button type="button" class="btn-quantidade btn-mais">+</button>' +
-                '</div>';
-            $(quantidadeHtml).insertBefore($(this));
-        }
-    });
-    
     // Após inserir os inputs, force o slick a recalcular
     $('.slick-initialized').slick('setPosition');
-    
-    // Atualiza o link ao alterar a quantidade
-    function atualizarHref($input) {
-        var quantidade = parseInt($input.val(), 10);
-        if (isNaN(quantidade) || quantidade < 1) quantidade = 1;
-        $input.val(quantidade);
-        var $botao = $input.closest('.quantidade-wrapper').next('.botao-comprar');
-        var hrefOriginal = $botao.attr('href').replace(/\/adicionar\/(\d+)?$/, '/adicionar');
-        $botao.attr('href', hrefOriginal + '/' + quantidade);
-    }
     
     // Eventos para input manual
     $(document).on('input change', '.input-quantidade', function() {
@@ -1122,10 +1099,6 @@ $(document).ready(function() {
                    <span>* Todos os produtos do nosso site <strong>são códigos 100% originais</strong>, enviados por e-mail.</span>
                  </div>
             `);
-        }
-    
-        if ($('.produto .principal > .acoes-produto .add-cart-product').length === 0) {
-            $('.produto .principal > .acoes-produto .comprar .botao.principal').clone().text('Adicionar ao carrinho').addClass('add-cart-product botao-comprar-ajax').appendTo($('.produto .principal > .acoes-produto'));
         }
     
     // Estrutura para múltiplas categorias, cada uma com seu próprio FAQ e título customizável
