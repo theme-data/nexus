@@ -9096,3 +9096,37 @@ a#imprimirBoleto {
    width: 217px;
    height: 40px;
 }
+
+/* Lateral full banner */
+
+.lateral-fulbanner .slides {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+}
+
+li.flex-active-slide {}
+
+.lateral-fulbanner .slides>li {
+   opacity: 1!important;
+}
+
+.banner.cheio {
+   display: flex;
+   flex-direction: column;
+}
+
+.banner.cheio > .modulo.span3 {
+   width: 100%;
+   margin: 0;
+   height: fit-content;
+}
+
+.lateral-fulbanner {
+   position: relative;
+}
+
+.banner.cheio > .span9 {
+   width: 100%;
+   margin-bottom: 10px;
+}
