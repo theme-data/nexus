@@ -23,7 +23,7 @@
    /* Icones
       ----------------------------------------------------------------------- */
    --icon-user: url('https://cdn.awsli.com.br/2830/2830294/arquivos/user.svg');
-   --icon-search: url('https://cdn.awsli.com.br/2830/2830294/arquivos/search.svg');
+   --icon-search: url('https://cdn.awsli.com.br/2984/2984134/arquivos/search.svg');
    --icon-cart: url('https://cdn.awsli.com.br/2830/2830294/arquivos/shopping-bag.svg');
    --icon-purchase: url('https://cdn.awsli.com.br/2830/2830294/arquivos/purchase.svg');
    --icon-chev-right: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-right.svg');
@@ -498,12 +498,12 @@ div#avisoEnvioCart {
    top: 0;
    border: 0;
    background: none;
-   right: 0;
+   right: auto;
+   left: 0;
    height: 36px;
    display: flex;
    align-items: center;
    box-shadow: none;
-   top: 2px;
 }
 
 .busca #form-buscar #auto-complete {
@@ -512,7 +512,7 @@ div#avisoEnvioCart {
    height: 36px;
    background-color: var(--color-half-white);
    border-radius: var(--border-radius-md);
-   padding: 8px 46px 8px 16px !important;
+   padding: 8px 16px 8px 48px !important;
    border-color: var(--color-half-white);
    transition: all .3s;
    text-overflow: ellipsis;
@@ -781,10 +781,10 @@ i.icon-instagram:before {
    font-size: 10px;
 }
 
-.menu.superior .nivel-um>li:hover {
+/* .menu.superior .nivel-um>li:hover {
    background: var(--color-white);
    border-radius: 8px 8px 0 0;
-}
+} */
 
 .menu.superior .nivel-um>li:hover > a .titulo,
 .menu.superior .nivel-um>li:hover > a i {
