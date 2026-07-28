@@ -854,7 +854,7 @@ i.icon-instagram:before {
 .listagem .titulo-categoria,
 .categorias-section .titulo-categoria {
    font-size: 24px;
-   color: var(--color-black);
+   color: var(--color-white);
    display: flex;
    justify-content: space-between;
    border: 0;
@@ -993,23 +993,19 @@ i.icon-instagram:before {
 
 .listagem .listagem-item {
    margin: 12px !important;
-   padding: 12px;
-   background: var(--color-white);
+   padding: 0px;
+   background: #051A39;
    border-radius: var(--border-radius-md);
    overflow: hidden;
    display: flex;
    flex-direction: column;
-   border: 1px solid var(--border-color);
+   border: 0;
 }
 
 .listagem .span3 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
    /* height: 285px; */
    height: fit-content;
 }
-
-.imagem-produto:not(:has(+ .badge-category-list)) .imagem-principal {
-   border-radius: 5px;
- }
 
 .listagem .imagem-produto img {
    position: relative;
@@ -1047,6 +1043,7 @@ i.icon-instagram:before {
    min-height: 54px;
    letter-spacing: -0.4px;
    font-weight: 400;
+   color: var(--color-white);
 }
 
 .listagem .preco-produto .bandeira-promocao {
