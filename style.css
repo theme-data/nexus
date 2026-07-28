@@ -5,8 +5,8 @@
    /* Cores
       ----------------------------------------------------------------------- */
    --bg-store-color: #FFFFFF;
-   --color-primary: #E9222A;
-   --button-hover: #B0292F;
+   --color-primary: #0073EE;
+   --button-hover: #005cbe;
    --color-secondary: #33373C;
    --color-success: #28a745;
    --color-danger: #dc3545;
@@ -1715,6 +1715,11 @@ button.qty-btn.qty-minus:hover,
 button.qty-btn.qty-plus:hover{
    background-color: #f1f1f1;
    border-radius: 999px;
+}
+
+.produto div.principal .acoes-produto {
+   display: flex;
+   flex-direction: column;
 }
 
 .produto .acoes-produto .comprar .botao.principal {
