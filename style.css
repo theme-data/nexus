@@ -948,8 +948,8 @@ i.icon-instagram:before {
 
 .listagem-item .preco-produto .preco-parcela strong,
 .listagem-item .preco-produto .preco-parcela {
-    font-size: 14px;
-    color: #fff;
+    font-size: 14px!important;
+    color: #fff!important;
     font-weight: normal;
 }
 
@@ -1124,12 +1124,10 @@ i.icon-instagram:before {
 }
 
 .listagem .listagem-item .preco-produto strong {
-   margin: 0;
-}
-
-.listagem .listagem-item .preco-produto strong {
    font-size: 18px;
    font-weight: 500;
+   margin: 0;
+   color: #91C6FF;
 }
 
 .listagem .listagem-item .nome-produto, .listagem .listagem-item .preco-produto strong {
@@ -3132,6 +3130,7 @@ a {
    content: "Comprar agora";
    font-size: 14px !important;
    color: #000!important;
+   font-weight: 600;
 }
 
 .listagem-item .acoes-produto .botao-comprar i {
@@ -4461,7 +4460,8 @@ button.about-banner-btn {
     flex-direction: row;
     width: 100%;
     align-items: center;
-    padding: 0;
+    padding: 10px;
+    overflow: visible;
 }
 
 .mais-vendidos-destaque + ul .span3 .imagem-produto, .mais-vendidos-destaque + ul.produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
@@ -4472,6 +4472,7 @@ button.about-banner-btn {
 
 .mais-vendidos-destaque + ul .preco-produto>div {
    margin: 0;
+   display: none;
 }
 
 .mais-vendidos-destaque + ul .listagem-item .nome-produto, .mais-vendidos-destaque + ul .produtos-carrossel[data-produtos-linha="4"] .listagem-item .nome-produto {
@@ -4488,6 +4489,7 @@ button.about-banner-btn {
     right: 16px;
     left: auto;
     bottom: 12px;
+    opacity: 1;
 }
 
 .mais-vendidos-destaque + ul .listagem-linha li.slick-slide .listagem-item:hover .acoes-produto {
@@ -4501,6 +4503,7 @@ button.about-banner-btn {
 .mais-vendidos-destaque + ul .listagem-item .acoes-produto .botao-comprar {
     padding: 0 16px;
     gap: 4px;
+    max-height: 34px;
 }
 
 .mais-vendidos-destaque + ul .listagem-linha li.slick-slide .listagem-item .bandeiras-produto {
@@ -4524,19 +4527,24 @@ button.about-banner-btn {
 
 .mais-vendidos-destaque + ul .listagem-linha li.slick-slide .listagem-item:after {
    content: "1";
-   width: 26px;
-   height: 26px;
-   background: #E9E9E9;
+   width: 36px;
+   height: 36px;
+   background: #0056B330;
    display: flex;
    align-items: center;
    justify-content: center;
    font-size: 16px;
    font-weight: bold;
-   color: var(--color-black);
+   color: var(--color-white);
    border-radius: 4px;
    position: absolute;
-   right: 16px;
-   top: 16px;
+   left: -10px;
+   top: -10px;
+   border: 1px solid #ffffff20;
+}
+
+.mais-vendidos-destaque .listagem-item .acoes-produto .botao-comprar:after {
+   content: "Comprar";
 }
 
 .mais-vendidos-destaque + ul .listagem-linha li.slick-slide:nth-child(2) .listagem-item:after {
