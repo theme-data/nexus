@@ -22,9 +22,9 @@
 
    /* Icones
       ----------------------------------------------------------------------- */
-   --icon-user: url('https://cdn.awsli.com.br/2830/2830294/arquivos/user.svg');
+   --icon-user: url('https://cdn.awsli.com.br/2984/2984134/arquivos/user.svg');
    --icon-search: url('https://cdn.awsli.com.br/2984/2984134/arquivos/search.svg');
-   --icon-cart: url('https://cdn.awsli.com.br/2830/2830294/arquivos/shopping-bag.svg');
+   --icon-cart: url('https://cdn.awsli.com.br/2984/2984134/arquivos/cart.svg');
    --icon-purchase: url('https://cdn.awsli.com.br/2830/2830294/arquivos/purchase.svg');
    --icon-chev-right: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-right.svg');
    --icon-chev-right-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/move-front.svg');
@@ -372,8 +372,8 @@ input[type="text"]:focus {
 .icon-shopping-cart:before {
    content: "";
    background: var(--icon-cart);
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
 }
 
 div#avisoEnvioCart {
@@ -530,6 +530,7 @@ div#avisoEnvioCart {
 
 .barra-inicial {
    background: #000D20;
+   border-bottom: 1px solid #ffffff10;
 }
 
 .canais-contato .icon-comment:before {
@@ -686,8 +687,8 @@ i.icon-instagram:before {
 
 .sign-up-header i.user:before {
    content: "";
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
    display: block;
    background: var(--icon-user);
 }
@@ -699,7 +700,7 @@ i.icon-instagram:before {
 }
 
 .conteudo-topo .inferior {
-   max-width: 460px;
+   max-width: 700px;
    display: flex;
    gap: 20px;
    justify-content: flex-end;
@@ -714,7 +715,7 @@ i.icon-instagram:before {
 }
 
 #cabecalho .conteiner > .row-fluid > .span3 {
-   width: 90px;
+   width: 120px;
 }
 
 .logo a {
@@ -740,7 +741,7 @@ i.icon-instagram:before {
    align-items: center;
    display: flex;
    box-sizing: border-box;
-   padding: 0px 80px;
+   padding: 6px 80px;
    background: transparent;
 }
 
