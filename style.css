@@ -893,12 +893,19 @@ i.icon-instagram:before {
 
 /* Listagem item */
 
+.preco-produto .preco-a-partir .preco-venda:not(.titulo),
+.listagem-item .preco-a-partir span {
+   font-size: 14px;
+   color: #91C6FF;
+}
+
 .listagem-item .bandeiras-produto {
    top: 0;
    left: 0;
    position: relative;
    display: flex;
    padding: 16px 0 0 10px;
+   display: none;
 }
 
 .listagem-item .bandeira-prevenda,
@@ -1033,7 +1040,7 @@ i.icon-instagram:before {
 }
 
 .listagem .info-produto {
-   padding: 10px;
+   padding: 20px;
    display: flex;
    flex-direction: column;
    gap: 4px;
