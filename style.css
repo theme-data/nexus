@@ -9153,3 +9153,19 @@ a#imprimirBoleto {
 .lateral-fulbanner .flex-direction-nav {
    display: none !important;
 }
+
+/* Capas produtos */
+
+.listagem-item.prod-cat-24404410 .imagem-produto:before {
+   content: "";
+   height: 32px;
+   display: block;
+   background: #0073EE url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps4-badge.png) center no-repeat;
+}
+
+.listagem-item.prod-cat-24404411 .imagem-produto:before {
+   content: "";
+   height: 32px;
+   display: block;
+   background: #ffffff url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps5-badge.png) center no-repeat;
+}
