@@ -101,7 +101,7 @@
       }
 
       .container-featured {
-         max-width: 1180px;
+         max-width: 1300px;
          width: 100%;
          display: flex;
          justify-content: space-between;
@@ -293,7 +293,7 @@ h6,
 }
 
 .conteiner {
-   max-width: 1180px;
+   max-width: 1300px;
 }
 
 input {
@@ -869,7 +869,7 @@ i.icon-instagram:before {
    justify-content: space-between;
    border: 0;
    padding: 0 !important;
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 60px auto 0!important;
    align-items: center;
 }
@@ -1276,7 +1276,7 @@ i.icon-instagram:before {
 
 .banner-map-group {
    position: relative;
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 60px auto 0;
 }
 
@@ -1286,7 +1286,7 @@ i.icon-instagram:before {
 
 .banner-fundo {
    display: flex;
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 0 auto;
    align-items: center;
    justify-content: space-between;
@@ -1314,7 +1314,7 @@ i.icon-instagram:before {
    display: flex;
    background: rgba(0,0,0,.05);
    padding: 16px 0;
-   max-width: 1180px;
+   max-width: 1300px;
    border-radius: var(--border-radius-md);
    justify-content: center;
    margin: 20px auto 0;
@@ -2985,7 +2985,7 @@ a {
 }
 
 .listagem-item:hover .acoes-produto {
-   bottom: 170px;
+   bottom: 45%;
    background: #051939;
 }
 
@@ -3005,7 +3005,7 @@ a {
 }
 
 .listagem .produtos-carrossel .listagem-linha.flexslider {
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 0 auto!important;
    width: 100%;
    padding-top: 6px;
@@ -3160,7 +3160,7 @@ a {
 /* Slider de categorias */
 
 .categorias-section {
-   max-width: 1180px;
+   max-width: 1300px;
    margin: 60px auto 0;
    display: none;
 }
@@ -4354,7 +4354,7 @@ a {
 /* Sobre a loja */
 
 .about-banner {
-    max-width: 1180px;
+    max-width: 1300px;
     margin: 60px auto;
     display: flex;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0) 63.09%, rgba(0, 0, 0, 0.1) 100%), linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%), #FFFFFF;
@@ -7623,7 +7623,7 @@ hr {
 }
 
 .carrinho-checkout #cabecalho > .conteiner {
-   max-width: 1180px;
+   max-width: 1300px;
    padding: 0;
 }
 
