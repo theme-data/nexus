@@ -4,7 +4,7 @@
 :root {
    /* Cores
       ----------------------------------------------------------------------- */
-   --bg-store-color: #FFFFFF;
+   --bg-store-color: #000D20;
    --color-primary: #0073EE;
    --button-hover: #005cbe;
    --color-secondary: #33373C;
@@ -2974,7 +2974,7 @@ a {
 
 .listagem-item .acoes-produto {
    border: 0;
-   background: var(--color-white);
+   background: #051939;
    padding: 12px;
    display: flex;
    gap: 4px;
