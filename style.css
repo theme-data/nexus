@@ -2656,25 +2656,17 @@ a {
 
 #rodape .lista-redes i {
    display: flex;
-   width: fit-content;
-   padding: 8px 16px;
-   line-height: 20px!important;
-   height: 20px;
+   width: 56px;
+   padding: 0;
+   line-height: 20px !important;
+   height: 56px;
    gap: 10px;
    border: 0;
-   box-shadow: var(--shadow-button);
    border-radius: var(--border-radius-md);
-   background: var(--color-secondary)!important;
-}
-
-#rodape .lista-redes .icon-facebook:after {
-   content: "Facebook";
-   font-family: var(--font-family-base);
-}
-
-#rodape .lista-redes .icon-instagram:after {
-   content: "Instagram";
-   font-family: var(--font-family-base);
+   background: #091A2E;
+   border: 1px solid #ffffff10;
+   justify-content: center;
+   align-items: center;
 }
 
 #rodape .institucional .lista-redes {
