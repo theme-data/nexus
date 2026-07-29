@@ -316,7 +316,7 @@ input[type="text"]:focus {
    height: 56px !important;
    box-sizing: border-box !important;
    background: var(--color-primary);
-   padding: 8px 16px;
+   padding: 8px 20px;
    border-radius: var(--border-radius-md);
    font-size: 14px !important;
    text-shadow: none !important;
@@ -2563,10 +2563,14 @@ a {
    margin: 0;
 }
 
+#barraNewsletter.posicao-rodape {
+   background: #051A39!important
+}
+
 #barraNewsletter.posicao-rodape .componente .interno:before {
    content: "";
    width: 117px;
-   height: 100px;
+   height: 120px;
    background: var(--news-char);
 }
 
@@ -2588,7 +2592,7 @@ a {
    display: flex;
    gap: 10px;
    z-index: 0;
-   height: 40px!important;
+   height: 56px!important;
 }
 
 #rodape .institucional {
