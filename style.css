@@ -4359,7 +4359,7 @@ a {
    background: #051A39;
    border-radius: 10px;
    justify-content: space-between;
-   align-items: flex-start;
+   align-items: center;
    position: relative;
    min-height: 500px;
 }
@@ -4377,11 +4377,12 @@ a {
 }
 
 .about-banner-icon-title {
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    color: var(--color-black);
-    font-weight: 400;
+   display: flex;
+   align-items: flex-start;
+   font-size: 24px;
+   color: var(--color-black);
+   font-weight: 400;
+   flex-direction: column;
 }
 
 .about-banner-icon-title > img {
