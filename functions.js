@@ -51,7 +51,7 @@ $(document).ready(function() {
                 <div>
                     <strong>Estamos no WhatsApp:</strong>
                     <span>
-                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" rel="noopener noreferrer">(51) 93618-9806</a>
+                        <a href="https://wa.me/5551936189806?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" rel="noopener noreferrer">(51) 93618-9806</a>
                     </span>
                 </div>
             </div>
@@ -103,7 +103,7 @@ $(document).ready(function() {
           .after($cloneTitulo, $cloneUl);
       });
     
-      $('body').append(`<a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" class="whatsapp-float-btn" title="Fale conosco no WhatsApp">`);
+      $('body').append(`<a href="https://wa.me/5551936189806?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank" class="whatsapp-float-btn" title="Fale conosco no WhatsApp">`);
       
     
     
@@ -779,7 +779,7 @@ $(document).ready(function() {
                                     <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                                     <div>
                                         <strong>Estamos no WhatsApp:</strong>
-                                        <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
+                                        <a href="https://wa.me/5551936189806?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
                                     </div>
                                 </div>
                             </div>
@@ -936,7 +936,7 @@ $(document).ready(function() {
                         <img alt="WhatsApp" src="https://cdn.awsli.com.br/2830/2830294/arquivos/float-whats.svg"/>
                         <div>
                           <strong>Estamos no WhatsApp:</strong>
-                          <a href="https://wa.me/556199627041?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
+                          <a href="https://wa.me/5551936189806?text=Ol%C3%A1!%20Preciso%20de%20suporte.%20Pode%20me%20ajudar%3F" target="_blank">(51) 93618-9806</a>
                         </div>
                       </div>
                     </div>
