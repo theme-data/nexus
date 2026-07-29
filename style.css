@@ -9099,9 +9099,6 @@ a#imprimirBoleto {
 
 
 @media screen and (min-width: 768px) {
-   .about-banner-description p:last-child {
-      max-height: 0;
-  }
 
   .about-banner-image {
    position: absolute;
