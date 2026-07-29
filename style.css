@@ -908,6 +908,51 @@ i.icon-instagram:before {
    display: none;
 }
 
+.listagem-item .preco-produto.destaque-avista {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+.listagem-item .destaque-avista span.desconto-a-vista {
+   order: 2;
+   display: flex;
+   align-items: center;
+}
+
+.listagem-item .destaque-avista div:nth-child(2) {
+   order: 3;
+}
+
+.listagem-item .preco-produto .desconto-a-vista strong {
+   font-size: 22px;
+   color: #91C6FF;
+}
+
+.listagem-item .preco-produto .desconto-a-vista {
+   font-size: 0;
+}
+
+.listagem-item .preco-produto .desconto-a-vista:after {
+   content: "-10% via pix";
+   background: linear-gradient(90deg, #0B4BA3 0%, #0073EE 100%), linear-gradient(0deg, #FBB832, #FBB832), #0056B3;
+   display: block;
+   font-size: 14px;
+   color: #fff;
+   padding: 6px 8px;
+   border-radius: 4px;
+   font-weight: 600;
+   width: fit-content;
+   margin-left: 8px;
+}
+
+.listagem-item .preco-produto .preco-parcela strong,
+.listagem-item .preco-produto .preco-parcela {
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
 .listagem-item .bandeira-prevenda,
 .info-principal-produto .bandeira-prevenda {
    background: #FFD30D;
@@ -2940,7 +2985,12 @@ a {
 }
 
 .listagem-item:hover .acoes-produto {
-   bottom: 0;
+   bottom: 170px;
+   background: #051939;
+}
+
+.listagem-item .acoes-produto .botao-comprar i:before {
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/cart-plus.svg) center no-repeat;
 }
 
 .listagem-linha .slick-track,
@@ -3074,11 +3124,14 @@ a {
    flex-direction: row-reverse;
    gap: 4px;
    font-size: 0 !important;
+   max-height: 40px;
+   background: #43FF75;
 }
 
 .listagem-item .acoes-produto .botao-comprar:after {
-   content: "Adicionar";
+   content: "Comprar agora";
    font-size: 14px !important;
+   color: #000!important;
 }
 
 .listagem-item .acoes-produto .botao-comprar i {
