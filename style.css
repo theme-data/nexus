@@ -2843,10 +2843,6 @@ a {
    display: flex;
    width: fit-content;
    gap: 4px;
-   position: absolute;
-   right: 24px;
-   bottom: 24px;
-   z-index: 2;
 }
 
 .banner.cheio .flex-control-nav {
@@ -2865,7 +2861,15 @@ a {
 }
 
 .banner.cheio .flex-direction-nav > li >a.flex-prev {
-   background: var(--icon-chev-left) center no-repeat;
+   background: var(--color-primary) var(--icon-chev-left) center no-repeat;
+   position: absolute;
+   left: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 56px;
+   height: 56px;
+   border-radius: 10px;
+   border: 1px solid #ffffff20;
 }
 
 .banner.cheio .flex-direction-nav > li >a.flex-next {
@@ -2881,7 +2885,6 @@ a {
 }
 
 .banner.cheio .flex-direction-nav > li {
-   height: 28px;
    display: flex;
    align-items: center;
    margin: 0;
@@ -9136,4 +9139,8 @@ a#imprimirBoleto {
 .banner.cheio > .span9 {
    width: 100%;
    margin-bottom: 10px;
+}
+
+.lateral-fulbanner .flex-direction-nav {
+   display: none !important;
 }
