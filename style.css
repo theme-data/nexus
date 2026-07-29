@@ -2873,7 +2873,15 @@ a {
 }
 
 .banner.cheio .flex-direction-nav > li >a.flex-next {
-   background: var(--icon-chev-right) center no-repeat;
+   background: var(--color-primary) var(--icon-chev-right) center no-repeat;
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 56px;
+   height: 56px;
+   border-radius: 10px;
+   border: 1px solid #ffffff20;
 }
 
 .banner.cheio .flexslider:hover .flex-direction-nav .flex-next {
