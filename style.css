@@ -4353,14 +4353,15 @@ a {
 /* Sobre a loja */
 
 .about-banner {
-    max-width: 1300px;
-    margin: 60px auto;
-    display: flex;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 63.09%, rgba(0, 0, 0, 0.1) 100%), linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%), #FFFFFF;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
+   max-width: 1300px;
+   margin: 60px auto;
+   display: flex;
+   background: #051A39;
+   border-radius: 10px;
+   justify-content: space-between;
+   align-items: flex-start;
+   position: relative;
+   min-height: 500px;
 }
 
 .about-banner-content {
@@ -4390,11 +4391,12 @@ a {
 
 .about-banner-title h2 {
     font-weight: 500;
+    color: #fff;
 }
 
 .about-banner-description p {
     font-size: 16px;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 /* .about-banner-description p:first-child {

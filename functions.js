@@ -111,23 +111,16 @@ $(document).ready(function() {
         <div class="about-banner">
           <div class="about-banner-content">
             <div class="about-banner-icon-title">
-              <!--<img src="https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png" alt="Mascote" class="about-banner-icon" />-->
+              <img src="https://cdn.awsli.com.br/2984/2984134/arquivos/icon-nexus.png" alt="Ícone Nexus Games" class="about-banner-icon"/>
               <div class="about-banner-title">
-                <h2>Jogos digitais com entrega em até 30 minutos - Nexus Games</h2>
+                <h2>Boas-vindas à Nexus Games.</h2>
               </div>
             </div>
             <div class="about-banner-description">
               <p>
-                A **Nexus Games Digital** é uma loja especializada em jogos digitais para **PlayStation 4 e PlayStation 5**, criada para oferecer uma experiência de compra simples, rápida e segura.
-                <br><br>
-                Com um catálogo variado, preços competitivos e jogos 100% originais, a Nexus conecta jogadores aos títulos que desejam de maneira prática e acessível. Além disso, oferece atendimento personalizado e suporte durante todo o processo de compra, garantindo mais tranquilidade para o cliente.
-                <br><br>
-                Na Nexus Games Digital, você encontra grandes lançamentos, clássicos indispensáveis e promoções especiais para ampliar sua biblioteca, economizar e aproveitar ainda mais o seu PlayStation.
+                A Nexus Games Digital é o destino ideal para quem busca jogos digitais de PS4 e PS5 com praticidade, segurança e ótimo custo-benefício. Especializada na venda de jogos originais, a loja oferece uma experiência de compra rápida, atendimento dedicado e entrega ágil para que você possa começar a jogar o quanto antes. Com um catálogo em constante atualização e foco na satisfação dos gamers, a Nexus Games Digital conecta você aos maiores lançamentos e aos títulos mais desejados do universo PlayStation.
               </p>
             </div>
-            <button class="about-banner-btn" type="button">
-              Ver mais <span class="about-banner-btn-arrow">&#9660;</span>
-            </button>
           </div>
           <div class="about-banner-image">
             <img src="https://cdn.awsli.com.br/2984/2984134/arquivos/about-image.png" alt="Personagem Samurai" />
