@@ -78,7 +78,7 @@
    --shadow-button: inset 0px -1px 0px rgba(0, 0, 0, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.25);
 
    /* Imagens que podem ser alteradas */
-   --news-char: url('https://cdn.awsli.com.br/2830/2830294/arquivos/news-char.png');
+   --news-char: url('https://cdn.awsli.com.br/2984/2984134/arquivos/news-icon.png');
    --featured-home: url('https://cdn.awsli.com.br/2391/2391623/arquivos/personalized_product-list.png');
    --featured-home-mobile: url('https://cdn.awsli.com.br/2391/2391623/arquivos/vitrine_2_m.png');
    --bg-home: url('https://cdn.awsli.com.br/2391/2391623/arquivos/bg-seamless.png');
@@ -2609,11 +2609,6 @@ a {
    margin-bottom: 10px;
 }
 
-
-#rodape .links-rodape.links-rodape-categorias {
-   display: none !important;
-}
-
 #rodape .institucional > .conteiner > .row-fluid {
    display: flex;
    flex-direction: row-reverse;
@@ -2630,7 +2625,7 @@ a {
 
 #rodape .institucional > .conteiner > .row-fluid > .span3 {
    margin: 0;
-   width: 37%;
+   width: 23%;
 }
 
 #rodape .institucional {
@@ -2763,7 +2758,7 @@ a {
 }
 
 #rodape .pagamento-selos {
-   background: var(--color-black);
+   background: #000D20;
    padding: 0;
 }
 
@@ -2803,7 +2798,7 @@ a {
     justify-content: end;
 }
 
-.assinatura-rodape a.symm {
+.assinatura-rodape a.pixelset {
    width: 197px;
    display: flex;
 }
@@ -2834,7 +2829,7 @@ a {
 }
 
 #rodape>div:last-child {
-    background: var(--color-black)!important;
+    background: #000D20!important;
     border: 0!important;
     border-top: 1px solid rgba(255,255,255,.15)!important;
     padding: 16px 20px 16px;
@@ -4993,7 +4988,7 @@ input[type="password"] {
 
 
 
-   .assinatura-rodape a.symm {
+   .assinatura-rodape a.pixelset {
       width: auto;
    }
   
@@ -5008,7 +5003,7 @@ input[type="password"] {
       font-size: 14px;
   }
   
-  .assinatura-rodape a.symm {
+  .assinatura-rodape a.pixelset {
       width: inherit;
   }
   
