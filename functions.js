@@ -1486,51 +1486,6 @@ $(document).ready(function() {
     $(document).ready(function () {
     
     /* =====================================================
-        ESTRUTURA DOS FILTROS
-    ===================================================== */
-    $('.conteudo .ordenar-listagem.topo .row-fluid').after(`
-        <div class="filter-pg-cat">
-            <div class="filter-row">
-                <div class="filter-group filtro-plataforma" data-title="Plataforma">
-                    <button class="filter-btn">Plataforma <span class="arrow"></span></button>
-                    <div class="drop-cat"></div>
-                </div>
-    
-                <div class="filter-group filtro-tipo" data-title="Tipo">
-                    <button class="filter-btn">Tipo <span class="arrow"></span></button>
-                    <div class="drop-cat"></div>
-                </div>
-    
-                <div class="filter-group filtro-marca" data-title="Por marcas">
-                    <button class="filter-btn">Marcas <span class="arrow"></span></button>
-                    <div class="drop-cat"></div>
-                </div>
-    
-                <div class="filter-group filtro-preco" data-title="Filtrar por preço">
-                    <button class="filter-btn">Preço <span class="arrow"></span></button>
-                    <div class="drop-cat"></div>
-                </div>
-            </div>
-        </div>
-    `);
-    
-    /* =====================================================
-        MOVE OS ITENS
-    ===================================================== */
-    $('.menu.lateral.outras ul.nivel-um > li').appendTo($('.filtro-plataforma .drop-cat'));
-    $('.menu.lateral:not(.outras) ul.nivel-dois > li').appendTo($('.filtro-tipo .drop-cat'));
-    
-    var $marcas = $('.faceta-marca .atributo-lista ul > li');
-    $marcas.length
-        ? $marcas.appendTo($('.filtro-marca .drop-cat'))
-        : $('.filtro-marca .drop-cat').append('<span class="sem-resultado">Nenhuma marca encontrada</span>');
-    
-    var $precos = $('.faceta-preco .atributo-lista ul > li');
-    $precos.length
-        ? $precos.appendTo($('.filtro-preco .drop-cat'))
-        : $('.filtro-preco .drop-cat').append('<span class="sem-resultado">Nenhum preço encontrado</span>');
-    
-    /* =====================================================
         HEADER MOBILE DOS DROPS
     ===================================================== */
     function montarHeaderMobile() {

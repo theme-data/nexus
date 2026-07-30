@@ -9313,3 +9313,106 @@ a#imprimirBoleto {
    display: block;
    background: #ffffff url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps5-badge.png) center no-repeat;
 }
+
+/* Filtros */
+
+.btn-filtrar {
+   display: flex;
+   height: 56px;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   font-size: 14px;
+   color: #fff;
+   background: #292B25;
+   border: 1px solid #ffffff20;
+   box-shadow: none;
+   text-shadow: none;
+   border-radius: 8px;
+   padding: 0 24px;
+   font-family: "Poppins", sans-serif;
+}
+
+button.btn.btn-filtrar:after {
+   content: "";
+   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/filter.svg) center no-repeat;
+   width: 20px;
+   height: 20px;
+   display: block;
+}
+
+.conteudo .ordenar-listagem .input-append:first-child {
+   padding: 8px 0px;
+   width: fit-content;
+   display: flex;
+   gap: 10px;
+   text-decoration: none !important;
+   transition: all .3s;
+   height: 46px;
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+}
+
+.ordenar-listagem label {
+   background: none;
+   box-shadow: none;
+   border: 0;
+   padding: 0;
+   width: 100%;
+   color: #000;
+   font-size: 16px;
+}
+
+.dropdown-backdrop {
+   display: none;
+}
+
+.btn-group.open .dropdown-toggle {
+   box-shadow: var(--shadow-button);
+}
+
+.ordenar-listagem .btn-group>.btn:first-child {
+   background: none;
+   border: oldlace;
+   box-shadow: none;
+   padding: 0;
+}
+
+.ordenar-listagem .btn .icon-caret-down:before {
+   font-size: 0;
+   content: "";
+   width: 24px;
+   height: 24px;
+   background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/chev-down.svg) center no-repeat;
+   transition: all 0.4s;
+}
+
+.ordenar-listagem .open .btn .icon-caret-down:before {
+   transform: rotate(180deg);
+}
+
+.pagina-categoria .secao-principal {
+   margin-top: 40px;
+}
+
+.coluna>div, #corpo .conteiner>div {
+   margin-bottom: 4px;
+}
+
+.ordenar-listagem .dropdown-menu {
+   right: 0;
+   left: auto;
+   background: var(--color-white);
+   top: 30px;
+}
+
+.ordenar-listagem .open> .dropdown-menu {
+   z-index: 9999999;
+   right: 0;
+   left: auto;
+}
+
+.ordenar-listagem .dropdown-menu * {
+   color: #000;
+}
