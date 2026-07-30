@@ -680,9 +680,9 @@ $(document).ready(function() {
                 }
             })();
     
-            if ($('.pagina-produto .produto div.principal .gateways-rodape').length === 0) {
-                $('.pagina-produto .produto div.principal').append($('#rodape .pagamento .gateways-rodape'));
-            }
+            // if ($('.pagina-produto .produto div.principal .gateways-rodape').length === 0) {
+            //     $('.pagina-produto .produto div.principal').append($('#rodape .pagamento .gateways-rodape'));
+            // }
             
             if ($('#principal-konfidency').length === 0) {
                 $('.pagina-produto .produto div.principal').after(`

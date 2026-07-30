@@ -2061,6 +2061,10 @@ modal-review .actions button {
    width: 100%;
 }
 
+.produto .principal .parcelas-produto {
+   display: none !important;
+}
+
 .produto .acoes-produto .comprar .disponibilidade-produto {
    display: none;
 }
