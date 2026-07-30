@@ -1607,7 +1607,15 @@ i.icon-instagram:before {
 }
 
 #descricao * {
+   color: #fff !important;
+   background: transparent !important;
+}
+
+#descricao:before {
+   content: "Descrição";
+   font-size: 24px;
    color: #fff;
+   font-weight: 500;
 }
 
 .atributos>div >ul {
