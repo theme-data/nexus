@@ -1600,14 +1600,34 @@ i.icon-instagram:before {
 
 /* Página produto */
 
+.atributos div ul {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+
+.atributos div ul li {
+   margin: 0;
+   border: 1px solid #ffffff20;
+   border-radius: 10px;
+}
+
+.atributos div ul li span {
+   font-size: 18px;
+   text-align: left;
+   padding: 12px 16px;
+}
+
+.atributos div ul li.active a {
+   border: 0;
+}
+
 .pagina-produto .produto div.principal {
    padding: 32px;
-   background: var(--color-white);
-   max-width: 350px;
+   background: #091629;
+   max-width: 500px;
    box-sizing: border-box;
-   border-radius: 8px;
-   border: 1px solid #20232620;
-   box-shadow: 0 0 50px rgba(0, 0, 0, .15);
+   border-radius: 10px;
 }
 
 #principal-konfidency {
@@ -1791,7 +1811,7 @@ button.qty-btn.qty-plus:hover{
 }
 
 .pagina-produto .produto div.principal * {
-   color: var(--color-black);
+   color: var(--color-white);
 }
 
 .produto .conteiner-imagem #abreZoom,

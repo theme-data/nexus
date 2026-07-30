@@ -1828,3 +1828,103 @@ $(document).ready(function() {
         verificarBoleto(false);
       
       });
+
+      $(document).ready(function () {
+
+        function configurarLicencas() {
+    
+            $('.atributo-item').each(function () {
+    
+                const $item = $(this);
+    
+                const variacao = ($item.attr('data-variacao-nome') || '')
+                    .trim()
+                    .toLowerCase();
+    
+                let tipo = '';
+                let beneficios = [];
+    
+                // PRIMÁRIA
+                if (
+                    variacao.includes('primária') ||
+                    variacao.includes('primaria')
+                ) {
+                    tipo = 'primaria';
+    
+                    beneficios = [
+                        'Jogue no seu perfil',
+                        'Modo online e offline'
+                    ];
+                }
+    
+                // SECUNDÁRIA
+                if (
+                    variacao.includes('secundária') ||
+                    variacao.includes('secundaria')
+                ) {
+                    tipo = 'secundaria';
+    
+                    beneficios = [
+                        'Acesso econômico',
+                        'Requer internet'
+                    ];
+                }
+    
+                if (!tipo) {
+                    return;
+                }
+    
+                // Adiciona a classe correspondente
+                $item
+                    .removeClass('primaria secundaria')
+                    .addClass(tipo);
+    
+                // Verifica se os benefícios já foram adicionados
+                let $beneficios = $item.find('.licenca-beneficios');
+    
+                if (!$beneficios.length) {
+    
+                    $beneficios = $('<ul>', {
+                        class: 'licenca-beneficios'
+                    });
+    
+                    beneficios.forEach(function (beneficio) {
+    
+                        $beneficios.append(`
+                            <li>
+                                <span class="check">✓</span>
+                                <span>${beneficio}</span>
+                            </li>
+                        `);
+    
+                    });
+    
+                    $item.append($beneficios);
+                }
+    
+            });
+    
+        }
+    
+    
+        // Executa ao carregar
+        configurarLicencas();
+    
+    
+        // Observa alterações dinâmicas nos atributos
+        const atributos = document.querySelector('.atributos');
+    
+        if (atributos) {
+    
+            const observer = new MutationObserver(function () {
+                configurarLicencas();
+            });
+    
+            observer.observe(atributos, {
+                childList: true,
+                subtree: true
+            });
+    
+        }
+    
+    });
