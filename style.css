@@ -1600,13 +1600,13 @@ i.icon-instagram:before {
 
 /* Página produto */
 
-.atributos div ul {
+.atributos>div >ul {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 10px;
 }
 
-.atributos div ul li {
+.atributos> div >ul >li {
    margin: 0;
    border: 1px solid #ffffff20;
    border-radius: 10px;
@@ -1620,6 +1620,25 @@ i.icon-instagram:before {
 
 .atributos div ul li.active a {
    border: 0;
+}
+
+.atributos .licenca-beneficios > li {
+   display: flex;
+   margin: 0;
+   gap: 10px;
+}
+
+.atributos .licenca-beneficios > li span {font-size: 12px;padding: 0;font-weight: normal;}
+
+.atributos .licenca-beneficios {
+   padding: 16px;
+   margin: 0;
+   border-top: 1px solid #ffffff20;
+}
+
+.atributos .licenca-beneficios > li .check {
+   color: #91C6FF;
+   font-size: 14px;
 }
 
 .pagina-produto .produto div.principal {
