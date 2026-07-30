@@ -1777,10 +1777,10 @@ button.qty-btn.qty-plus:hover{
    border-radius: 999px;
 }
 
-.produto div.principal .acoes-produto {
+/* .produto div.principal .acoes-produto {
    display: flex;
    flex-direction: column;
-}
+} */
 
 .produto .acoes-produto .comprar .botao.principal {
    width: 100%;
