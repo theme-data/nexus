@@ -2058,6 +2058,7 @@ modal-review .actions button {
 .produto .acoes-produto .comprar {
    display: flex;
    gap: 10px;
+   width: 100%;
 }
 
 .produto .acoes-produto .comprar .disponibilidade-produto {
@@ -2303,6 +2304,7 @@ modal-review .actions button {
 
 .acoes-produto .preco-produto, .produto-compartilhar {
    border: 0;
+   float: none;
 }
 
 .append-share-fav {
@@ -3995,6 +3997,10 @@ a {
    flex-direction: row-reverse;
    gap: 12px;
    align-items: center;
+   float: none;
+   background: #43FF75;
+   color: #000 !important;
+   font-weight: 600;
 }
 
 .chave-digital {
