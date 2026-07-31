@@ -7047,7 +7047,7 @@ form#formCalcularFrete {
 
 .carrinho-checkout .conteiner-principal #corpo .conteiner {
    box-shadow: none;
-   padding: 32px;
+   padding: 10px;
 }
 
 .campos-pedido .caixa-sombreada, .campos-pedido .acao-editar button:first-child {
@@ -10295,4 +10295,10 @@ tr.cart-product {
 
 #barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner {
    background-color: transparent;
+}
+
+.tr-checkout-total.hide {
+   width: 100%;
+   display: flex !important;
+   box-sizing: border-box;
 }
