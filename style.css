@@ -7125,7 +7125,9 @@ form#formCalcularFrete {
 }
 
 .menu-user-logged .botao {
-   height: 40px !important;
+   height: 56px !important;
+   background: #091a2f;
+   border: 1px solid #ffffff20;
 }
 
 .menu-user-logged.btn-group:hover .dropdown-menu {
@@ -9021,6 +9023,10 @@ a#imprimirBoleto {
 		margin: 0;
 		width: 100%;
 	}
+
+   .pagina-pedido-finalizado .conteiner {
+      max-width: 1150px;
+  }
 
 	#box-pagamento-boleto > .mensagem {
 		width: 100%;
