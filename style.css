@@ -5693,6 +5693,14 @@ h2.bn-featured-title {
    margin-right: 8px;
 } */
 
+.mais-vendidos-destaque + ul .listagem-linha li.slick-slide .listagem-item:after {
+   right: 10px;
+   top: 10px;
+   left: auto;
+   height: 24px;
+   width: 24px;
+}
+
 .hello-menu {
    font-size: 16px;
    color: var(--color-white);
