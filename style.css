@@ -42,7 +42,7 @@
    --icon-key: url('https://cdn.awsli.com.br/2830/2830294/arquivos/keys.svg');
    --icon-chat: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chat.svg');
    --icon-lock: url('https://cdn.awsli.com.br/2830/2830294/arquivos/locks.svg');
-   --icon-menu: url('https://cdn.awsli.com.br/2830/2830294/arquivos/menu.svg');
+   --icon-menu: url('https://cdn.awsli.com.br/2984/2984134/arquivos/menu-mobile.svg');
    --icon-thumbs-up: url('https://cdn.awsli.com.br/2830/2830294/arquivos/thumbs_up.svg');
    --icon-thumbs-down: url('https://cdn.awsli.com.br/2830/2830294/arquivos/thumbs_down.svg');
    --icon-home: url('https://cdn.awsli.com.br/2830/2830294/arquivos/house.svg');
@@ -4966,7 +4966,7 @@ input[type="password"] {
    }
 
    .secao-banners .conteiner {
-      padding: 16px;
+      padding: 0 16px;
   }
 
   .mais-vendidos-destaque + ul .listagem .info-produto {
@@ -4996,7 +4996,6 @@ input[type="password"] {
   .banner-fundo {
       padding: 0 10px;
       text-align: center;
-      display: none;
    }
 
    .banner-fundo .game-promo {
@@ -5239,8 +5238,8 @@ input[type="password"] {
 
 .atalho-menu.icon-th:before {
    content: "";
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
    background: var(--icon-menu) center no-repeat;
    background-size: 100%;
 }
@@ -5496,7 +5495,16 @@ h2.bn-featured-title {
 }
 
 #cabecalho .botao.principal {
-   background: var(--color-secondary);
+   background: #091a2f;
+   width: 48px;
+   padding: 0;
+   height: 48px !important;
+   border: 1px solid #ffffff20;
+}
+
+.carrinho>a strong {
+   top: -5px;
+   right: -5px;
 }
 
 .append-bg-product {
