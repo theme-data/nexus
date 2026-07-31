@@ -787,7 +787,7 @@ i.icon-instagram:before {
 
 .menu.superior .nivel-um>li:hover > a .titulo,
 .menu.superior .nivel-um>li:hover > a i {
-   color: var(--color-black);
+   color: var(--color-white);
 }
 
 /* Menu superior nivel dois */
@@ -2037,8 +2037,13 @@ modal-review .actions button {
    font-weight: 500;
 }
 
+.produto .codigo-produto > span{
+   display: none!important;
+}
+
 .produto .codigo-produto {
-   display: none;
+   padding: 0;
+   margin: 0;
 }
 
 .produto .principal .konfidency.summary.kfy-align-left {
@@ -4037,8 +4042,8 @@ a {
    float: none;
    background: #43FF75;
    font-weight: 600;
-   flex-direction: column;
-   gap: 0;
+   flex-direction: row-reverse;
+   gap: 10px;
    align-items: center;
    position: relative;
    overflow: hidden;
