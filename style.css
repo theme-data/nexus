@@ -10291,3 +10291,8 @@ tr.cart-product {
 .carrinho-checkout .search-header {
    display: none;
 }
+
+
+#barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner {
+   background-color: transparent;
+}
