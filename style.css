@@ -6689,7 +6689,7 @@ form#formCalcularFrete {
 }
 
 .tabela-carrinho .produto-info * {
-   color: #000;
+   color: #fff;
    font-size: 16px;
    font-weight: normal;
 }
@@ -6708,7 +6708,7 @@ form#formCalcularFrete {
 }
 
 .tabela-carrinho .preco-produto .preco-promocional {
-   color: var(--color-black);
+   color: var(--color-white);
    font-size: 16px;
    font-weight: 500;
 }
@@ -6723,8 +6723,40 @@ form#formCalcularFrete {
    margin: 0;
 }
 
+.valores-descontos .descontos.avista strong {
+   font-size: 24px;
+   color: #43FF75!important;
+   font-weight: bold;
+}
+
+.valores-descontos .descontos.avista span {
+   font-size: 0;
+   display: flex;
+   width: 100%;
+   padding: 0 24px;
+   box-sizing: border-box;
+   flex-direction: row-reverse;
+   margin-bottom: 16px;
+}
+
+.valores-descontos .descontos.avista strong:last-child {
+   background: #0056B3;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 4px 12px;
+   border-radius: 6px;
+   color: #fff!important;
+   margin-right: auto;
+}
+
+.cart-resume-total .descontos.parcelas {
+   display: none;
+}
+
 .tabela-carrinho * {
-   color: var(--color-black);
+   color: var(--color-white);
 }
 
 .tabela-carrinho .quantidade input[type="text"] {
@@ -9735,18 +9767,19 @@ button.btn.btn-filtrar:after {
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-total .total {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 24px;
-  font-size: 16px;
-  margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 24px 16px;
+   font-size: 16px;
+   margin: 0;
+   border: 0;
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-total .total strong {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
+   margin: 0;
+   font-size: 16px;
+   font-weight: normal;
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .formas-envio {
