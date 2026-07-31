@@ -280,8 +280,8 @@ h6,
 }
 
 .cabecalho-interno .titulo small {
-   font-size: 15px;
-   color: var(--color-black);
+   font-size: 24px;
+   color: var(--color-white);
    opacity: 1;
 }
 
