@@ -6665,6 +6665,7 @@ form#formCalcularFrete {
 .tabela-carrinho thead {
    background: #f1f1f1;
    border: 0;
+   display: none;
 }
 
 .tabela-carrinho thead tr {
