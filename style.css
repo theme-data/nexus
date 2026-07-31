@@ -5674,10 +5674,10 @@ h2.bn-featured-title {
    gap: 10px;
    display: flex;
    flex-direction: column;
-   border-bottom: 1px solid #E5E5E5;
+   border-bottom: 1px solid #E5E5E520;
 }
 
-.account-menu .myorders:before {
+/* .account-menu .myorders:before {
    content: "";
    width: 24px;
    height: 24px;
@@ -5691,7 +5691,7 @@ h2.bn-featured-title {
    height: 24px;
    background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/user-menu.svg) center no-repeat;
    margin-right: 8px;
-}
+} */
 
 .hello-menu {
    font-size: 16px;
@@ -5700,7 +5700,7 @@ h2.bn-featured-title {
    gap: 8px;
    align-items: center;
    padding: 16px 24px;
-   border-bottom: 1px solid #E5E5E5;
+   border-bottom: 1px solid #E5E5E520;
 }
 
 .menu.superior .nivel-dois li a, .menu.lateral .nivel-dois li a {
