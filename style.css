@@ -6702,7 +6702,7 @@ form#formCalcularFrete {
 }
 
 .subtotal span, .total span {
-   color: var(--color-black);
+   color: var(--color-white);
    font-size: 14px;
 }
 
@@ -6712,7 +6712,7 @@ form#formCalcularFrete {
 
 .subtotal strong, .total strong {
    font-size: 16px;
-   color: var(--color-black);
+   color: var(--color-white);
    font-weight: 500;
    margin: 0;
    letter-spacing: 0px;
@@ -8583,7 +8583,7 @@ div#formasEnvio {
 .order-title {
    display: flex;
    font-size: 20px;
-   color: var(--color-black);
+   color: var(--color-white);
    align-items: center;
    font-weight: 600;
 }
@@ -8673,7 +8673,7 @@ div#formasEnvio {
 	display: block;
 	border: 0;
 	margin: 20px 0 0;
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	text-align: left;
    font-weight: 600;
@@ -8691,12 +8691,12 @@ div#formasEnvio {
 	font-size: 14px;
 	display: flex;
 	justify-content: space-between !important;
-	color: #000;
+	color: #fff;
 }
 
 .resume-card .resume-row.total span {
 	font-size: 14px;
-	color: #000;
+	color: #fff;
 }
 
 .resume-card .resume-row.total strong {
@@ -8727,7 +8727,7 @@ div#formasEnvio {
 	align-items: center;
 	justify-content: center;
 	border-radius: 12px;
-	background: #e9222a14;
+	background: #0472ee26;
 }
 
 .order-info-item {
