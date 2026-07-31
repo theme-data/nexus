@@ -7474,7 +7474,7 @@ div#login-content > .identificacao {
    display: flex;
    align-items: center;
    gap: 12px;
-   color: #000;
+   color: #fff;
 }
 
 .conta-menu .nome-usuario {
@@ -7493,13 +7493,13 @@ div#login-content > .identificacao {
 }
 
 .conta-menu .menu-simples li a:hover i {
-   color: #000;
+   color: #fff;
 }
 
 .caixa-dados ul li * {
    font-size: 14px;
    font-weight: normal;
-   color: #000;
+   color: #fff;
 }
 
 .pagina-conta .secao-principal {
@@ -7571,6 +7571,7 @@ div#login-content > .identificacao {
    padding: 32px;
    box-shadow: none;
    border-radius: 8px;
+   background: #051A39;
 }
 
 .caixa-dados {
@@ -7585,9 +7586,10 @@ div#login-content > .identificacao {
    flex-direction: row;
    justify-content: space-between;
    padding: 16px;
-   border: 1px solid #d8d8d8;
+   border: 0;
    border-top: 0;
    border-radius: 0 0 8px 8px;
+   background: #000D20;
 }
 
 .abas-conteudo .acao-editar .botao.principal {
@@ -7605,13 +7607,14 @@ div#login-content > .identificacao {
 
 .caixa-dados legend {
    border-bottom: 1px solid #d8d8d8;
-   background: none;
    padding: 8px 16px;
    font-size: 16px;
    box-sizing: border-box;
-   border: 1px solid #d8d8d8;
+   border: 0;
    border-radius: 8px 8px 0 0;
    margin: 0;
+   background: #0C254A;
+   color: #fff;
 }
 
 .caixa-dados {
@@ -7624,12 +7627,12 @@ div#login-content > .identificacao {
 }
 
 .abas-conteudo .caixa-info {
-   background: none;
    padding: 16px;
    margin: 0;
-   border: 1px solid #d8d8d8;
+   border: 0;
    border-top: 0;
    border-radius: 0;
+   background: #000D20;
 }
 
 .caixa-dados legend i {
