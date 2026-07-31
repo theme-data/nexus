@@ -9438,7 +9438,7 @@ button.btn.btn-filtrar:after {
 
 .pagina-carrinho:not(.carrinho-checkout) .cart-resume-container {
    box-sizing: border-box;
-   background: #1C2210;
+   background: #051A39;
    border-radius: 16px;
    border: 0;
 }
@@ -9858,7 +9858,7 @@ button.btn.btn-filtrar:after {
       display: flex;
       flex-direction: column;
       text-align: center;
-      background: #1C2210;
+      background: #051A39;
       box-sizing: border-box;
       border: 0;
       border-radius: 10px;
@@ -9957,7 +9957,7 @@ button.btn.btn-filtrar:after {
      align-items: center;
      width: 100%;
      padding: 20px;
-     background: #1C2210;
+     background: #051A39;
      box-sizing: border-box;
   }
 
@@ -9967,7 +9967,7 @@ button.btn.btn-filtrar:after {
    padding: 0px;
    border-radius: 16px;
    height: fit-content;
-   background: #1C2210;
+   background: #051A39;
    border: 0;
   }
 
