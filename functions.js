@@ -1050,10 +1050,7 @@ $(document).ready(function() {
                 <div class="chave-digital"><img src="https://cdn.awsli.com.br/2775/2775575/arquivos/envelope-red.svg" alt="Código digital"/>Código digital</div>
             `);
         }
-    
-        if ($('#avisoEnvioCart').length === 0) {
-            $('.pagina-carrinho .finalizar-compra > .cabecalho-interno').after(`<div id="avisoEnvioCart"><span>Todos os nossos envios são feitos por e-mail. <strong>Importante:</strong> Verifique se está comprando o <strong>produto correto para sua plataforma</strong> antes de finalizar a compra.</span></div>`);
-        }
+
     
         if ($('.produto .produto-detalhe-info .produto-detalhe-alerta').length === 0) {
             $('.produto .produto-detalhe-info').append(`

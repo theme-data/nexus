@@ -6567,6 +6567,7 @@ form#formCalcularFrete {
 .acao-editar .botao.principal .icon-ok {
    margin: 0 0 0 10px;
    height: 20px;
+   display: none;
 }
 /*
 .tabela-carrinho .bg-dark {
@@ -9504,7 +9505,7 @@ button.btn.btn-filtrar:after {
    font-size: 18px !important;
    flex-direction: column;
    height: 80px !important;
-   background: #CFFF75;
+   background: #43FF75;
 }
 
 .pagina-carrinho:not(.carrinho-checkout) .acao-editar .botao.grande:after {
