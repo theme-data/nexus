@@ -10174,6 +10174,10 @@ button.btn.btn-filtrar:after {
 
 @media screen and (max-width: 768px) {
 
+   .pagina-carrinho:not(.carrinho-checkout) .cart-resume-button {
+      padding: 0 24px 16px!important;
+    }
+
 /* Card de cada produto */
 tr.cart-product {
    display: grid !important;
