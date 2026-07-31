@@ -2009,13 +2009,6 @@ $(document).ready(function () {
    $('tr[data-produto-id]').addClass('cart-product');
    $('.pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho').prepend(`<h3>Meu carrinho </h3>`);
    
-   $('.pagina-categoria .ordenar-listagem h1.titulo').prepend(`
-       <div class="coupon-cat">
-         <span>-5% OFF</span>
-         <strong>Cupom MEX5</strong>
-       </div>
-     `);
- 
  });
  
  // =====================================================
