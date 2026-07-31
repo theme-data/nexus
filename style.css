@@ -5709,7 +5709,7 @@ h2.bn-featured-title {
 }
 
 .floating-bar {
-   display: flex;
+   display: none;
    justify-content: center;
    position: fixed;
    bottom: 0;
