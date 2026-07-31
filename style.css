@@ -4382,9 +4382,29 @@ a {
 .tabela-carrinho .quantidade input[type="text"] {
    background: none !important;
    border: 0 !important;
-   width: 50px;
+   width: 20px;
    color: var(--color-black) !important;
    padding: 0 !important;
+}
+
+.valores-descontos .descontos.avista strong:last-child::after {
+   content: " via pix";
+   margin-left: 3px;
+}
+
+.valores-descontos .descontos.avista strong:last-child::after {
+   content: " via pix";
+   margin-left: 3px;
+}
+
+.valores-descontos .descontos.avista span {
+   flex-direction: row;
+   justify-content: center;
+   gap: 3px;
+}
+
+.valores-descontos .descontos.avista strong:last-child {
+   margin: 0;
 }
 
 .tabela-carrinho .formas-envio {
@@ -10038,6 +10058,7 @@ button.btn.btn-filtrar:after {
 
   .pagina-carrinho:not(.carrinho-checkout) .table.tabela-carrinho {
      margin: 0;
+     border: 0!important;
   }
 
   .pagina-carrinho:not(.carrinho-checkout)
