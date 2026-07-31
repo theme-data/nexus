@@ -5212,7 +5212,7 @@ input[type="password"] {
 }
 
 .barra-inicial {
-   display: block;
+   display: none;
 }
 
 .barra-inicial .canais-contato {
