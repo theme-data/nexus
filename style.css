@@ -271,14 +271,6 @@ h6,
    background-size: 100%;
 }
 
-@media screen and (max-width: 768px) {
-
-   .pagina-inicial {
-      background: none;
-  }
-
-}
-
 .cabecalho-interno .titulo small {
    font-size: 24px;
    color: var(--color-white);
@@ -387,8 +379,8 @@ div#avisoEnvioCart {
 }
 
 .carrinho>a i {
-   width: 20px;
-   height: 20px;
+   width: 24px;
+   height: 24px;
    background: none;
    margin: 0;
    padding: 0;
@@ -4736,6 +4728,16 @@ input[type="password"] {
 
 @media screen and (max-width: 768px) {
 
+   .sign-up-header a {
+      height: 48px;
+      width: 48px;
+      box-sizing: border-box;
+      display: flex;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+  }
+
    .support-float.centered {
       position: fixed;
       top: 0;
@@ -5137,7 +5139,8 @@ input[type="password"] {
    }
 
    .carrinho {
-      max-width: 76px;
+      max-width: fit-content;
+      border: 0;
    }
 
    .conteudo-topo .inferior {
@@ -7267,21 +7270,23 @@ div#login-content > .identificacao {
   }
 
   .produto .conteiner-imagem > div {
-   border: 0;
-   padding: 0;
-   margin-bottom: 20px;
-}
+      border: 0;
+      padding: 0;
+      margin-bottom: 20px;
+   }
 
-.share-menu {
-   top: 70px;
-}
+   .share-menu {
+      top: 70px;
+   }
 
    .requisitos-produto, .append-descricao, .konfidency-reviews-details {
       padding: 24px;
   }
 
    .carrinho > a {
-      padding: 8px 16px;
+      padding: 0;
+      height: 48px;
+      width: 48px;
    }
 
    .finalizar-compra .caixa-sombreada {
