@@ -1825,8 +1825,7 @@ $(document).ready(function() {
                     tipo = 'primaria';
     
                     beneficios = [
-                        'Jogue no seu perfil',
-                        'Modo online e offline'
+                        'Jogue em seu perfil'
                     ];
                 }
     
@@ -1838,8 +1837,7 @@ $(document).ready(function() {
                     tipo = 'secundaria';
     
                     beneficios = [
-                        'Acesso econômico',
-                        'Requer internet'
+                        'Jogue em nosso perfil'
                     ];
                 }
     
@@ -1865,7 +1863,7 @@ $(document).ready(function() {
     
                         $beneficios.append(`
                             <li>
-                                <span class="check">✓</span>
+                                <!--<span class="check">✓</span>-->
                                 <span>${beneficio}</span>
                             </li>
                         `);
