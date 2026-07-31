@@ -1369,10 +1369,10 @@ $(document).ready(function() {
     
     <div class="order-info">
     <div class="order-info-item">
-        <i><img src="https://cdn.awsli.com.br/2830/2830294/arquivos/hand_package.svg" alt="Envio por e-mail"></i><span>O código do seu pedido será enviado por <strong>e-mail</strong>.</span>
+        <i><img src="https://cdn.awsli.com.br/2984/2984134/arquivos/envelope-open.svg" alt="Envio por e-mail"></i><span>Seu jogo será entregue por e-mail.</span>
     </div>
     <div class="order-info-item">
-        <i><img src="https://cdn.awsli.com.br/2830/2830294/arquivos/package_2.svg" alt="Envio por e-mail"></i><span>Você pode acessar o seu código na página <strong>Meus pedidos</strong>.</span>
+        <i><img src="https://cdn.awsli.com.br/2984/2984134/arquivos/raio.svg" alt="Envio por e-mail"></i><span>Entrega em até 30 minutos.</span>
     </div>
     </div>
     
