@@ -1905,3 +1905,151 @@ $(document).ready(function() {
         }
     
     });
+
+// =====================================================
+// CARRINHO
+// =====================================================
+
+$(document).ready(function () {
+
+    // -----------------------------
+   // BOTÃO
+   // -----------------------------
+   $('.pagina-produto .produto .span5 > .principal').append(
+       '<button class="btn-forma-pagamento">Forma de pagamento</button>'
+     );
+   
+     // -----------------------------
+     // MODAL
+     // -----------------------------
+     $('body').append(`
+       <div id="modal-pagamento">
+         <div class="modal-conteudo"><div class="modal-header"><h3>Formas de pagamento</h3><button class="fechar-modal">✕</button></div></div>
+       </div>
+     `);
+     
+     $('.parcelas-produto').appendTo('#modal-pagamento .modal-conteudo');
+     $(document).on('click', '.btn-forma-pagamento', function () {
+       $('#modal-overlay, #modal-pagamento').addClass('ativo');
+     });
+     $(document).on('click', '.fechar-modal, #modal-overlay', function () {
+       $('#modal-overlay, #modal-pagamento').removeClass('ativo');
+     });
+
+   // =====================================================
+   // CRIA O RESUMO
+   // =====================================================
+   $('.finalizar-compra > .caixa-sombreada').append(`
+     <div class="cart-resume">
+       <div class="cart-resume-container">
+         <h3>Resumo</h3>
+         <div class="cart-resume-subtotal"></div>
+         <div class="cart-resume-total"></div>
+         <div class="cart-resume-button"></div>
+         <div class="cart-resume-coupon">
+           <div class="resume-toggle-coupon">
+             <span class="toggle-button">
+               <img src="https://cdn.awsli.com.br/2775/2775575/arquivos/coupon.svg"/>
+               Tem um cupom?
+             </span>
+             <i class="icon-chevron-down"></i>
+           </div>
+         </div>
+       </div>
+       <div class="cart-email-send">
+         <i></i>
+         <span>Envio feito por e-mail ou WhatsApp.</span>
+       </div>
+     </div>
+   `);
+ 
+   // =====================================================
+   // SUBTOTAL
+   // =====================================================
+   var $subtotalTarget = $('.cart-resume-subtotal');
+   var $hiddenRow = $('tr.hidden-phone.bg-dark');
+ 
+   if ($subtotalTarget.length && $hiddenRow.length) {
+     $('<div class="hidden-phone bg-dark"></div>')
+       .append($hiddenRow.children())
+       .appendTo($subtotalTarget);
+       $('.formas-envio').appendTo($subtotalTarget);
+     $hiddenRow.remove();
+   }
+ 
+   // =====================================================
+   // BOTÃO FINALIZAR + EMBALAGEM + FRETE
+   // =====================================================
+   var $buttonTarget = $('.cart-resume-button');
+ 
+   if ($buttonTarget.length) {
+     $('form[action*="/checkout/redirect/"]').appendTo($buttonTarget);
+   }
+ 
+   // =====================================================
+   // TOTAL
+   // =====================================================
+   var $totalTarget = $('.cart-resume-total');
+   var $totalRow = $('tr.bg-dark').has('.line-18');
+ 
+   if ($totalTarget.length && $totalRow.length) {
+     $('<div class="bg-dark line-18"></div>')
+       .append($totalRow.find('td').children())
+       .appendTo($totalTarget);
+     $totalRow.remove();
+   }
+ 
+   // =====================================================
+   // CUPOM (COM E SEM CUPOM APLICADO)
+   // =====================================================
+   var $couponTarget = $('.cart-resume-coupon');
+ 
+   if ($couponTarget.length) {
+ 
+     var $formCupomRow = $('tr.bg-dark').has('form[action*="/carrinho/cupom/"]');
+     if ($formCupomRow.length) {
+       $('<div class="bg-dark cart-coupon"></div>')
+         .append($formCupomRow.find('form'))
+         .appendTo($couponTarget);
+       $formCupomRow.remove();
+     }
+ 
+     var $cupomAplicadoRow = $('tr.bg-dark.possui-cupom');
+     if ($cupomAplicadoRow.length) {
+       $('<div class="bg-dark cart-coupon aplicado"></div>')
+         .append($cupomAplicadoRow.find('td').children())
+         .appendTo($couponTarget);
+       $cupomAplicadoRow.remove();
+     }
+   }
+ 
+   // =====================================================
+   // VALOR DO CUPOM NO SUBTOTAL
+   // =====================================================
+   var $cupomValor = $('.cupom-valor');
+   if ($cupomValor.length && $subtotalTarget.length) {
+     if ($cupomValor.is(':visible') || $.trim($cupomValor.text()) !== '') {
+       $cupomValor.appendTo($subtotalTarget);
+     }
+   }
+   
+   $('tr[data-produto-id]').addClass('cart-product');
+   $('.pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho').prepend(`<h3>Meu carrinho </h3>`);
+   
+   $('.pagina-categoria .ordenar-listagem h1.titulo').prepend(`
+       <div class="coupon-cat">
+         <span>-5% OFF</span>
+         <strong>Cupom MEX5</strong>
+       </div>
+     `);
+ 
+ });
+ 
+ // =====================================================
+ // TOGGLE DO CUPOM (FORA DO READY)
+ // =====================================================
+ $(document).on('click', '.resume-toggle-coupon', function (e) {
+   e.preventDefault();
+   $('.cart-resume-coupon').toggleClass('open');
+ });
+ 
