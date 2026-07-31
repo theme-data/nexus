@@ -278,7 +278,7 @@ h6,
 }
 
 .cabecalho-interno .titulo {
-   color: var(--color-black);
+   color: var(--color-white);
    display: flex;
    flex-direction: column;
    text-align: center;
