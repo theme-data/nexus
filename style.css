@@ -25,7 +25,7 @@
    --icon-user: url('https://cdn.awsli.com.br/2984/2984134/arquivos/user.svg');
    --icon-search: url('https://cdn.awsli.com.br/2984/2984134/arquivos/search.svg');
    --icon-cart: url('https://cdn.awsli.com.br/2984/2984134/arquivos/cart.svg');
-   --icon-purchase: url('https://cdn.awsli.com.br/2830/2830294/arquivos/purchase.svg');
+   --icon-purchase: url('https://cdn.awsli.com.br/2984/2984134/arquivos/cart-btn.svg');
    --icon-chev-right: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-right.svg');
    --icon-chev-right-black: url('https://cdn.awsli.com.br/2830/2830294/arquivos/move-front.svg');
    --icon-chev-left: url('https://cdn.awsli.com.br/2830/2830294/arquivos/chevron-left.svg');
@@ -4033,13 +4033,17 @@ a {
    height: 20px;
 }
 .produto .acoes-produto .comprar .botao.principal {
-   flex-direction: row-reverse;
-   gap: 12px;
-   align-items: center;
    float: none;
    background: #43FF75;
-   color: #000 !important;
    font-weight: 600;
+   flex-direction: column;
+   gap: 0;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   color: #000 !important;
+   height: 80px !important;
+   line-height: normal;
 }
 
 .chave-digital {
@@ -5463,8 +5467,29 @@ h2.bn-featured-title {
 }
 
 .pagina-produto .produto div.principal {
-   padding: 24px;
+   padding: 16px;
    max-width: 100%;
+}
+
+.atributos div ul li span {
+   font-size: 13px;
+}
+
+.atributos .licenca-beneficios {
+   padding: 0 12px 6px;
+   font-size: 10px;
+}
+
+.atributos .licenca-beneficios > li span {
+   font-size: 10px;
+}
+
+.atributos .licenca-beneficios > li .check {
+   font-size: 12px;
+}
+
+.atributos .licenca-beneficios > li {
+   gap: 4px;
 }
 
 .elastislide-carousel ul li.active a {
