@@ -5568,9 +5568,9 @@ h2.bn-featured-title {
    position: fixed;
    left: 0;
    top: 0;
-   background: #fff;
+   background: #091a2f;
    border: 0;
-   height: calc(100vh - 58px);
+   height: calc(100dvh);
    overflow-y: scroll;
    padding: 0;
    z-index: 1000000000000000;
@@ -5633,7 +5633,7 @@ h2.bn-featured-title {
 .account-menu .myaccount, 
 .account-menu .myorders {
    padding: 4px 0;
-   color: var(--color-black);
+   color: var(--color-white);
    display: flex;
    align-items: center;
    justify-content: flex-start;
@@ -5695,7 +5695,7 @@ h2.bn-featured-title {
 
 .hello-menu {
    font-size: 16px;
-   color: var(--color-black);
+   color: var(--color-white);
    display: flex;
    gap: 8px;
    align-items: center;
@@ -5704,11 +5704,11 @@ h2.bn-featured-title {
 }
 
 .menu.superior .nivel-dois li a, .menu.lateral .nivel-dois li a {
-   color: var(--color-black);
+   color: var(--color-white);
 }
 
 .menu.superior .nivel-um .titulo, .menu.lateral .nivel-um .titulo {
-   color: var(--color-black);
+   color: var(--color-white);
    font-size: 16px;
 }
 
@@ -6522,7 +6522,7 @@ input#id_politica_privacidade {
 
 .menu-user-logged .botao {
    font-size: 16px !important;
-   color: var(--color-black) !important;
+   color: var(--color-white) !important;
    background: none !important;
    border: 0 !important;
    box-shadow: none !important;
