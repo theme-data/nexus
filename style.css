@@ -3934,7 +3934,7 @@ a {
 
 .conteudo h1 {
    font-size: 22px;
-   color: var(--color-black);
+   color: var(--color-white);
    font-weight: 400;
 }
 
@@ -8987,13 +8987,13 @@ a#imprimirBoleto {
 
 .pagina-categoria h1.titulo,
 .pagina-busca h1.titulo {
-	font-size: 14px;
-	padding: 12px 24px;
-	background: #f1f1f1;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin: 0;
-	line-height: 22px;
+   font-size: 32px;
+   padding: 0;
+   background: none;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin: 0;
+   line-height: 22px;
 }
 
 .pagina-busca h1.titulo:before {
@@ -9332,18 +9332,17 @@ a#imprimirBoleto {
    gap: 10px;
    font-size: 14px;
    color: #fff;
-   background: #292B25;
+   background: #091A2E;
    border: 1px solid #ffffff20;
    box-shadow: none;
    text-shadow: none;
    border-radius: 8px;
    padding: 0 24px;
-   font-family: "Poppins", sans-serif;
 }
 
 button.btn.btn-filtrar:after {
    content: "";
-   background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/filter.svg) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/adjust.svg) center no-repeat;
    width: 20px;
    height: 20px;
    display: block;
