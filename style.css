@@ -6515,12 +6515,6 @@ input#id_politica_privacidade {
 
 /* Código do carrinho  */
 
-.finalizar-compra .caixa-sombreada {
-   box-shadow: none;
-   display: flex;
-   flex-direction: column;
-}
-
 .order-resume {
    width: 350px;
    background: var(--color-white);
