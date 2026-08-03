@@ -1617,6 +1617,15 @@ i.icon-instagram:before {
    gap: 10px;
 }
 
+.atributos ul li a:hover {
+   border: 0;
+}
+
+.popover-title,
+.popover-content{
+    color: #000!important;
+}
+
 .atributos> div >ul >li {
    margin: 0;
    border: 1px solid #ffffff20;
@@ -4038,19 +4047,33 @@ a {
 .produto .principal .acoes-produto .icon-shopping-cart {
    width: 20px;
    height: 20px;
+   position: absolute;
+   right: 24px;
+   top: 50%;
+   transform: translateY(-50%);
 }
 .produto .acoes-produto .comprar .botao.principal {
    float: none;
    background: #43FF75;
    font-weight: 600;
-   flex-direction: row-reverse;
-   gap: 10px;
-   align-items: center;
+   align-items: baseline;
    position: relative;
    overflow: hidden;
    color: #000 !important;
    height: 80px !important;
    line-height: normal;
+   justify-content: center;
+   padding: 0 24px;
+   flex-direction: column;
+   gap: 0;
+   font-size: 18px !important;
+}
+
+.produto .acoes-produto .comprar .botao.principal:after {
+   content: "Compra 100% segura";
+   display: block;
+   font-size: 12px;
+   text-transform: uppercase;
 }
 
 .chave-digital {
@@ -9478,14 +9501,14 @@ a#imprimirBoleto {
 
 /* Capas produtos */
 
-.listagem-item.prod-cat-24404410 .imagem-produto:before {
+.listagem-item.prod-cat-20351947 .imagem-produto:before {
    content: "";
    height: 32px;
    display: block;
    background: #0073EE url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps4-badge.png) center no-repeat;
 }
 
-.listagem-item.prod-cat-24404411 .imagem-produto:before {
+.listagem-item.prod-cat-20352581 .imagem-produto:before {
    content: "";
    height: 32px;
    display: block;
@@ -9529,6 +9552,7 @@ button.btn.btn-filtrar:after {
    display: flex;
    align-items: center;
    box-sizing: border-box;
+   display: none;
 }
 
 .ordenar-listagem label {

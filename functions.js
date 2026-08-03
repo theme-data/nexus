@@ -319,7 +319,7 @@ $(document).ready(function() {
     
     // Defina os arrays conforme necessário
     var numerosBanner = [1, 2, 3]; // Exemplo: [1, 2] para o primeiro e segundo banner, etc.
-    var idsVitrine = ['20351947', '20352681', '23326454']; // Exemplo: ['23507360', '23507361']
+    var idsVitrine = ['20351947', '233264541']; // Exemplo: ['23507360', '23507361']
     
     // Seleciona todos os <a> banners na ordem dentro do .banner.tarja
     var $bannersTarja = $('.banner.tarja > a');
@@ -2005,6 +2005,7 @@ $(document).ready(function () {
    
    $('tr[data-produto-id]').addClass('cart-product');
    $('.pagina-carrinho:not(.carrinho-checkout) .tabela-carrinho').prepend(`<h3>Meu carrinho </h3>`);
+   $('#rodape .selos>ul').append($('#selo-site_sincero'));
    
  });
  
