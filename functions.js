@@ -1130,7 +1130,7 @@ $(document).ready(function() {
     });
     
     // Defina as variáveis de conteúdo
-    var featuredImg = "https://cdn.awsli.com.br/2391/2391623/arquivos/meio-desk.png";
+    var featuredImg = "https://cdn.awsli.com.br/2627/2627392/arquivos/banner-vitrine-1700x500-01.webp";
     var featuredTitle = "GTA 6";
     var featuredText = "Será o oitavo título principal da franquia Grand Theft Auto, sendo o sucessor de GTA V.";
     var featuredLink = "#"; // Link alterável para o banner de destaque
@@ -1141,8 +1141,8 @@ $(document).ready(function() {
     var prevendaHtml = mostrarBandeiraPrevenda ? '<span class="bandeira-prevenda">Pré-venda</span>' : '';
     
     // Só adicionar se ainda não existe para evitar duplicação
-    if ($('#listagemProdutos > .vitrine-17314880+ul .append-featured').length === 0) {
-        $('#listagemProdutos > .vitrine-17314880+ul').after(`
+    if ($('#listagemProdutos > .vitrine-20352581+ul .append-featured').length === 0) {
+        $('#listagemProdutos > .vitrine-20352581+ul').after(`
             <div class="banner-featured append-featured">
                 <a href="${featuredLink}" class="container-featured">
                     <img src="${featuredImg}" alt="${featuredTitle}" class="bn-featured-image">
