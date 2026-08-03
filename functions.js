@@ -318,7 +318,7 @@ $(document).ready(function() {
     // Move os <a> em ordem de .banner.tarja conforme numerosBanner
     
     // Defina os arrays conforme necessário
-    var numerosBanner = [1, 2]; // Exemplo: [1, 2] para o primeiro e segundo banner, etc.
+    var numerosBanner = [1, 2, 3]; // Exemplo: [1, 2] para o primeiro e segundo banner, etc.
     var idsVitrine = ['20351947', '20352681', '23326454']; // Exemplo: ['23507360', '23507361']
     
     // Seleciona todos os <a> banners na ordem dentro do .banner.tarja
