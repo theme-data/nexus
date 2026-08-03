@@ -7939,8 +7939,8 @@ hr {
 }
 
 /* PlayStation */
-.menu.superior > .nivel-um > li.categoria-id-24404410,
-.menu.superior > .nivel-um > li.categoria-id-24404411 {
+.menu.superior > .nivel-um > li.categoria-id-20351947,
+.menu.superior > .nivel-um > li.categoria-id-20352581 {
 	--icon-normal: url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps5.svg);
 	--icon-hover: url(https://cdn.awsli.com.br/2984/2984134/arquivos/ps5.svg);
 }
@@ -9429,11 +9429,11 @@ a#imprimirBoleto {
 
 /* Novidades Nexus */
 
-.menu.superior .categoria-id-24388835 > a > .titulo {
+.menu.superior .categoria-id-23326454 > a > .titulo {
    display: none;
 }
 
-.menu.superior .categoria-id-24388835 > a {
+.menu.superior .categoria-id-23326454 > a {
    background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/novidades-nexus.svg) center no-repeat;
    width: 217px;
    height: 40px;
