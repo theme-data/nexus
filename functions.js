@@ -1133,7 +1133,7 @@ $(document).ready(function() {
     var featuredImg = "";
     var featuredTitle = "GTA 6";
     var featuredText = "Será o oitavo título principal da franquia Grand Theft Auto, sendo o sucessor de GTA V.";
-    var featuredLink = "#"; // Link alterável para o banner de destaque
+    var featuredLink = "https://www.nexusgamesdigital.com/buscar?q=modern+4#"; // Link alterável para o banner de destaque
     
     // Toggle para bandeira de pré-venda
     var mostrarBandeiraPrevenda = true; // Defina como false para remover a bandeira

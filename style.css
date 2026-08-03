@@ -79,8 +79,8 @@
 
    /* Imagens que podem ser alteradas */
    --news-char: url('https://cdn.awsli.com.br/2984/2984134/arquivos/news-icon.png');
-   --featured-home: url('https://cdn.awsli.com.br/2391/2391623/arquivos/personalized_product-list.png');
-   --featured-home-mobile: url('https://cdn.awsli.com.br/2391/2391623/arquivos/vitrine_2_m.png');
+   --featured-home: url('https://cdn.awsli.com.br/2627/2627392/arquivos/banner-vitrine-1700x500-01.webp');
+   --featured-home-mobile: url('https://cdn.awsli.com.br/2627/2627392/arquivos/banner-vitrine-1700x500-01.webp');
    --bg-home: url('https://cdn.awsli.com.br/2391/2391623/arquivos/bg-seamless.png');
 
 
@@ -116,6 +116,7 @@
 
      .bn-featured-image {
          width: 100%;
+         display: none;
       }
 
       .append-text p {
