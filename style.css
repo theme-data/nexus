@@ -344,7 +344,7 @@ input[type="text"]:focus {
 
 
 .caixa-destaque * {
-   color: #000;
+   color: #fff;
 }
 
 .spanNone.banner.tarja:not(:has(a)) {
@@ -353,7 +353,7 @@ input[type="text"]:focus {
 
 .caixa-destaque {
    padding: 80px 40px;
-   background: #f1f1f1;
+   background: #051A39;
    border-radius: var(--border-radius-md);
    margin: 0;
    display: flex;
@@ -4296,7 +4296,7 @@ a {
    margin: 0;
    text-align: center;
    padding: 60px;
-   background: #f1f1f1;
+   background: #051A39;
    border-radius: 10px;
    width: 100%;
 }
@@ -4308,10 +4308,10 @@ a {
 
 .conteudo.span9.no-results h1:before {
    content: "";
-   background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/controller.png) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/s-busca.png) center no-repeat;
    display: block;
-   width: 80px;
-   height: 80px;
+   width: 130px;
+   height: 110px;
    margin: 0 auto;
    background-size: 88%;
 }
@@ -4335,21 +4335,21 @@ a {
 
 .conteudo.span9.no-results>.row-fluid .span6 ol li {
    font-size: 14px;
-   color: #000;
+   color: #fff;
 }
 
 .pagina-busca p b {
    font-size: 16px;
    font-weight: normal;
-   color: #000;
+   color: #fff;
 }
 
 .pagina-carrinho .caixa-destaque h1:before {
    content: "";
-   background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/cart.png) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/s-carrinho.png) center no-repeat;
    display: block;
-   width: 80px;
-   height: 80px;
+   width: 110px;
+   height: 110px;
    margin: 0 auto;
    background-size: 100%;
 }
@@ -4460,10 +4460,10 @@ a {
 
 .pagina-categoria .caixa-destaque h1:before {
    content: "";
-   background: url(https://cdn.awsli.com.br/2830/2830294/arquivos/box.png) center no-repeat;
+   background: url(https://cdn.awsli.com.br/2984/2984134/arquivos/s-produtos.png) center no-repeat;
    display: block;
-   width: 80px;
-   height: 80px;
+   width: 150px;
+   height: 120px;
    margin: 0 auto;
    background-size: 95%;
 }
