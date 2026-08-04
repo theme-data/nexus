@@ -6823,7 +6823,7 @@ form#formCalcularFrete {
 }
 
 .tabela-carrinho tbody tr {
-   background: var(--color-white);
+   background: #0b264b;
    border: 0;
 }
 
@@ -7211,9 +7211,10 @@ form#formCalcularFrete {
 }
 
 .caixa-sombreada.borda-principal {
-   border: 1px solid #d8d8d8;
    border-radius: 8px;
    box-shadow: none;
+   background: #051A39;
+   border: 0;
 }
 
 .pagina-conta-endereco .breadcrumbs {
@@ -7353,7 +7354,7 @@ div#login-content > .identificacao {
 
 .caixa-dados .titulo {
    font-size: 16px;
-   color: var(--color-black);
+   color: var(--color-white);
    padding: 10px 0;
 }
 
@@ -7494,6 +7495,7 @@ div#login-content > .identificacao {
 
 .conta-menu * {
    border: 0!important;
+   color: #fff;
 }
 
 .conta-menu li.divisor {
@@ -7512,6 +7514,7 @@ div#login-content > .identificacao {
 .conta-menu .nome-usuario {
    padding: 0;
    font-size: 20px;
+   color: #fff;
    font-weight: 500;
 }
 
@@ -7520,7 +7523,7 @@ div#login-content > .identificacao {
 }
 
 .conta-menu .menu-simples li a:hover {
-   background: #f1f1f1;
+   background: #0b264b;
    border-radius: 6px;
 }
 
@@ -7683,7 +7686,7 @@ div#login-content > .identificacao {
 
 .pagina-pedido-listar .text-center strong {
    font-size: 16px;
-   color: #000;
+   color: #fff;
    font-weight: normal;
 }
 
@@ -7694,12 +7697,12 @@ div#login-content > .identificacao {
 .pagina-pedido-listar .caixa-dados .titulo {
    padding: 16px 0;
    font-size: 16px;
-   color: var(--color-black) !important;
+   color: var(--color-white) !important;
 }
 
 .tabela-pedidos *:not(.text-error) {
    font-size: 14px;
-   color: #000;
+   color: #fff;
    font-weight: 400;
 }
 
@@ -7733,7 +7736,8 @@ div#login-content > .identificacao {
 .pagina-pedido-listar .caixa-dados h5.titulo {
    margin: 0;
    padding: 16px;
-   border: 1px solid #d8d8d8;
+   border: 0;
+   background: #0b264b;
    border-top: 0;
    border-radius: 0 0 8px 8px;
 }
@@ -7767,6 +7771,7 @@ div#login-content > .identificacao {
 
 .buscar-pedidos label {
    margin: 0;
+   color: #fff;
 }
 
 input#id_numero_pedido {
@@ -7844,8 +7849,9 @@ hr {
 .caixa-dados .caixa-sombreada {
    box-shadow: none;
    border-radius: 8px;
-   border: 1px solid #d8d8d8;
+   border: 0;
    overflow: hidden;
+   background: #0a274c;
 }
 
 .pagina-cadastro .caixa-sombreada.borda-principal {
