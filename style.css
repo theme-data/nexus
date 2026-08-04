@@ -7018,7 +7018,7 @@ form#formCalcularFrete {
 .cadastro legend,
 .cadastro .dados-acesso label,
 .form-horizontal .control-label{
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 .pagina-cadastro .form-search input, 
@@ -7857,7 +7857,7 @@ hr {
 
 .pagina-cadastro .caixa-sombreada.borda-principal {
    box-shadow: none;
-   border: 1px solid #d8d8d8;
+   border: 0;
    border-radius: 8px;
    overflow: hidden;
 }
@@ -7877,6 +7877,7 @@ hr {
 .cadastro legend {
    font-size: 20px;
    font-weight: 500;
+   color: #fff;
 }
 
 .pagina-cadastro .form-horizontal .help-inline {
