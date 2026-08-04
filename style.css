@@ -390,7 +390,7 @@ div#avisoEnvioCart {
 }
 
 .carrinho>a strong {
-   display: block !important;
+   display: none !important;
    font-size: 14px;
    color: var(--color-white);
    width: 20px;
@@ -6292,7 +6292,7 @@ input#calcularFrete, input#usarCupom, #btn-cupom, #btn-frete {
    flex-direction: column-reverse;
 }
 .append-filter-cat.open {
-   bottom: 59px;
+   bottom: 0px;
 }
 
 .append-filter-cat .filter-container {
