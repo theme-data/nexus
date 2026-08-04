@@ -7574,7 +7574,7 @@ div#login-content > .identificacao {
    display: flex;
    gap: 0;
    padding: 8px;
-   background: #f1f1f1;
+   background: #051939;
    border-radius: 4px;
    margin-bottom: 20px;
    width: fit-content;
@@ -7590,6 +7590,7 @@ div#login-content > .identificacao {
    font-weight: 500;
    box-shadow: none;
    background: none;
+   color: #fff;
 }
 
 .abas-conta li a i {
